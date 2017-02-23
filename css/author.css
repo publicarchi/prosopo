@@ -1,0 +1,99 @@
+/* Element from another namespace */
+/* Vertical flow */
+
+person,
+person > persName,
+affiliation,
+biblList,
+birth,
+death {
+    display:block;
+    margin-bottom: 0.5em;
+}
+
+person {
+  margin-bottom: 3em;
+}
+
+birth::before {
+  content: "Né le ";
+}
+
+death::before {
+  content: "Mort le ";
+}
+
+
+hi[rend="superscript"] {
+    font-size: .83em;
+    line-height: 0.5em;
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+}
+
+/* Horizontal flow */
+date {
+    display:inline;
+}
+
+affiliation, death, birth, p {
+  margin-left:3em;
+  margin-right: 3em;
+}
+
+person{
+    -oxy-foldable:true;
+    -oxy-not-foldable-child: persName;
+}
+
+link[href]:before{
+    display:inline;
+    link:attr(href);
+    content: "Click to open: " attr(href);
+}
+
+/* Title rendering*/
+person > persName[full]{
+    font-size: 1.4em;
+    font-weight:bolder;
+}
+
+p {
+  font-size: 1.3em;
+  line-height: 1.4em;
+}
+
+person > note:not([type]) {
+  color: blue;
+}
+
+roleName{
+  color: red;
+}
+
+bibl, idno {
+  font-style: italic;
+  font-size: smaller;
+}
+
+bibl:not(:last-child):after {
+  content:', '
+}
+
+affiliation > date {
+  font-style: italic;
+}
+
+book,
+article{
+    counter-reset:sect;
+}
+book > section,
+article > section{
+    counter-increment:sect;
+}
+book > section > title:before,
+article > section > title:before{
+    content: "Section: " counter(sect) " ";
+}

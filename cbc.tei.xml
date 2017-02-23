@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schemas/persons.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="css/author.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
  <teiHeader>
   <fileDesc>
@@ -67,6 +68,7 @@
    </sourceDesc>
   </fileDesc>
   <revisionDesc>
+   <change when="2017-09" who="#EC">Mise à jour</change>
    <change when="2014-02-01" who="#EC">Création du fichier</change>
   </revisionDesc>
  </teiHeader>
@@ -97,11 +99,9 @@
      </affiliation>
      <note type="biography">
       <p>Fils de son père, <persName ref="#abadiePaul"
-        >Paul Abadie (1783-1668)</persName> architecte départemental des Charentes à Angoulême, Paul Abadie fils. Entré dans l’atelier d’Achille Leclerc en 1832, il fut admis à l’École des beaux-arts le 7 janvier 1835. Il fut 5<hi
-        rend="superscript"
-        >e</hi> logiste au concours de Rome du 4 mai 1839. Attaché comme surnuméraire dans l’agence des Archives en 1840 sous <persName
-        ref="#duboisEdouard">Édouard Dubois</persName> et <persName ref="#lelong"
-        >Charles Lelong</persName>. Auditeur au Conseil des bâtiments civils en 1842 où il resta jusqu’en 1845, il fut attaché à la Commission des Monuments historiques en 1844.</p>
+       >Paul Abadie (1783-1668)</persName> architecte départemental des Charentes à Angoulême, <persName ref="#abadiePaulFils">Paul Abadie fils</persName>. Entré dans l’atelier d’<persName ref="#leclerc">Achille Leclerc</persName> en 1832, il fut admis à l’École des beaux-arts le 7 janvier 1835. Il fut cinquième logiste au concours de Rome du 4 mai 1839. Attaché comme surnuméraire dans l’agence des Archives en 1840 sous <persName
+       ref="#duboisEdouard">Édouard Dubois</persName> et <persName ref="#lelong"
+       >Charles Lelong</persName>. Auditeur au Conseil des bâtiments civils en 1842 où il resta jusqu’en 1845, il fut attaché à la Commission des Monuments historiques en 1844.</p>
       <p>En 1845, il obtint la place d’inspecteur à l’Hôtel de la Chambre des députés à laquelle il renonça pour être second inspecteur des travaux de Restauration de Notre-Dame de Paris dirigés par <persName
         ref="#lassus"
        >Lassus</persName> en 1845. En décembre 1848, il fut désigné auditeur à la Commission des arts et édifices religieux et devint architecte diocésain de Périgueux, Angoulême et Cahors.</p>
@@ -217,11 +217,11 @@
      <note type="bibliography">
       <p>Après avoir débuté comme graveur, il étudia l’architecture chez Peyre Jeune. Il fut attaché comme dessinateur à l’agence de Mique en 1784 pour le Petit-Trianon. Baltard se rendit à Rome en 1788 à ses frais et passa deux ans en Italie. De retour en France, il se consacra notamment à la peinture. Architecte et adjoint de première classe au Génie militaire, il participa à plusieurs concours publics sous la révolution. En 1792, il obtint la place de dessinateur des décorations de l’Opéra précédemment occupée par Pâris qui avait fui les événements politiques. En 1793, il s’enrôla comme ingénieur et fit partie du corps d’armée qui marcha contre les fédéralistes du Calvados. De retour à Paris, il obtint la place de professeur à l’École centrale d’architecture. Sous le Consulat, il fut attaché comme graveur à la publication de l’ouvrage sur l’expédition d’Égypte. Il dirigea la publication de plusieurs ouvrages gravé dont le <title>Pariseum des monuments de la France</title> et <title>Colonne de la place Vendôme</title>. Sous le Premier Empire, il devint architecte du Panthéon et succéda à Dufourny comme architecte des prisons de Paris et des halles et marchés. Il réalisa de grands travaux à Sainte-Pélagie et Saint-Lazare.</p>
       <p>En 1818, il fut nommé professeur de théorie à l’École des beaux-arts. Il se vit confier plusieurs travaux à Lyon pour le Grenier à sel, la Prison de Perrache et le Palais de justice. Des travaux qu’il fut accusé de s’être procuré par sa position comme membre honoraire au Conseil des bâtiments civils.</p>
-      <p>Parallèlement à son activité d’architecte, Baltard poursuivit une activité de graveur et d’éditeur. Il publia des <title>Voyages pittoresques dans les Alpes</title> en 1806, et une <title>Architectonographie des prisons</title> en 1829. Il collabora à la publication des <title>Grands prix d’architecture</title> en deux volumes avec Antoine-Laurent-Thomas Vaudoyer de 1818 à 1834. Il fut surtout connu par <title>Paris et ses monuments</title> qui contient une monographie du Louvre et de plusieurs Châteaux de la région parisienne.</p>
+      <p>Parallèlement à son activité d’architecte, Baltard poursuivit une activité de graveur et d’éditeur. Il publia des <title>Voyages pittoresques dans les Alpes</title> en 1806, et une <title>Architectonographie des prisons</title> en 1829. Il collabora à la publication des <title>Grands prix d’architecture</title> en deux volumes avec <persName ref="#vaudoyer">Antoine-Laurent-Thomas Vaudoyer</persName> de 1818 à 1834. Il fut surtout connu par <title>Paris et ses monuments</title> qui contient une monographie du Louvre et de plusieurs Châteaux de la région parisienne.</p>
      </note>
      <note>
       <p>Architecte, et adjoint de première classe au Génie militaire. Concours publics. Celui pour les Jardins d’hiver, appliquer aux serres. Exposés au mois d’avril dernier, sollicitait la Croix d’honneur. Entreprise de gravure des Monuments de Paris. Plans tracés pour la ville napoléon à Pontivy qui comprenaient les projets d’une préfecture, du tribunal civil, les plans des prisons et les dessins du monument et fontaine à ériger sur la place.</p>
-      <p>Gabet : BALTARD (Louis), architecte et peintre; à l'Ecole des Beaux-Arts, r. des Petits-Augustins, 16; né à Paris. Il est architecte du Gouvernement et professeur à l'Académie des Beaux-Arts. On doit à cet artiste plusieurs lab., et principalement des paysages du genre historique. Comme architecte, il a exp., en 1814 , des dessins représentant la vue perspective , les plans, coupe et élévation du cœur de l'église de Ste.-Geneviève; et en 1819, des projets de fontaines pour les Champs-Élysées (P.). Comme peintre, il a exp., en 1810, Philotecte dans l'île de Leinnos ; en 1812, une Vue du Marché St.-Martin, et une Vue de la Halle aux Vins ; et en 1814 , un Paysage dans le style antique, représentant la mort d'Adonis</p>
+      <p>Gabet : BALTARD (Louis), architecte et peintre; à l’École des Beaux-Arts, r. des Petits-Augustins, 16; né à Paris. Il est architecte du Gouvernement et professeur à l'Académie des Beaux-Arts. On doit à cet artiste plusieurs lab., et principalement des paysages du genre historique. Comme architecte, il a exp., en 1814 , des dessins représentant la vue perspective , les plans, coupe et élévation du cœur de l'église de Ste.-Geneviève; et en 1819, des projets de fontaines pour les Champs-Élysées (P.). Comme peintre, il a exp., en 1810, Philotecte dans l'île de Leinnos ; en 1812, une Vue du Marché St.-Martin, et une Vue de la Halle aux Vins ; et en 1814 , un Paysage dans le style antique, représentant la mort d'Adonis</p>
       <p>Palais de justice et Prisons de Draguignan construit par Lantoin (Esprit-Bernard) conjointement avec Penchaud et Baltard.</p>
      </note>
      <listBibl type="biblio">
@@ -771,7 +771,7 @@
          >Mouchelet</persName></persName>, <persName><persName ref="#bonnet"
         >Bonnet</persName></persName>, <persName><persName ref="#legrand"
         >Legrand</persName></persName>, <persName><persName ref="#peyreAntoineFrancois"
-         >Peyre</persName></persName>, etc. Il conserva sa place, avec les deux premiers, lors de la première réduction du Conseil en l’an V.<note>FRAN/F/13/646, Lettre du 8 thermidor an V (26 juillet 1797) à Vaudoyer, Mouchelet et Bourla qui les charge de l’inspection générale des édifices.</note>.</p>
+         >Peyre</persName></persName>, etc. Il conserva sa place, avec les deux premiers, lors de la première réduction du Conseil en l’an V.<note>FRAN/F/13/646, Lettre du 8 thermidor an V (26 juillet 1797) à <persName ref="#vaudoyer">Vaudoyer</persName>, <persName ref="#mouchelet">Mouchelet</persName> et Bourla qui les charge de l’inspection générale des édifices.</note>.</p>
       <p>Dans une lettre de recommandation pour son maintien (F<hi rend="superscript"
         >13</hi> 646), on indiquait qu’il avait été successivement employé par la Commission des revenus nationaux et par la Régie de l’enregistrement. Werner Szambien indique qu’il était architecte des Domaines en 1795 et 1803. Dans une pétition au ministère de l’Intérieur, son fils dit qu’il avait été architecte de l’administration de l’Enregistrement, des Domaines, de la Caisse d’amortissement et du Timbre, enfin qu’il était un ancien inspecteur des Bâtiments du roi (F<hi
         rend="superscript">21</hi> 637<hi rend="superscript">A</hi>).</p>
@@ -953,7 +953,7 @@
        <p>Fils et petit-fils d’architectes d’origine italienne actifs à Autun et Amiens puis Dijon, fut d’abord élève de son père. De 1804 à 1807, il fut conducteur des travaux du pont de l’Archevêché et du quai de la Baleine à Lyon avant de venir à Paris, à l’âge de vingt-quatre ans, pour compléter son éducation artistique auprès de <persName
          ref="#vaudoyer">Vaudoyer</persName> et <persName ref="#percier"
         >Percier</persName>. De 1811 à 1813, il suivit comme sous-inspecteur, les travaux de construction de l’Hôtel des postes (plus tard ministère des Finances, rue de Rivoli). Il obtint en 1812 le prix départemental, et en 1813 le premier Grand-prix sur un projet d’hôtel de ville pour une capitale. Il passa alors sept années en Italie, de 1813 à 1820. Caristie dessina le Forum romain, la Voie sacrée et leurs monuments, entre autres le temple dit de Jupiter Stator ; le Panthéon, les ruines de Pompéi et le fameux temple de Sérapis à Pouzzoles, édifice dont il étudia la restauration en quarante-sept feuilles de dessin, accompagnées d’un mémoire.</p>
-       <p>De retour à Paris, il fut attaché comme inspecteur aux travaux de la Bourse. Il donna divers projets pour une fontaine monumentale pour la place de Breteuil, pour une église paroissiale pour Paris, un presbytère pour la Madeleine qui fut exécuté et un hôtel de préfecture pour Nevers. Il fut chargé par le gouvernement de la restauration de l’arc antique d’Orange et de la construction du mausolée et de la chapelle de Quiberon en souvenir des victimes de l’expédition de l’an IV. On doit encore à Caristie le palais de justice, la caserne de gendarmerie et la prison de Reims (Marne), ainsi que pour le comte de Caraman, la restauration du portail d’entrée de la chapelle du château d’Anet.</p>
+       <p>De retour à Paris, il fut attaché comme inspecteur aux travaux de la Bourse. Il donna divers projets pour une fontaine monumentale pour la place de Breteuil, pour une église paroissiale pour Paris, un presbytère pour la Madeleine qui fut exécuté et un hôtel de préfecture pour Nevers. Il fut chargé par le gouvernement de la restauration de l’arc antique d’Orange et de la construction du mausolée et de la chapelle de Quiberon en souvenir des victimes de l’expédition de l’an IV. On doit encore à Caristie le palais de justice, la caserne de gendarmerie et la prison de Reims (Marne), ainsi que pour le <persName>comte de Caraman</persName>, la restauration du portail d’entrée de la chapelle du château d’Anet.</p>
        <p>Nommé relativement tôt inspecteur général au Conseil des bâtiments civils, la carrière de Caristie avait été cependant assez pauvre en opportunités de travaux. Il allait devenir président du Conseil des bâtiments civils à la mort de <persName
          ref="#rohault"
         >Rohault de Fleury</persName>, une place qu’il occupa pendant de longues années jusqu’à sa mort. Architecte savant, sa fine connaissance de l’antiquité classique n’était pas exclusive. Toutefois, Caristie s’opposa avec véhémence au projet néo-gothique de l’église Sainte-Clotilde lorsque son plan fut soumis au Conseil des bâtiments civils.</p>
@@ -964,8 +964,8 @@
         ref="#baltardVictor"
        >Victor Baltard</persName>, dans un discours prononcé à l’Institut et consacré à la louange de Caristie. Homme ingénieux et savant. fils et petit-fils d’architects. Vint de sa province à Paris assez tard à 24 ans pour compléter son éducation artistique.</p>
       <p>Travaux à Reims, palais de justice, prison, caserne, réparation des châteaux de Chastellux et d’Anet. Restauration arc d’Orange. Architecte du monument de Quiberon.</p>
-      <p>Les idées esthétiques qu’en sa qualité de docile élève de Percier professait Caristie, il eut l’occasion de les soutenir, en présence de l’Académie, avec une certaine véhémence. Il s’agissait du Moyen Âge et de l’architecture gothique.</p>
-      <p>Combattit le projet de Gau quoiqu’il fut son ami pour Sainte-Clothilde quand son plan fut soumis au Cbc. Voulut porter le débat devant l’Académie des beaux-arts. Fidèle à la tradition purement classique de son maître, il se prononça résolument contre tout emprunt à l’architecture gothique, qui, affirmait-il, "n’est plus dans nos mœurs ni dans nos usages".</p>
+      <p>Les idées esthétiques qu’en sa qualité de docile élève de <persName ref="#percier">Percier</persName> professait Caristie, il eut l’occasion de les soutenir, en présence de l’Académie, avec une certaine véhémence. Il s’agissait du Moyen Âge et de l’architecture gothique.</p>
+      <p>Combattit le projet de <persName ref="#gau">Gau</persName> quoiqu’il fut son ami pour Sainte-Clothilde quand son plan fut soumis au Cbc. Voulut porter le débat devant l’Académie des beaux-arts. Fidèle à la tradition purement classique de son maître, il se prononça résolument contre tout emprunt à l’architecture gothique, qui, affirmait-il, "n’est plus dans nos mœurs ni dans nos usages".</p>
      </note>
      <note>
       <p>Auguste-Nicolas Caristie était issu d’une ancienne famille d’architectes d’origine italienne dont le plus anciennement connu, Michel-Ange Caristie fut chargé en 1709 par les jésuites de la construction du collège d’Autun. Appelé à Amiens, il y reconstruisit l’église des Célestins de 1726 à 1732 dont le portail s’inspirait de l’église Saint-Gervais de Paris. Son fils fut architecte à Dijon vers la fin du XVIIIe siècle, il fut notamment l’auteur de l’hôtel de ville d’Avallon..</p>
