@@ -896,7 +896,7 @@
       <date from="1842-01">de janvier 1842</date>
      </affiliation>
      <note type="biography">
-      <p>Fils de <persName ref="#bruyère"
+      <p>Fils de <persName ref="#bruyere"
         >Louis Bruyère</persName>, il fut admis à l’École des beaux-arts le 6 janvier 1832. élève de <persName
         ref="#huyot"
        >Jean-Nicolas Huyot</persName>, il optint de nombreuses récompenses jusqu’en 1835.</p>
@@ -5554,6 +5554,11 @@
      <listBibl type="biblio">
       <bibl>{Arnault\, T.2, pp. 98-99\}</bibl>
      </listBibl>
+    </person>
+    <person xml:id="bruyere">
+     <persName full="yes">Bruyère, Louis (1758-1831)</persName>
+     <idno type="dataBnf">http://data.bnf.fr/10302111/louis_bruyere/</idno>
+     <idno type="isni">http://isni.org/isni/0000000121314074</idno>
     </person>
     <person xml:id="blanc">
      <persName full="yes">Blanc, Adolphe Edmond (1799-1850)</persName>
