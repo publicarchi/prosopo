@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Un schema ODD très simple pour une liste de personnes</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Fichier nativement numérique</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2016-06-07">Emmanuel Chateau, création du chier</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="persons" start="TEI">
+        <moduleRef key="header" include="availability creation change edition editionStmt extent fileDesc funder idno keywords langUsage language licence listChange principal profileDesc projectDesc publicationStmt revisionDesc seriesStmt sourceDesc teiHeader titleStmt"/>
+        <moduleRef key="core" include="abbr address addrLine author bibl biblScope biblStruct cit corr date del desc editor emph foreign graphic head hi imprint item label list listBibl meeting monogr note num p ptr pubPlace publisher q quote ref resp respStmt rs said series sic soCalled term title"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure" include="TEI back body div front text"/>
+        <moduleRef key="namesdates" include="affiliation birth country death education event floruit forename genName listEvent listOrg listPerson listPlace listRelation nameLink occupation org orgName persName person place placeName region relation residence roleName settlement state surname trait"/>
+        
+        <elementSpec ident="nameLink" mode="change">
+          <classes>
+            <memberOf key="att.personal"/>
+            <memberOf key="att.global"/>
+            <memberOf key="att.typed"/>
+            <memberOf key="model.persNamePart"/>
+          </classes>
+        </elementSpec>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>
