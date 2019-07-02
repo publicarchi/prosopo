@@ -1,6 +1,23 @@
 /* Element from another namespace */
 /* Vertical flow */
 
+titleStmt > title {
+  display: block;
+  margin-left: 4em;
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+head {
+  display: block;
+  font-size: 2em;
+}
+
+listPerson {
+  display: block;
+  margin-left: 4em;
+}
+
 person,
 person > persName,
 affiliation,
@@ -8,12 +25,12 @@ p,
 biblList,
 birth,
 death {
-    display:block;
-    margin-bottom: 0.5em;
+  display:block;
+  margin-bottom: 0.5em;
 }
 
 person {
-  margin-bottom: 3em;
+  margin-bottom: 2em;
 }
 
 birth::before {
@@ -24,6 +41,9 @@ death::before {
   content: "Mort le ";
 }
 
+birth > placeName::before, death > placeName::before {
+  content: "à "
+}
 
 hi[rend="superscript"] {
     font-size: .83em;
@@ -39,14 +59,10 @@ date {
 }
 
 affiliation, death, birth, p {
-  margin-left:3em;
+  margin-left: 3em;
   margin-right: 3em;
 }
 
-person{
-    -oxy-foldable:true;
-    -oxy-not-foldable-child: persName;
-}
 
 link[href]:before{
     display:inline;
@@ -67,6 +83,7 @@ p {
 
 person > note:not([type]) {
   color: blue;
+  display: none;
 }
 
 roleName{
@@ -75,7 +92,7 @@ roleName{
 
 bibl, idno {
   font-style: italic;
-  font-size: smaller;
+  font-size: 1em;
 }
 
 bibl:not(:last-child):after {
@@ -86,15 +103,26 @@ affiliation > date {
   font-style: italic;
 }
 
-book,
-article{
-    counter-reset:sect;
+idno {
+  display: block;
 }
-book > section,
-article > section{
-    counter-increment:sect;
+
+idno[type="conbavil"]:before {
+  color: red;
+  content: "Id Conbavil : " ;
 }
-book > section > title:before,
-article > section > title:before{
-    content: "Section: " counter(sect) " ";
+
+code {
+  display:inline;
+  font-family:monospace;
+}
+
+emph {
+  display:inline;
+  font-style:italic;
+}
+
+foreign {
+  display:inline;
+  font-style: italic;
 }
