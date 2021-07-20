@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schemas/persons.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="./schemas/persons.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="css/author.css"?>
 <!-- <?xml-stylesheet type="text/xsl" href="xsl/timeline.xsl"?> -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title xml:lang="fre" type="main">Répertoire biographique</title>
+    <title xml:lang="fre" type="main">Répertoire biographique des membres du Conseil des bâtiments civils</title>
     <principal>
      <persName ref="#EC">
       <forename>Emmanuel</forename>
@@ -49,9 +49,8 @@
     </publisher>
     <availability status="restricted" xml:id="indexNominumTextLicence">
      <!-- TODO : <licence> à ajouter partout -->
-     <licence target="http://creativecommons.org/licenses/by-nc-sa/4.0/fr/">
+     <licence target="https://creativecommons.org/licenses/by-sa/2.0/">
       <p>Texte de la licence</p>
-      <graphic url="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" />
      </licence>
      <p>Texte de la licence choisie.</p>
     </availability>
@@ -60,7 +59,7 @@
     <title xml:lang="fre" type="main"
       >Le Conseil des bâtiments civils et l’administration de l’architecture publique en France dans la première moitié du XIX<hi
       rend="superscript">e</hi> siècle (1795-1848)</title>
-    <idno type="URI">http://publicarchitectura.org</idno>
+    <idno type="URI">http://public.archi</idno>
    </seriesStmt>
    <!--<notesStmt> <note xml:lang="fre" type="abstract">Texte de description pour DC.description</note> <note xml:lang="eng" type="abstract">Texte de description en anglais pour DC.description</note> </notesStmt>-->
    <!-- description de la source -->
@@ -296,20 +295,19 @@
         ref="#duban"
        >Duban</persName> comme inspecteur général et membre du Conseil des bâtiments civils, à compter de mars 1871, par un arrêté du 20 décembre 1870.</p>
       <p>Conducteur des travaux de l’église Notre-Dame-de-Lorette sous <persName ref="#lebas"
-        >Lebas</persName> dès 1828, il fut ensuite sous-inspecteur des travaux au Conservatoire des arts et métiers et à la Colonne de Juillet sous <persName
-        ref="#alavoine"><persName ref="#alavoine"
-        >Alavoine</persName></persName>. À son retour de Rome, en 1839, il fut nommé sous-inspecteur des travaux des nouveaux magasins de la Halle aux vins sous <persName
-        ref="#gauche"><persName ref="#gauche"
-        >Gauché</persName></persName>. Attaché successivement au Conservatoire des arts et métiers et à la Halle aux vins. En 1840, il devint inspecteur des travaux d’art de la ville de Paris, et en 1841 inspecteur des travaux d’achèvement des colonnes de la Barrière du Trône sous <persName
-        ref="#jay"
-        >Jaÿ</persName>, puis inspecteur principal en 1842 à l’École normale, sous <persName
-        ref="#gisorsAlphonseHenri"><persName ref="#gisorsAlphonse"
-         >Alphonse-Henri de Gisors</persName></persName>.</p>
+       >Lebas</persName> dès 1828, il fut ensuite sous-inspecteur des travaux au Conservatoire des arts et métiers et à la Colonne de Juillet sous <persName
+       ref="#alavoine"
+       >Alavoine</persName>. À son retour de Rome, en 1839, il fut nommé sous-inspecteur des travaux des nouveaux magasins de la Halle aux vins sous <persName
+       ref="#gauche"><persName ref="#gauche"
+       >Gauché</persName></persName>. Attaché successivement au Conservatoire des arts et métiers et à la Halle aux vins. En 1840, il devint inspecteur des travaux d’art de la ville de Paris, et en 1841 inspecteur des travaux d’achèvement des colonnes de la Barrière du Trône sous <persName
+       ref="#jay"
+       >Jaÿ</persName>, puis inspecteur principal en 1842 à l’École normale, sous <persName
+       ref="#gisorsAlphonseHenri">Alphonse-Henri de Gisors</persName>.</p>
       <p>En 1846, il fut désigné architecte de l’Hôtel du Timbre, rue de la Banque, commencé par <persName
-        ref="#lelong"
-        >Paul Lelong</persName> et achevé en 1852. Il devint architecte des Grandes halles centrales de Paris en 1847, en collaboration avec <persName
-        ref="#callet"><persName ref="#callet"
-       >Callet</persName></persName>. Il fut architecte en chef de la première section des travaux de la ville de Paris en 1848, il intervint à ce titre dans de nombreuses églises à Paris (notamment, Saint-Germain-des-Prés, Saint-Jacques-du-Haut-Pas, Saint-Gervais, Saint-Séverin, Saint-Roch, le Temple de Pentemont, et Saint-Eustache dont il réalisa le maître-autel et la chaire à prêcher et le buffet d’orgue). Il restaura l’Hôtel de l’archevêché et dirigea pendant plusieurs années le fêtes de l’Hôtel de ville dont la fête de l’Industrie universelle, celle de la proclamation de l’Empire et celle du mariage de l’Empereur. De 1842 à 1846, il fut aussi professeur supplémentaire d’architecture à l’École des beaux-arts et, à partir de 1846, membre du Jury.</p>
+       ref="#lelong"
+       >Paul Lelong</persName> et achevé en 1852. Il devint architecte des Grandes halles centrales de Paris en 1847, en collaboration avec <persName
+       ref="#callet"
+       >Callet</persName>. Il fut architecte en chef de la première section des travaux de la ville de Paris en 1848, il intervint à ce titre dans de nombreuses églises à Paris (notamment, Saint-Germain-des-Prés, Saint-Jacques-du-Haut-Pas, Saint-Gervais, Saint-Séverin, Saint-Roch, le Temple de Pentemont, et Saint-Eustache dont il réalisa le maître-autel et la chaire à prêcher et le buffet d’orgue). Il restaura l’Hôtel de l’archevêché et dirigea pendant plusieurs années le fêtes de l’Hôtel de ville dont la fête de l’Industrie universelle, celle de la proclamation de l’Empire et celle du mariage de l’Empereur. De 1842 à 1846, il fut aussi professeur supplémentaire d’architecture à l’École des beaux-arts et, à partir de 1846, membre du Jury.</p>
       <p>Baltard connut de nombreux succès dans les concours publics. Il participa à celui pour le Tombeau de Napoléon et celui pour le Monument de <persName>Monseigneur Affre, ancien archevêque de Paris</persName>. Il réalisa diverses constructions particulières à Paris et dans les départements. De 1826 à 1833, il collabore à la publication des <title>Grands prix d’architecture</title>. En 1844, il publiait avec le <persName>duc de Luynes</persName> et <persName>Huillard-Bréolles</persName> l’<title>Histoire de Frédéric II et de la maison de Souabe en Italie</title>, en 1847 un <title>Mémoire sur les halles et marchés en France et à l’étranger</title>, et en 1848 une <title>Monographie historique et statistique de la villa Médicis et de l’Institution du grand prix de Rome</title></p>
      </note>
      <listBibl type="biblio">
@@ -5358,12 +5356,12 @@
      <persName full="yes">Oudinot (vérificateur)</persName>
     </person>
     <person xml:id="pagot">
-     <persName>Pagot, François Narcisse (1780-1844)</persName>
+     <persName full="yes">Pagot, François Narcisse (1780-1844)</persName>
      <idno type="agorha"
       >http://agorha.inha.fr/inhaprod/jsp/reference.jsp?reference=INHA__MUS_PERSONNE__78515</idno>
     </person>
     <person xml:id="penchaud">
-     <idno type="conbavil">Penchaud, Michel Robert (1772-1832)</idno>
+     <persName full="yes">Penchaud, Michel Robert (1772-1832)</persName>
      <idno type="conbavil">43</idno>
     </person>
     <person xml:id="perardMontreuil">
@@ -5371,7 +5369,7 @@
        >e</hi> moitié du XVIII<hi rend="superscript">e</hi> siècle)</persName>
     </person>
     <person xml:id="perronet">
-     <persName>Perronet, Jean-Rodolphe (1708-1794)</persName>
+     <persName full="yes">Perronet, Jean-Rodolphe (1708-1794)</persName>
     </person>
     <person xml:id="philippon">
      <persName full="yes">Philippon, Pierre François Nicolas (1784-1866)</persName>

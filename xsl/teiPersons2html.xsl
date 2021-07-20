@@ -11,9 +11,36 @@
     <xsl:output method="html" indent="yes" encoding="UTF-8" html-version="5.0"/>
     <xsl:strip-space elements="*"/>
     
+    <xsl:variable name="path" select="'person'"/>
+    
     <xsl:template match="/TEI">
-        <xsl:apply-templates select="teiHeader"/>
-        <xsl:apply-templates select="text"/>
+        <xsl:apply-templates />
+    </xsl:template>
+    
+    <xsl:template match="person[@xml:id]">
+        <xsl:variable name="id" select="./@xml:id"/>
+        <xsl:result-document href="{$path }/{$id}.html">
+            <xsl:apply-templates/>
+        </xsl:result-document>
+    </xsl:template>
+    
+    <xsl:template match="person">
+        <html>
+            <head>
+                <meta charset='utf-8' />
+                <meta http-equiv="content-type" content="text/html" />
+                <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+                <title><xsl:value-of select="persName[@full='yes']"/></title>
+                <link href="css/normalize.css" rel="stylesheet" />
+                <link href="css/main.css" rel="stylesheet" />
+            </head>
+            <body>
+                <header>
+                    <h1><xsl:value-of select="persName[@full='yes']"/></h1>
+                    <p></p>
+                </header>
+            </body>
+        </html>
     </xsl:template>
     
     <xsl:template match="teiHeader">
