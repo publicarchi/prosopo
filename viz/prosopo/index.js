@@ -7,8 +7,18 @@ const height = +svg.attr("height") - margin.top - margin.bottom;
 const fontFamily = "sans-serif";
 const fontScale = 15;
 
-//parse le format de date
+//parse le format "xxxx-xx-xx" en date
 const parseDate = d3.timeParse("%Y-%m-%d");
+
+//transforme la date en un string
+function formatDate(date) {
+  return date.toLocaleString("fr", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+    timeZone: "UTC"
+  });
+}
 
 //Create axes
 const x = d3.scaleUtc()
@@ -75,7 +85,7 @@ function timeline(time, dataset){
   people.each(addPerson)
 
 
-//Append axes
+  //Append axes
   const gx = svg.append("g")
       .call(xAxis, x);
 
@@ -95,17 +105,30 @@ function addPerson(d){
   console.log("let's add "+d.properties.name)
   console.log(d)
 
+  //À propos de la personne
   //Attention à gérer si ce n'est pas renseigné
   const birth = d.chronometry.filter(t => t.label=="date de naissance")[0];
   const death = d.chronometry.filter(t => t.label=="date de décès")[0];
   const points = d.chronometry.filter(t => t.type=="point");
-
-  console.log(birth)
-  console.log(death.date)
-
+  const ranges = d.chronometry.filter(t => t.type=="range");
   const startLife = x(parseDate(birth.date));
   const endLife = x(parseDate(death.date));
   const widthLife = endLife - startLife;
+
+
+
+  //faire un rectangle pour chaque range
+  const rects = el
+  .selectAll("rect") //Attention quand on a plusieurs personnes ça risque de planter ça
+  .data(ranges)
+  .enter()
+  .append("rect")
+  .attr("x", r => x(parseDate(r.start)))
+  .attr("y", y(d.properties.id)-10)
+  .attr("height", "20px") //Quand plusieurs, utiliser: y.bandwith()
+  .attr("width", r => (x(parseDate(r.end)) - x(parseDate(r.start))))
+  .attr("fill", "steelblue")//TODO : make a color range
+  .attr("fill-opacity","0.5")
 
 
 
@@ -114,27 +137,23 @@ function addPerson(d){
     .append("rect")
     .attr("class", "lifeline")
     .attr("x", startLife)
-    .attr("y", d.properties.id)
+    .attr("y", y(d.properties.id))
     .attr("height", "1px")
     .attr("width", widthLife)
     .attr("fill", "black")
 
+  //faire un point pour chaque point
   const dots = el
-    .selectAll("circle") //Attention quand on a plusieurs personnes ça risque de planter ça
-    .data(points)
-    .enter()
-    .append("circle")
-    .style("fill", "black")
-    .attr("class", "dot")
-    .attr("r", 3) //rayon des points
-    .attr("cx", p => x(parseDate(p.date)))
-    .attr("cy", d.properties.id);
-
-
-
-//faire une ligne de la naissance à la mort
-
-
+  .selectAll("circle") //Attention quand on a plusieurs personnes ça risque de planter ça
+  .data(points)
+  .enter()
+  .append("circle")
+  .style("fill", "black")
+  .attr("class", "dot")
+  .attr("r", 3) //rayon des points
+  .attr("cx", p => x(parseDate(p.date)))
+  .attr("cy", y(d.properties.id));
+  //TODO: ajouter interactivité: date on hover
 }
 
 Promise.all([
