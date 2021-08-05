@@ -655,7 +655,7 @@
      </occupation>
      <affiliation>
       <roleName>inspecteur général</roleName>
-      <affiliation>Conseil des bâtiments civils</affiliation>
+      <orgName>Conseil des bâtiments civils</orgName>
       <date from="1796-01-14" to="1798-05-20">du 24 nivôse an IV (14 janvier 1796) au 1<hi
         rend="superscript">er</hi> prairial an VI (20 mai 1798)</date>
       <note>
@@ -753,7 +753,7 @@
      <floruit>1792</floruit>
      <affiliation>
       <roleName>inspecteur</roleName>
-      <affiliation>Conseil des bâtiments civils</affiliation>
+      <orgName>Conseil des bâtiments civils</orgName>
       <date from="1796-01-14" to="1797-06-03"
        >du 24 nivôse an IV (14 janvier 1796) au 15 prairial an X (3 juin 1797)</date>
       <note>
@@ -1022,11 +1022,6 @@
       <date when="1814-03-27">27 mars 1814</date>
       <placeName>Laval (Mayenne)</placeName>
      </death>
-     <listEvent type="eba">
-      <event>
-       <label>Grand prix</label>
-      </event>
-     </listEvent>
      <affiliation>
       <roleName>inspecteur général</roleName>
       <orgName>Conseil des bâtiments civils</orgName>
@@ -1152,7 +1147,7 @@
      </affiliation>
      <affiliation>
       <roleName>membre</roleName>
-      <affiliation>Conseil des bâtiments civils</affiliation>
+      <orgName>Conseil des bâtiments civils</orgName>
       <date from="1796-01-14" to="1798-05-20">du 24 nivôse an IV (14 janvier 1796) au 1<hi
         rend="superscript">er</hi> prairial an VI (20 mai 1798)</date>
       <note>
@@ -1585,7 +1580,7 @@
      </death>
      <affiliation>
       <roleName>membre</roleName>
-      <affiliation>Institut, section d’architecture</affiliation>
+      <orgName>Institut, section d’architecture</orgName>
       <date when="1824">1824</date>
       <note>au moment du décès de Maximilien Hurtault</note>
      </affiliation>
@@ -2562,7 +2557,7 @@
      </affiliation>
      <affiliation>
       <roleName>vice-président</roleName>
-      <date when="1815-12-22" to="1822-02-08">22 décembre 1815 au 8 février 1822</date>
+      <date from="1815-12-22" to="1822-02-08">22 décembre 1815 au 8 février 1822</date>
       <orgName>Conseil des bâtiments civils</orgName>
       <note>
        <bibl>A.N., F<hi rend="superscript"
@@ -3058,7 +3053,7 @@
      </occupation>
      <affiliation>
       <roleName>inspecteur général</roleName>
-      <affiliation>Conseil des bâtiments civils</affiliation>
+      <orgName>Conseil des bâtiments civils</orgName>
       <date from="1796-01-14" to="1797-06-03"
        >du 24 nivôse an IV (14 janvier 1796) au 15 prairial an V (3 juin 1797)</date>
       <note>
@@ -3312,7 +3307,7 @@
      </occupation>
      <affiliation>
       <roleName>Sous-chef de la 1ère section de la Deuxième division</roleName>
-      <affiliation>Commission des travaux publics</affiliation>
+      <orgName>Commission des travaux publics</orgName>
       <date>1795</date>
       <note>
        <bibl>Dans BHVP, Ms CP3469, n°20, Notice sur l’organisation de la Deuxième division, s.d.</bibl>
@@ -3320,7 +3315,7 @@
      </affiliation>
      <affiliation>
       <roleName>secrétaire</roleName>
-      <affiliation>Conseil des bâtiments civils</affiliation>
+      <orgName>Conseil des bâtiments civils</orgName>
       <date from="1796-01-14" to="1812-09-01">24 nivôse an IV (14 janvier 1796) au 1<hi
         rend="superscript">er</hi> septembre 1812</date>
       <note>
@@ -3443,7 +3438,7 @@
      </occupation>
      <affiliation>
       <roleName>inspecteur général</roleName>
-      <affiliation>Conseil des bâtiments civils</affiliation>
+      <orgName>Conseil des bâtiments civils</orgName>
       <date from="1796-01-14" to="1798-05-20">du 24 nivôse an IV (14 janvier 1796) au 1<hi
         rend="superscript">er</hi> prairial an VI (20 mai 1798)</date>
       <note>
@@ -3793,7 +3788,7 @@
      </affiliation>
      <affiliation>
       <roleName>inspecteur général</roleName>
-      <affiliation>Conseil des bâtiments civils</affiliation>
+      <orgName>Conseil des bâtiments civils</orgName>
       <date from="1796-01-14" to="1797-06-03"
        >du 24 nivôse an IV (14 janvier 1796) au 15 prairial an V (3 juin 1797)</date>
       <note>
@@ -4576,7 +4571,7 @@
      </affiliation>
      <affiliation>
       <roleName>inspecteur général</roleName>
-      <affiliation>Conseil des bâtiments civils</affiliation>
+      <orgName>Conseil des bâtiments civils</orgName>
       <date from="1796-01-14" to="1798-05-20">du 24 nivôse an IV (14 janvier 1796) au 1<hi
         rend="superscript">er</hi> prairial an VI (20 mai 1798)</date>
       <note>
@@ -5394,7 +5389,7 @@
      </persName>
      <affiliation>
       <roleName>Chef de la Deuxième division</roleName>
-      <affiliation>Commission des travaux publics</affiliation>
+      <orgName>Commission des travaux publics</orgName>
       <date when="1795">1795</date>
       <note>
        <bibl>Dans BHVP, Ms CP3469, n°20, Notice sur l’organisation de la Deuxième division, s.d.</bibl>
@@ -5402,7 +5397,7 @@
      </affiliation>
      <affiliation>
       <roleName>Chef du bureau des dessins</roleName>
-      <affiliation>Conseil des bâtiments civils</affiliation>
+      <orgName>Conseil des bâtiments civils</orgName>
       <date when="1795">1795</date>
       <note>
        <p>6 ventôse an VI (24 février 1798) toujours au bureau des dessins</p>
