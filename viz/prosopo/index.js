@@ -24,6 +24,14 @@ function formatDate(date) {
 const x = d3.scaleUtc()
 const y = d3.scaleBand()
 
+const color = d3.scaleOrdinal(d3.schemeCategory10) //10catégories!
+//
+function createColorScale(values){
+  color.domain(Array.from(values));
+  console.log(color.domain())
+};
+
+
 //crée la base pour la chronologie
 
 //d3 Documentation
@@ -97,6 +105,8 @@ function timeline(time, dataset){
 
 }
 
+
+
 //Ajoute l'information sur une personne dans la chronologie
 function addPerson(d){
   const el = d3.select(this);
@@ -127,7 +137,7 @@ function addPerson(d){
   .attr("y", y(d.properties.id)-10)
   .attr("height", "20px") //Quand plusieurs, utiliser: y.bandwith()
   .attr("width", r => (x(parseDate(r.end)) - x(parseDate(r.start))))
-  .attr("fill", "steelblue")//TODO : make a color range
+  .attr("fill", r => color(r.label))//TODO : make a color range
   .attr("fill-opacity","0.5")
 
 
@@ -159,9 +169,22 @@ function addPerson(d){
 Promise.all([
   d3.json('../data/prosopo.json')
 ]).then(([data]) => {
-   
-  dataset = data.features.filter(d => d.properties.id == "gourlier")
+  
+  var indexRoles = new Set();
+  //types de roles
+  data.features.forEach(p => {
+    var range = p.chronometry.filter(t => t.type == "range")
+    range.forEach(t => {
+      if (!(t.label in indexRoles))
+          indexRoles.add(t.label)
 
+    })
+  })
+  createColorScale(indexRoles);
+
+
+  dataset = data.features.filter(d => d.properties.id == "gourlier")
+  
   var intervalle = ["1750-01-01", "1895-12-31"]
   timeline(intervalle, dataset);
 
