@@ -1,0 +1,1331 @@
+[
+    {
+      "person": "Anonyme",
+      "group": "architecte",
+      "occurences": 1226
+    },
+    {
+      "person": "Anonyme",
+      "group": "ingénieur",
+      "occurences": 189
+    },
+    {
+      "person": "Anonyme",
+      "group": "ingénieur en chef",
+      "occurences": 129
+    },
+    {
+      "person": "Anonyme",
+      "group": "préfet",
+      "occurences": 118
+    },
+    {
+      "person": "Silvestre",
+      "group": "architecte",
+      "occurences": 99
+    },
+    {
+      "person": "Gisors",
+      "occurences": 98
+    },
+    {
+      "person": "Cheussey",
+      "group": "architecte",
+      "occurences": 87
+    },
+    {
+      "person": "Rousseau",
+      "group": "architecte",
+      "occurences": 84
+    },
+    {
+      "person": "Solente",
+      "group": "architecte",
+      "occurences": 82
+    },
+    {
+      "person": "Penchaud",
+      "group": "architecte",
+      "occurences": 82
+    },
+    {
+      "person": "Dubut",
+      "group": "architecte",
+      "occurences": 81
+    },
+    {
+      "person": "Durand",
+      "group": "architecte",
+      "occurences": 78
+    },
+    {
+      "person": "Godde",
+      "group": "architecte",
+      "occurences": 77
+    },
+    {
+      "person": "Anonyme",
+      "group": "ingénieur en chef du département",
+      "occurences": 72
+    },
+    {
+      "person": "Goust",
+      "group": "architecte",
+      "occurences": 71
+    },
+    {
+      "person": "Combes",
+      "group": "architecte",
+      "occurences": 70
+    },
+    {
+      "person": "Anonyme",
+      "group": "entrepreneur",
+      "occurences": 63
+    },
+    {
+      "person": "Alavoine",
+      "group": "architecte",
+      "occurences": 62
+    },
+    {
+      "person": "Delarue",
+      "group": "architecte",
+      "occurences": 62
+    },
+    {
+      "person": "Letombe",
+      "group": "architecte",
+      "occurences": 62
+    },
+    {
+      "person": "Anonyme",
+      "group": "architecte du département",
+      "occurences": 61
+    },
+    {
+      "person": "Poitevin",
+      "group": "architecte",
+      "occurences": 60
+    },
+    {
+      "person": "Janinet",
+      "group": "architecte",
+      "occurences": 57
+    },
+    {
+      "person": "Pagot",
+      "group": "architecte",
+      "occurences": 56
+    },
+    {
+      "person": "Baltard",
+      "group": "architecte",
+      "occurences": 54
+    },
+    {
+      "person": "Poyet",
+      "occurences": 54
+    },
+    {
+      "person": "Anonyme",
+      "group": "ingénieur des ponts et chaussées",
+      "occurences": 48
+    },
+    {
+      "person": "Thierry",
+      "group": "architecte",
+      "occurences": 48
+    },
+    {
+      "person": "Baltard",
+      "occurences": 46
+    },
+    {
+      "person": "Voisin",
+      "group": "architecte",
+      "occurences": 45
+    },
+    {
+      "person": "Balzac",
+      "group": "architecte",
+      "occurences": 44
+    },
+    {
+      "person": "Guillot",
+      "group": "architecte",
+      "occurences": 44
+    },
+    {
+      "person": "Peyre",
+      "group": "architecte",
+      "occurences": 42
+    },
+    {
+      "person": "Mangot",
+      "group": "architecte",
+      "occurences": 42
+    },
+    {
+      "person": "Cheussey",
+      "occurences": 42
+    },
+    {
+      "person": "Anonyme",
+      "group": "architecte de la ville",
+      "occurences": 41
+    },
+    {
+      "person": "Gisors",
+      "group": "architecte",
+      "occurences": 40
+    },
+    {
+      "person": "Ledru",
+      "group": "architecte",
+      "occurences": 39
+    },
+    {
+      "person": "Janinet",
+      "group": "architecte du département",
+      "occurences": 38
+    },
+    {
+      "person": "Cheussey",
+      "group": "architecte du département",
+      "occurences": 37
+    },
+    {
+      "person": "Dubois",
+      "group": "architecte",
+      "occurences": 37
+    },
+    {
+      "person": "Jouannin",
+      "group": "architecte",
+      "occurences": 37
+    },
+    {
+      "person": "Vétault",
+      "group": "architecte",
+      "occurences": 37
+    },
+    {
+      "person": "Ogée",
+      "group": "architecte",
+      "occurences": 36
+    },
+    {
+      "person": "Poyet",
+      "group": "architecte",
+      "occurences": 36
+    },
+    {
+      "person": "Molinos",
+      "group": "architecte",
+      "occurences": 36
+    },
+    {
+      "person": "Delannoy",
+      "group": "architecte",
+      "occurences": 35
+    },
+    {
+      "person": "Leplus",
+      "group": "architecte",
+      "occurences": 35
+    },
+    {
+      "person": "Penchaud",
+      "occurences": 35
+    },
+    {
+      "person": "Grillot",
+      "group": "architecte",
+      "occurences": 35
+    },
+    {
+      "person": "Alavoine",
+      "occurences": 35
+    },
+    {
+      "person": "Elmerich",
+      "group": "architecte",
+      "occurences": 34
+    },
+    {
+      "person": "Vaudoyer",
+      "group": "architecte",
+      "occurences": 34
+    },
+    {
+      "person": "Anonyme",
+      "group": "maire",
+      "occurences": 32
+    },
+    {
+      "person": "Derobe",
+      "group": "architecte",
+      "occurences": 32
+    },
+    {
+      "person": "Latapie",
+      "group": "architecte",
+      "occurences": 31
+    },
+    {
+      "person": "Sylvestre",
+      "group": "architecte",
+      "occurences": 31
+    },
+    {
+      "person": "Peyre",
+      "occurences": 31
+    },
+    {
+      "person": "Jolain",
+      "group": "entrepreneur",
+      "occurences": 30
+    },
+    {
+      "person": "Lepère",
+      "group": "architecte",
+      "occurences": 30
+    },
+    {
+      "person": "Hubert",
+      "occurences": 30
+    },
+    {
+      "person": "Virebent",
+      "group": "architecte",
+      "occurences": 30
+    },
+    {
+      "person": "Serrurier",
+      "group": "architecte",
+      "occurences": 29
+    },
+    {
+      "person": "Anonyme",
+      "group": "ingénieur en chef des ponts et chaussées",
+      "occurences": 29
+    },
+    {
+      "person": "Crucy",
+      "group": "architecte",
+      "occurences": 29
+    },
+    {
+      "person": "Disqueux",
+      "group": "architecte",
+      "occurences": 29
+    },
+    {
+      "person": "Dosse",
+      "group": "architecte",
+      "occurences": 29
+    },
+    {
+      "person": "Quin",
+      "group": "vérificateur",
+      "occurences": 29
+    },
+    {
+      "person": "Paris",
+      "group": "architecte",
+      "occurences": 28
+    },
+    {
+      "person": "Visconti",
+      "occurences": 28
+    },
+    {
+      "person": "Goy",
+      "group": "architecte",
+      "occurences": 28
+    },
+    {
+      "person": "Molinos",
+      "occurences": 28
+    },
+    {
+      "person": "Brossard",
+      "group": "architecte",
+      "occurences": 28
+    },
+    {
+      "person": "Landon",
+      "group": "architecte",
+      "occurences": 27
+    },
+    {
+      "person": "Baron",
+      "group": "architecte",
+      "occurences": 27
+    },
+    {
+      "person": "Villot",
+      "group": "architecte",
+      "occurences": 26
+    },
+    {
+      "person": "Harou",
+      "group": "architecte",
+      "occurences": 26
+    },
+    {
+      "person": "Dubois",
+      "group": "architecte du département",
+      "occurences": 26
+    },
+    {
+      "person": "Rondelet",
+      "occurences": 26
+    },
+    {
+      "person": "Flachéron",
+      "group": "architecte",
+      "occurences": 25
+    },
+    {
+      "person": "Goust",
+      "occurences": 25
+    },
+    {
+      "person": "Vignon",
+      "group": "architecte",
+      "occurences": 25
+    },
+    {
+      "person": "Vestier",
+      "group": "architecte",
+      "occurences": 25
+    },
+    {
+      "person": "Dalgabio",
+      "group": "architecte",
+      "occurences": 25
+    },
+    {
+      "person": "Moreau",
+      "group": "architecte",
+      "occurences": 25
+    },
+    {
+      "person": "Couderc",
+      "group": "architecte",
+      "occurences": 25
+    },
+    {
+      "person": "Bralle",
+      "occurences": 25
+    },
+    {
+      "person": "Macquet",
+      "group": "architecte",
+      "occurences": 25
+    },
+    {
+      "person": "Godde",
+      "occurences": 24
+    },
+    {
+      "person": "Pinault",
+      "group": "architecte",
+      "occurences": 24
+    },
+    {
+      "person": "Voinier",
+      "group": "architecte",
+      "occurences": 24
+    },
+    {
+      "person": "Reiner",
+      "group": "architecte",
+      "occurences": 24
+    },
+    {
+      "person": "Cottenest",
+      "group": "architecte",
+      "occurences": 24
+    },
+    {
+      "person": "Bonfin",
+      "group": "architecte",
+      "occurences": 23
+    },
+    {
+      "person": "Lafosse",
+      "group": "architecte",
+      "occurences": 23
+    },
+    {
+      "person": "Macquet",
+      "occurences": 22
+    },
+    {
+      "person": "Marchebeus",
+      "group": "architecte",
+      "occurences": 22
+    },
+    {
+      "person": "Dewarlez",
+      "group": "architecte",
+      "occurences": 22
+    },
+    {
+      "person": "Harou-Romain",
+      "group": "architecte",
+      "occurences": 22
+    },
+    {
+      "person": "Solente",
+      "group": "architecte du département",
+      "occurences": 22
+    },
+    {
+      "person": "Robelin",
+      "group": "architecte",
+      "occurences": 22
+    },
+    {
+      "person": "Cauzon",
+      "group": "architecte",
+      "occurences": 22
+    },
+    {
+      "person": "Legrand",
+      "group": "architecte",
+      "occurences": 22
+    },
+    {
+      "person": "Gilbert",
+      "group": "architecte",
+      "occurences": 21
+    },
+    {
+      "person": "Pinguet",
+      "group": "architecte",
+      "occurences": 21
+    },
+    {
+      "person": "Gauché",
+      "group": "architecte",
+      "occurences": 21
+    },
+    {
+      "person": "Solente",
+      "occurences": 21
+    },
+    {
+      "person": "Letombe",
+      "occurences": 21
+    },
+    {
+      "person": "Penchaud",
+      "group": "architecte du département",
+      "occurences": 21
+    },
+    {
+      "person": "Saint-Père",
+      "group": "architecte",
+      "occurences": 21
+    },
+    {
+      "person": "Chenavard",
+      "group": "architecte",
+      "occurences": 21
+    },
+    {
+      "person": "Vaillant",
+      "group": "ingénieur",
+      "occurences": 20
+    },
+    {
+      "person": "Collombier",
+      "group": "architecte",
+      "occurences": 20
+    },
+    {
+      "person": "Durand",
+      "group": "ingénieur",
+      "occurences": 20
+    },
+    {
+      "person": "Chalgrin",
+      "occurences": 20
+    },
+    {
+      "person": "Beaumont",
+      "group": "architecte",
+      "occurences": 20
+    },
+    {
+      "person": "Letellier",
+      "group": "architecte",
+      "occurences": 20
+    },
+    {
+      "person": "Rohault",
+      "occurences": 19
+    },
+    {
+      "person": "Donnat",
+      "group": "architecte",
+      "occurences": 19
+    },
+    {
+      "person": "Rose-Beauvais",
+      "group": "architecte",
+      "occurences": 19
+    },
+    {
+      "person": "Poitevin",
+      "occurences": 19
+    },
+    {
+      "person": "Pagot",
+      "group": "architecte du département",
+      "occurences": 19
+    },
+    {
+      "person": "Abadie",
+      "group": "architecte",
+      "occurences": 19
+    },
+    {
+      "person": "Combes",
+      "group": "ingénieur",
+      "occurences": 19
+    },
+    {
+      "person": "Bourdon",
+      "group": "architecte",
+      "occurences": 19
+    },
+    {
+      "person": "Huvé",
+      "group": "architecte",
+      "occurences": 19
+    },
+    {
+      "person": "Couderc",
+      "group": "ingénieur",
+      "occurences": 19
+    },
+    {
+      "person": "Lescaille",
+      "group": "ingénieur en chef",
+      "occurences": 19
+    },
+    {
+      "person": "Clavareau",
+      "group": "architecte",
+      "occurences": 18
+    },
+    {
+      "person": "Pambet",
+      "group": "architecte",
+      "occurences": 18
+    },
+    {
+      "person": "Lapret",
+      "group": "architecte",
+      "occurences": 18
+    },
+    {
+      "person": "François",
+      "group": "architecte",
+      "occurences": 18
+    },
+    {
+      "person": "Lahure",
+      "group": "architecte",
+      "occurences": 18
+    },
+    {
+      "person": "Anonyme",
+      "group": "ingénieur ordinaire",
+      "occurences": 18
+    },
+    {
+      "person": "Binet",
+      "group": "architecte",
+      "occurences": 18
+    },
+    {
+      "person": "Bourrière",
+      "group": "architecte",
+      "occurences": 18
+    },
+    {
+      "person": "Lebas",
+      "group": "architecte",
+      "occurences": 17
+    },
+    {
+      "person": "Debroc",
+      "group": "architecte",
+      "occurences": 17
+    },
+    {
+      "person": "Letombe",
+      "group": "architecte du département",
+      "occurences": 17
+    },
+    {
+      "person": "Costain",
+      "group": "architecte",
+      "occurences": 17
+    },
+    {
+      "person": "Verly",
+      "group": "architecte",
+      "occurences": 17
+    },
+    {
+      "person": "Debret",
+      "group": "architecte",
+      "occurences": 17
+    },
+    {
+      "person": "anonyme",
+      "group": "préfet",
+      "occurences": 17
+    },
+    {
+      "person": "Lebrun",
+      "group": "architecte",
+      "occurences": 17
+    },
+    {
+      "person": "Védie",
+      "group": "architecte",
+      "occurences": 17
+    },
+    {
+      "person": "Anonyme",
+      "group": "géomètre",
+      "occurences": 17
+    },
+    {
+      "person": "Petit",
+      "group": "architecte",
+      "occurences": 17
+    },
+    {
+      "person": "Vaudé",
+      "group": "architecte",
+      "occurences": 17
+    },
+    {
+      "person": "Deleau",
+      "group": "architecte",
+      "occurences": 17
+    },
+    {
+      "person": "Hubert",
+      "group": "architecte",
+      "occurences": 17
+    },
+    {
+      "person": "Oudet",
+      "group": "architecte",
+      "occurences": 16
+    },
+    {
+      "person": "Vauvilliers",
+      "group": "ingénieur en chef",
+      "occurences": 16
+    },
+    {
+      "person": "Dupont",
+      "group": "architecte",
+      "occurences": 16
+    },
+    {
+      "person": "Thomas-Froideau",
+      "group": "architecte",
+      "occurences": 16
+    },
+    {
+      "person": "Plon",
+      "group": "architecte",
+      "occurences": 16
+    },
+    {
+      "person": "Robert",
+      "group": "architecte",
+      "occurences": 16
+    },
+    {
+      "person": "Forobert",
+      "group": "architecte",
+      "occurences": 16
+    },
+    {
+      "person": "Caristie",
+      "occurences": 15
+    },
+    {
+      "person": "Siret",
+      "group": "ingénieur en chef",
+      "occurences": 15
+    },
+    {
+      "person": "Anonyme",
+      "group": "sous-préfet",
+      "occurences": 15
+    },
+    {
+      "person": "Visconti",
+      "group": "architecte",
+      "occurences": 15
+    },
+    {
+      "person": "Guyot",
+      "group": "architecte",
+      "occurences": 15
+    },
+    {
+      "person": "Verniquet",
+      "occurences": 15
+    },
+    {
+      "person": "Abadie",
+      "occurences": 15
+    },
+    {
+      "person": "Delarue",
+      "occurences": 15
+    },
+    {
+      "person": "Anonyme",
+      "group": "ingénieur du département",
+      "occurences": 15
+    },
+    {
+      "person": "Garrez",
+      "occurences": 15
+    },
+    {
+      "person": "Raymond",
+      "group": "architecte",
+      "occurences": 15
+    },
+    {
+      "person": "Thiac",
+      "group": "architecte",
+      "occurences": 14
+    },
+    {
+      "person": "Goury",
+      "group": "ingénieur en chef",
+      "occurences": 14
+    },
+    {
+      "person": "Giraud",
+      "group": "architecte",
+      "occurences": 14
+    },
+    {
+      "person": "Damars",
+      "group": "architecte",
+      "occurences": 14
+    },
+    {
+      "person": "Perenciol",
+      "group": "architecte",
+      "occurences": 14
+    },
+    {
+      "person": "Gauthier",
+      "group": "architecte",
+      "occurences": 14
+    },
+    {
+      "person": "Rohault",
+      "group": "architecte",
+      "occurences": 14
+    },
+    {
+      "person": "Cellerier",
+      "occurences": 14
+    },
+    {
+      "person": "Pagot",
+      "occurences": 14
+    },
+    {
+      "person": "Degeorges",
+      "group": "architecte",
+      "occurences": 14
+    },
+    {
+      "person": "Labadie",
+      "group": "architecte",
+      "occurences": 14
+    },
+    {
+      "person": "Durand",
+      "occurences": 14
+    },
+    {
+      "person": "Beauvais",
+      "group": "architecte",
+      "occurences": 14
+    },
+    {
+      "person": "Trivelly",
+      "group": "architecte",
+      "occurences": 14
+    },
+    {
+      "person": "Vaudoyer",
+      "occurences": 14
+    },
+    {
+      "person": "Delannoy",
+      "occurences": 14
+    },
+    {
+      "person": "Robelin",
+      "occurences": 14
+    },
+    {
+      "person": "Cerneau",
+      "group": "ingénieur",
+      "occurences": 14
+    },
+    {
+      "person": "Nozo",
+      "group": "architecte",
+      "occurences": 14
+    },
+    {
+      "person": "Legrand",
+      "occurences": 14
+    },
+    {
+      "person": "Viel",
+      "group": "architecte",
+      "occurences": 14
+    },
+    {
+      "person": "Billoin",
+      "group": "ingénieur en chef",
+      "occurences": 13
+    },
+    {
+      "person": "Querry",
+      "group": "architecte",
+      "occurences": 13
+    },
+    {
+      "person": "Pollet",
+      "group": "architecte",
+      "occurences": 13
+    },
+    {
+      "person": "Brongniart",
+      "occurences": 13
+    },
+    {
+      "person": "Grain",
+      "group": "architecte",
+      "occurences": 13
+    },
+    {
+      "person": "Trou, Henri",
+      "group": "architecte",
+      "occurences": 13
+    },
+    {
+      "person": "Attiret",
+      "group": "architecte",
+      "occurences": 13
+    },
+    {
+      "person": "Clerc",
+      "group": "architecte",
+      "occurences": 13
+    },
+    {
+      "person": "Richelot",
+      "group": "architecte",
+      "occurences": 13
+    },
+    {
+      "person": "Clouet",
+      "group": "architecte",
+      "occurences": 13
+    },
+    {
+      "person": "Duban",
+      "occurences": 13
+    },
+    {
+      "person": "Malet",
+      "group": "architecte",
+      "occurences": 13
+    },
+    {
+      "person": "Simon",
+      "group": "architecte",
+      "occurences": 13
+    },
+    {
+      "person": "Anonyme",
+      "group": "charpentier",
+      "occurences": 13
+    },
+    {
+      "person": "Hittorff",
+      "occurences": 13
+    },
+    {
+      "person": "Jolain",
+      "occurences": 13
+    },
+    {
+      "person": "Anonyme",
+      "group": "ingénieur ordinaire des ponts et chaussées",
+      "occurences": 13
+    },
+    {
+      "person": "Coma",
+      "group": "architecte",
+      "occurences": 13
+    },
+    {
+      "person": "Petin",
+      "group": "architecte",
+      "occurences": 13
+    },
+    {
+      "person": "Poidevin",
+      "group": "architecte",
+      "occurences": 12
+    },
+    {
+      "person": "[Héricart de Thury]",
+      "group": "directeur des travaux de Paris",
+      "occurences": 12
+    },
+    {
+      "person": "Agnéty",
+      "group": "architecte",
+      "occurences": 12
+    },
+    {
+      "person": "Janinet",
+      "occurences": 12
+    },
+    {
+      "person": "Cantoni",
+      "group": "architecte",
+      "occurences": 12
+    },
+    {
+      "person": "Lodoyer",
+      "group": "architecte",
+      "occurences": 12
+    },
+    {
+      "person": "Grandvoinet",
+      "group": "architecte",
+      "occurences": 12
+    },
+    {
+      "person": "Griois",
+      "group": "architecte",
+      "occurences": 12
+    },
+    {
+      "person": "Laidebeur",
+      "group": "architecte",
+      "occurences": 12
+    },
+    {
+      "person": "Rosso",
+      "group": "architecte",
+      "occurences": 12
+    },
+    {
+      "person": "Guillemot",
+      "group": "ingénieur en chef",
+      "occurences": 12
+    },
+    {
+      "person": "Combes",
+      "occurences": 12
+    },
+    {
+      "person": "Cherrier",
+      "group": "ingénieur en chef",
+      "occurences": 12
+    },
+    {
+      "person": "[Coma]",
+      "occurences": 12
+    },
+    {
+      "person": "Frerson",
+      "occurences": 12
+    },
+    {
+      "person": "Thouin",
+      "occurences": 12
+    },
+    {
+      "person": "Blaisonnet",
+      "group": "architecte",
+      "occurences": 12
+    },
+    {
+      "person": "Peyre neveu",
+      "occurences": 12
+    },
+    {
+      "person": "Renaud",
+      "group": "architecte",
+      "occurences": 12
+    },
+    {
+      "person": "Dumanet",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "Richard",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "Lefèvre",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "Froideau",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "Vignon",
+      "occurences": 11
+    },
+    {
+      "person": "Ledru",
+      "occurences": 11
+    },
+    {
+      "person": "Meilhou",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "Lorenzo",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "Mique",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "Hospices",
+      "group": "propriétaire",
+      "occurences": 11
+    },
+    {
+      "person": "Warlez de",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "Boissonnade",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "Lebas",
+      "occurences": 11
+    },
+    {
+      "person": "Collet-Duclos",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "Devèze",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "[Tassin de Nonneville, Benoît Joseph]",
+      "group": "préfet",
+      "occurences": 11
+    },
+    {
+      "person": "Boggio",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "Jung",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "Villecrose",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "Merle",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "Duhameau",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "Ménard",
+      "group": "architecte",
+      "occurences": 11
+    },
+    {
+      "person": "Landon",
+      "occurences": 11
+    },
+    {
+      "person": "Delerue",
+      "group": "architecte du département",
+      "occurences": 11
+    },
+    {
+      "person": "Rousseau",
+      "occurences": 11
+    },
+    {
+      "person": "Gauché",
+      "occurences": 10
+    },
+    {
+      "person": "Guillot",
+      "occurences": 10
+    },
+    {
+      "person": "Godde",
+      "group": "entrepreneur",
+      "occurences": 10
+    },
+    {
+      "person": "Paillard",
+      "group": "architecte",
+      "occurences": 10
+    },
+    {
+      "person": "Jandel",
+      "group": "ingénieur",
+      "occurences": 10
+    },
+    {
+      "person": "Chenavard",
+      "occurences": 10
+    },
+    {
+      "person": "Boileux",
+      "group": "architecte",
+      "occurences": 10
+    },
+    {
+      "person": "Gisors",
+      "group": "inspecteur général",
+      "occurences": 10
+    },
+    {
+      "person": "Duval",
+      "group": "architecte",
+      "occurences": 10
+    },
+    {
+      "person": "Lenoir",
+      "group": "architecte",
+      "occurences": 10
+    },
+    {
+      "person": "Hospice",
+      "group": "propriétaire",
+      "occurences": 10
+    },
+    {
+      "person": "Dumanet ; Martin",
+      "group": "architecte",
+      "occurences": 10
+    },
+    {
+      "person": "Gisors neveu",
+      "group": "architecte",
+      "occurences": 10
+    },
+    {
+      "person": "Vaillant",
+      "group": "architecte",
+      "occurences": 10
+    },
+    {
+      "person": "Mariaval",
+      "group": "architecte",
+      "occurences": 10
+    },
+    {
+      "person": "Boucard",
+      "group": "architecte",
+      "occurences": 10
+    },
+    {
+      "person": "Crucy",
+      "occurences": 10
+    },
+    {
+      "person": "Charon",
+      "group": "architecte",
+      "occurences": 10
+    },
+    {
+      "person": "Petruccy",
+      "group": "ingénieur en chef",
+      "occurences": 10
+    },
+    {
+      "person": "Jouannin",
+      "group": "architecte du département",
+      "occurences": 10
+    },
+    {
+      "person": "Carrier",
+      "group": "architecte",
+      "occurences": 10
+    },
+    {
+      "person": "Anonyme",
+      "group": "ingénieur de l'arrondissement",
+      "occurences": 10
+    },
+    {
+      "person": "Paris",
+      "group": "architecte du département",
+      "occurences": 10
+    },
+    {
+      "person": "Holstein",
+      "group": "architecte",
+      "occurences": 10
+    }
+]
