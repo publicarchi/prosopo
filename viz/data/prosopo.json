@@ -1,0 +1,2303 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "chronometry": [
+        {
+          "date": "1812-11-09",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1884-08-02",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1842-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1842-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Abadie, Paul (1812-1884, fils)",
+        "id": "abadiePaulFils"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1807-09-11",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1864-03-01",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1838-04-25",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1838-12-05"
+        },
+        {
+          "start": "1838-12-05",
+          "label": "secrétaire",
+          "type": "range",
+          "end": "1839-12-22"
+        }
+      ],
+      "properties": {
+        "name": "Azémar, Adolphe (1807-1864)",
+        "id": "azemar"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1764-07-07",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1846-01-22",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "date": "1833-01-01",
+          "label": "Grand prix",
+          "type": "point"
+        },
+        {
+          "date": "1832-01-01",
+          "label": "Prix départemental",
+          "type": "point"
+        },
+        {
+          "start": "1819-07-17",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1846-01-22"
+        }
+      ],
+      "properties": {
+        "name": "Baltard, Louis-Pierre (1764-1846)",
+        "id": "baltard"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1805-06-19",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1874-01-13",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1840-02-13",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1840-02-13"
+        }
+      ],
+      "properties": {
+        "name": "Baltard, Victor (1805-1874)",
+        "id": "baltardVictor"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1817-06-08",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1885-05-22",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1845-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1845-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Ballu, Théodore (1817-1885)",
+        "id": "ballu"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1819-05-11",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1879-05-19",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1845-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1845-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Belle, Théodore Louis (1819-1879)",
+        "id": "belle"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1812-04-01",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1861-01-01",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1842-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1842-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Berthier, Édouard (1812-après 1861)",
+        "id": "berthier"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1785-05-26",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1857-04-30",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1819-05-24",
+          "label": "rapporteur",
+          "type": "range",
+          "end": "1832-07-22"
+        },
+        {
+          "start": "1832-07-22",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1857-04-30"
+        }
+      ],
+      "properties": {
+        "name": "Biet, Jean-Marie-Dieudonné (1785-1857)",
+        "id": "biet"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1813-08-30",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1869-01-01",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1845-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1845-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Blot, Jean-Joseph-Alphonse (1813-1869)",
+        "id": "blot"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1795-10-09",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1853-05-17",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "date": "1817-09-23",
+          "label": "2èmeGrand prix",
+          "type": "point"
+        },
+        {
+          "date": "1818-01-01",
+          "label": "Prix départemental",
+          "type": "point"
+        },
+        {
+          "start": "1837-12-02",
+          "label": "architecte inspecteur général des établissements pénitentiaires",
+          "type": "range",
+          "end": "1853-05-17"
+        }
+      ],
+      "properties": {
+        "name": "Blouet, Guillaume Abel (1795-1853)",
+        "id": "blouet"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1751-01-01",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1801-09-30",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "date": "1767-03-01",
+          "label": "1erGrand prix",
+          "type": "point"
+        },
+        {
+          "date": "1774-01-01",
+          "label": "2èmeGrand prix",
+          "type": "point"
+        },
+        {
+          "date": "1777-01-01",
+          "label": "Grand prix",
+          "type": "point"
+        },
+        {
+          "start": "1796-01-14",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1798-05-20"
+        },
+        {
+          "start": "1798-09-22",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1801-09-28"
+        }
+      ],
+      "properties": {
+        "name": "Bonnet de Boisguillaume, Alexis-François (1751-av. 1801)",
+        "id": "bonnet"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1816-05-28",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1796-01-14",
+          "label": "inspecteur",
+          "type": "range",
+          "end": "1797-06-03"
+        }
+      ],
+      "properties": {
+        "name": "Bourla, Jean Bruno Joseph (fl. 1792-1816)",
+        "id": "bourla"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1739-02-15",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1813-06-06",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1796-01-14",
+          "label": "membre",
+          "type": "range",
+          "end": "1797-06-03"
+        },
+        {
+          "start": "1812-10-01",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1812-10-01"
+        },
+        {
+          "start": "1812-10-01",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1813-06-06"
+        }
+      ],
+      "properties": {
+        "name": "Brongniart, Alexandre-Théodore (1739-1813)",
+        "id": "brongniart"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1810-07-01",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1857-01-01",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1842-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1842-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Bruyère, Eugène Léopard (1810-?)",
+        "id": "bruyereFils"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1783-12-06",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1862-12-05",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1827-01-27",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1862-12-05"
+        },
+        {
+          "start": "1846-04-01",
+          "label": "vice-président",
+          "type": "range",
+          "end": "1862-12-05"
+        }
+      ],
+      "properties": {
+        "name": "Caristie, Augustin-Nicolas (1781-1862)",
+        "id": "caristie"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1742-11-11",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1814-03-27",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1813-06-18",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1814-03-27"
+        }
+      ],
+      "properties": {
+        "name": "Cellerier, Jacques (1742-1814)",
+        "id": "cellerier"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1737-03-14",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1815-05-12",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1797-08-26",
+          "label": "membre",
+          "type": "range",
+          "end": "1798-05-28"
+        }
+      ],
+      "properties": {
+        "name": "Cadet Chambine, Edme Charles (1747-1815)",
+        "id": "chambine"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1739-10-20",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1811-01-20",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1796-01-14",
+          "label": "membre",
+          "type": "range",
+          "end": "1798-05-20"
+        },
+        {
+          "start": "1798-09-22",
+          "label": "membre",
+          "type": "range",
+          "end": "1811-01-20"
+        }
+      ],
+      "properties": {
+        "name": "Chalgrin, Jean-François-Thérèse (1739-1811)",
+        "id": "chalgrin"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1803-09-24",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1854-01-01",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1838-04-25",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1841-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Chargrasse, Pierre Philippe Claude (1803-1854)",
+        "id": "chargrasse"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "start": "1845-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1845-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Chatellenot",
+        "id": "chatellenot"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1781-07-31",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1857-07-13",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1819-05-24",
+          "label": "rapporteur",
+          "type": "range",
+          "end": "1820-05-01"
+        }
+      ],
+      "properties": {
+        "name": "Cheussey, François-Auguste (1781-1857)",
+        "id": "cheussey"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1808-11-30",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1877-08-30",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1842-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1844-05-05"
+        }
+      ],
+      "properties": {
+        "name": "Clerget, Jacques-Jean (1808-1877)",
+        "id": "clerget"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1801-01-05",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1871-07-29",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1838-04-25",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1841-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Constant-Dufeux, Simon Claude (1801-1871)",
+        "id": "constantDufeux"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1813-08-22",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1873-01-01",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1842-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1842-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Courtépée, Louis Edme (1813-1873)",
+        "id": "courtepeeFils"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1777-06-21",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1850-02-19",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1846-07-15",
+          "label": "membre",
+          "type": "range",
+          "end": "1849-05-01"
+        },
+        {
+          "start": "1849-05-01",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1849-05-01"
+        }
+      ],
+      "properties": {
+        "name": "Debret, François (1777-1850)",
+        "id": "debret"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1755-10-24",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1835-07-27",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "date": "1779-01-01",
+          "label": "Prix de Rome",
+          "type": "point"
+        },
+        {
+          "start": "1832-06-30",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1832-06-30"
+        }
+      ],
+      "properties": {
+        "name": "Delannoy, François-Jacques (1755-1835)",
+        "id": "delannoy"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1756-10-31",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1825-09-16",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1825-03-15",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1825-09-16"
+        }
+      ],
+      "properties": {
+        "name": "Delespine, Pierre-Jules (1756-1825)",
+        "id": "delespine"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+      ],
+      "properties": {
+        "name": "Duhameau",
+        "id": "duhameau"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1813-04-27",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1882-01-01",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1840-02-13",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1846-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Durand, Louis-Alphonse-Paul (1813-1882)",
+        "id": "durandAlphonse"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1809-02-18",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1910-01-18",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1842-01-10",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1842-01-10"
+        }
+      ],
+      "properties": {
+        "name": "Famin, Charles Victor (1809-1910, fils)",
+        "id": "faminFils"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1778-07-13",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1859-02-09",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1812-10-01",
+          "label": "secrétaire",
+          "type": "range",
+          "end": "1822-02-08"
+        },
+        {
+          "start": "1822-02-08",
+          "label": "membre",
+          "type": "range",
+          "end": "1829-10-19"
+        }
+      ],
+      "properties": {
+        "name": "Féraudy, Antoine Daniel de (1778-1859)",
+        "id": "feraudy"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1753-01-01",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1819-04-30",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1807-05-05",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1819-04-30"
+        }
+      ],
+      "properties": {
+        "name": "Garrez, Pierre (1753-1819)",
+        "id": "garrez"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1802-02-24",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1852-11-01",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1838-04-25",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1842-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Garrez, Pierre Joseph (1802-1852)",
+        "id": "garrezPierreJoseph"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1766-01-02",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1846-01-01",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "date": "1789-01-01",
+          "label": "2egrand prix",
+          "type": "point"
+        },
+        {
+          "start": "1819-05-24",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1846-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Gauché, François-Tranquille (1766-1846)",
+        "id": "gauche"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1813-02-15",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "start": "1842-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1842-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Gilly, Alfred (1813-?)",
+        "id": "gilly"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1762-09-20",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1835-05-06",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1811-05-20",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1832-06-11"
+        }
+      ],
+      "properties": {
+        "name": "Gisors, Alexandre-Jean-Baptiste-Guy de (1762-1835)",
+        "id": "gisorsGuy"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1796-09-03",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1866-08-18",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1841-01-01",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1854-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Gisors, Alphonse-Henri de (1796-1866)",
+        "id": "gisorsAlphonse"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1809-07-31",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1879-05-15",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1845-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1845-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Godebœuf, Eugène (1809-1879)",
+        "id": "godeboeuf"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1737-06-07",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1818-12-29",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1798-09-22",
+          "label": "membre",
+          "type": "range",
+          "end": "1800-09-23"
+        }
+      ],
+      "properties": {
+        "name": "Gondouin, Jacques (1737-1818)",
+        "id": "gondouin"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1786-05-15",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1857-02-17",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1819-05-24",
+          "label": "rapporteur",
+          "type": "range",
+          "end": "1838-04-15"
+        },
+        {
+          "start": "1838-04-15",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1857-02-17"
+        }
+      ],
+      "properties": {
+        "name": "Gourlier, Charles-Pierre (1786-1857)",
+        "id": "gourlier"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1807-07-25",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1888-01-04",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1842-06-04",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1842-06-04"
+        }
+      ],
+      "properties": {
+        "name": "Guénepin, Jean François (1807-1888)",
+        "id": "guenepinFils"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1730-02-01",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1807-10-07",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1796-01-14",
+          "label": "inspecteur",
+          "type": "range",
+          "end": "1800-09-23"
+        }
+      ],
+      "properties": {
+        "name": "Guillaumot, Charles-Axel (1730-1807)",
+        "id": "guillaumot"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1786-02-07",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1854-08-23",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1819-05-24",
+          "label": "rapporteur",
+          "type": "range",
+          "end": "1832-07-22"
+        },
+        {
+          "start": "1832-07-22",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1854-08-23"
+        }
+      ],
+      "properties": {
+        "name": "Grillon, Edme-Louis (1786-1854)",
+        "id": "grillon"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1813-12-26",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "start": "1845-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1845-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Hamon, Pierre (1813-?)",
+        "id": "hamon"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1812-01-11",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1887-09-26",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1842-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1842-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Hénard, Antoine Julien (1812-1887)",
+        "id": "henard"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1820-01-01",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1906-01-01",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1845-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1845-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Heiss, Mathias-Aloïjsius (1820-?, aussi Heysse)",
+        "id": "heiss"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1739-03-06",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1822-04-16",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "date": "1765-01-01",
+          "label": "Grand prix",
+          "type": "point"
+        },
+        {
+          "start": "1807-05-01",
+          "label": "membre",
+          "type": "range",
+          "end": "1812-10-01"
+        },
+        {
+          "start": "1812-10-01",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1822-02-08"
+        },
+        {
+          "start": "1815-12-22",
+          "label": "vice-président",
+          "type": "range",
+          "end": "1815-12-22"
+        },
+        {
+          "start": "1822-02-08",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1822-04-16"
+        }
+      ],
+      "properties": {
+        "name": "Heurtier, Jean-François (1739-1822)",
+        "id": "heurtier"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1765-06-08",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1824-05-02",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1819-07-17",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1822-02-08"
+        },
+        {
+          "start": "1822-02-08",
+          "label": "membre",
+          "type": "range",
+          "end": "1824-05-02"
+        }
+      ],
+      "properties": {
+        "name": "Hurtault, Maximilien Joseph (1765-1824)",
+        "id": "hurtault"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1783-04-28",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1852-11-23",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1837-01-01",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1852-11-23"
+        }
+      ],
+      "properties": {
+        "name": "Huvé, Jean Jacques Marie (1783-1852)",
+        "id": "huveJeanJacquesMarie"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1739-05-23",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1806-10-12",
+          "label": "date de décès",
+          "type": "point"
+        }
+      ],
+      "properties": {
+        "name": "Jallier de Savault, Claude-Jean-Baptiste (1738-1806)",
+        "id": "jallier"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1822-10-26",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "start": "1850-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1850-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Guillot de Juilly, Henry (1822-?)",
+        "id": "juilly"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1764-08-17",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1833-05-20",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1830-09-01",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1833-05-20"
+        }
+      ],
+      "properties": {
+        "name": "Labarre, Étienne-Éloi de (1764-1833)",
+        "id": "labarre"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1818-02-23",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1869-06-22",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1845-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1845-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Laval, Eugène Jean-Baptiste Gabriel (1818-1869)",
+        "id": "laval"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1782-03-31",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1867-06-12",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1854-01-01",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1854-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Lebas, Louis Hippolyte (1782-1867)",
+        "id": "lebas"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1785-10-29",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1853-12-23",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1833-04-04",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1837-12-14"
+        },
+        {
+          "start": "1837-12-14",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1853-12-23"
+        }
+      ],
+      "properties": {
+        "name": "Leclerc, Achille François René (1785-1853)",
+        "id": "leclerc"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1743-05-09",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1807-11-09",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1796-01-14",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1797-06-03"
+        },
+        {
+          "start": "1798-09-22",
+          "label": "membre",
+          "type": "range",
+          "end": "1800-09-23"
+        }
+      ],
+      "properties": {
+        "name": "Legrand, Jacques Guillaume (1743-1807)",
+        "id": "legrand"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1806-08-30",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1866-01-01",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1838-12-27",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1840-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Léveil, Jean Arnould (1806-1866)",
+        "id": "leveil"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "start": "1845-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1845-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Lincelle",
+        "id": "lincelle"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1818-10-11",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1877-01-01",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1845-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1845-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Martin, Michel (1818-1877)",
+        "id": "martinMichel"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1783-10-12",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1826-12-31",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1819-04-05",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1826-12-31"
+        }
+      ],
+      "properties": {
+        "name": "Mazois, François (1783-1826)",
+        "id": "mazois"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1803-09-28",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1870-09-23",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1836-11-04",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1838-04-15"
+        },
+        {
+          "start": "1838-04-15",
+          "label": "inspecteur général des Monuments historiques",
+          "type": "range",
+          "end": "1854-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Mérimée, Prosper (1803-1870)",
+        "id": "merimee"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1772-01-01",
+          "label": "Grand prix",
+          "type": "point"
+        },
+        {
+          "start": "1796-01-14",
+          "label": "secrétaire",
+          "type": "range",
+          "end": "1812-09-01"
+        }
+      ],
+      "properties": {
+        "name": "Mermet, Claude-André",
+        "id": "mermet"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1815-03-20",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "start": "1845-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1845-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Messager, Edme (1815-?)",
+        "id": "messager"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1805-12-28",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1886-07-05",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1838-04-25",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1841-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Morey, Mathieu Prosper (1805-1886)",
+        "id": "morey"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1763-01-01",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1807-04-02",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1796-01-14",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1798-05-20"
+        },
+        {
+          "start": "1798-09-22",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1807-04-02"
+        }
+      ],
+      "properties": {
+        "name": "Mouchelet, Georges-Louis (1763?-1807)",
+        "id": "mouchelet"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1804-10-01",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1883-07-07",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1838-04-25",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1840-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Nolau, François Joseph (1804-1883)",
+        "id": "nolau"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1756-09-30",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1832-11-16",
+          "label": "date de décès",
+          "type": "point"
+        }
+      ],
+      "properties": {
+        "name": "Norry, Charles (1765-183)",
+        "id": "norry"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1789-11-26",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1871-06-08",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1854-01-01",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1854-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Pellechet, Auguste Joseph (1789-1871)",
+        "id": "pellechet"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1764-08-22",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1838-09-05",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1818-08-28",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1838-09-05"
+        },
+        {
+          "start": "1834-01-10",
+          "label": "président honoraire",
+          "type": "range",
+          "end": "1838-09-05"
+        }
+      ],
+      "properties": {
+        "name": "Percier, Charles (1764-1838)",
+        "id": "percier"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1839-07-22",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1818-11-07",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1798-09-22",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1812-10-01"
+        }
+      ],
+      "properties": {
+        "name": "Petit-Radel, Louis Charles François (1739-1818)",
+        "id": "petitRadel"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1739-04-05",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1823-03-07",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1796-01-14",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1797-06-03"
+        },
+        {
+          "start": "1798-09-22",
+          "label": "membre",
+          "type": "range",
+          "end": "1812-10-01"
+        },
+        {
+          "start": "1812-10-01",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1815-12-27"
+        },
+        {
+          "start": "1815-12-27",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1823-03-07"
+        }
+      ],
+      "properties": {
+        "name": "Peyre, Antoine-François (1739-1823, le Jeune)",
+        "id": "peyreAntoineFrancois"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1770-02-24",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1843-05-24",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1832-07-31",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1843-05-24"
+        }
+      ],
+      "properties": {
+        "name": "Peyre, Antoine-Marie (1770-1843, neveu)",
+        "id": "peyreAntoineMarie"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1742-05-03",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1824-12-06",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1798-09-22",
+          "label": "membre",
+          "type": "range",
+          "end": "1800-09-23"
+        },
+        {
+          "start": "1809-08-29",
+          "label": "membre",
+          "type": "range",
+          "end": "1812-10-01"
+        }
+      ],
+      "properties": {
+        "name": "Poyet, Bernard (1742-1824)",
+        "id": "poyet"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1781-10-27",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1850-01-01",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1824-07-29",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1824-07-29"
+        }
+      ],
+      "properties": {
+        "name": "Provost, Jean-Louis (1781-1850)",
+        "id": "provost"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1742-04-09",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1811-01-18",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1798-09-22",
+          "label": "membre",
+          "type": "range",
+          "end": "1800-09-23"
+        },
+        {
+          "start": "1811-01-18",
+          "label": "membre",
+          "type": "range",
+          "end": "1811-01-18"
+        }
+      ],
+      "properties": {
+        "name": "Raymond, Jean-Arnaud (1742-1811)",
+        "id": "raymond"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1777-07-02",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1846-08-01",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1819-07-17",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1824-08-17"
+        },
+        {
+          "start": "1824-09-04",
+          "label": "membre",
+          "type": "range",
+          "end": "1846-08-01"
+        }
+      ],
+      "properties": {
+        "name": "Rohault de Fleury, Hubert (1777-1846)",
+        "id": "rohault"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1743-06-04",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1829-09-26",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1795-11-22",
+          "label": "membre",
+          "type": "range",
+          "end": "1798-05-20"
+        },
+        {
+          "start": "1798-09-22",
+          "label": "membre",
+          "type": "range",
+          "end": "1812-10-01"
+        },
+        {
+          "start": "1812-10-01",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1822-02-08"
+        },
+        {
+          "start": "1822-02-08",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1829-09-26"
+        }
+      ],
+      "properties": {
+        "name": "Rondelet, Jean (1743-1829)",
+        "id": "rondelet"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1805-12-21",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1906-01-01",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1840-02-13",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1840-02-13"
+        }
+      ],
+      "properties": {
+        "name": "Senez, Auguste (1805-avant 1906)",
+        "id": "senez"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1762-06-16",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1833-01-22",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1820-05-01",
+          "label": "rapporteur",
+          "type": "range",
+          "end": "1829-09-14"
+        }
+      ],
+      "properties": {
+        "name": "Tardieu, Jean-Jacques (1762-1833)",
+        "id": "tardieu"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1789-08-05",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1879-09-06",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1840-11-05",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1848-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Taylor, Isidore Justin Séverin (1789-1879, dit le Baron Taylor)",
+        "id": "taylor"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1757-11-20",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1826-06-27",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1819-07-17",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1826-06-27"
+        }
+      ],
+      "properties": {
+        "name": "Thibault, Jean-Thomas (1757-1826)",
+        "id": "thibault"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "start": "1845-01-01",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1845-01-01"
+        }
+      ],
+      "properties": {
+        "name": "Uchard",
+        "id": "uchard"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1756-12-21",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1846-05-27",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1796-01-14",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1798-05-20"
+        },
+        {
+          "start": "1798-09-22",
+          "label": "inspecteur général",
+          "type": "range",
+          "end": "1800-09-23"
+        },
+        {
+          "start": "1825-03-15",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1825-03-15"
+        }
+      ],
+      "properties": {
+        "name": "Vaudoyer, Antoine-Laurent-Thomas (1756-1846)",
+        "id": "vaudoyer"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1814-01-27",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1879-09-27",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1839-08-08",
+          "label": "auditeur",
+          "type": "range",
+          "end": "1839-08-08"
+        }
+      ],
+      "properties": {
+        "name": "Viollet-le-Duc, Eugène Emmanuel (1814-1879)",
+        "id": "violletLeDuc"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1791-02-11",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1853-12-19",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1853-12-19",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1853-12-19"
+        }
+      ],
+      "properties": {
+        "name": "Visconti, Louis Tullius Joachim (1791-1853)",
+        "id": "visconti"
+      },
+      "type": "Feature"
+    },
+    {
+      "chronometry": [
+        {
+          "date": "1802-10-18",
+          "label": "date de naissance",
+          "type": "point"
+        },
+        {
+          "date": "1873-06-05",
+          "label": "date de décès",
+          "type": "point"
+        },
+        {
+          "start": "1834-01-10",
+          "label": "membre honoraire",
+          "type": "range",
+          "end": "1834-01-10"
+        }
+      ],
+      "properties": {
+        "name": "Vitet, Ludovic (1802-1873)",
+        "id": "vitet"
+      },
+      "type": "Feature"
+    }
+  ]
+}
