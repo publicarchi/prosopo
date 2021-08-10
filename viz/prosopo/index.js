@@ -72,8 +72,9 @@ function timeline(time, dataset){
   var yAxis = (g, y) => g
     .attr("transform", `translate(${margin.left},0)`)
     .call(d3.axisLeft(y).ticks(null, "s").tickSize(-(width-margin.left-margin.right)))
-    .call(g => g.selectAll(".tick line").attr("stroke", (d, i) => i ? "#ccc" : null)) //test crééer une ligne pour chaque y
     .call(g => g.select(".domain").remove()) //enlève la ligne verticale
+    .call(g => g.selectAll(".tick line").attr("stroke", (d, i) => i ? "#bbb" : null)) 
+    //crée une ligne pour chaque y
 
 
   
@@ -151,7 +152,6 @@ function addPerson(d){
     .attr("height", "1px")
     .attr("width", widthLife)
     .attr("fill", "black")
-    .on("mouseover", d => console.log(d.properties.id))
 
   //faire un point pour chaque point
   const dots = el
@@ -163,8 +163,23 @@ function addPerson(d){
   .attr("class", "dot")
   .attr("r", 3) //rayon des points
   .attr("cx", p => x(parseDate(p.date)))
-  .attr("cy", person);
+  .attr("cy", person)
+  .on("mouseover", function (d){
+    d => console.log(d.properties.id));
   //TODO: ajouter interactivité: date on hover
+
+  el
+    .append("text")
+    .text(d.properties.name)
+    .attr("x", startLife + 3)
+    .attr("y", person - 15)
+    .attr("fill", "black")
+    .style("font-size", "10px")
+    .style("text-anchor", "start")
+    .style("dominant-baseline", "hanging");
+
+
+
 }
 
 Promise.all([
