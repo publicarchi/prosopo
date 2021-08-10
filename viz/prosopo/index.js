@@ -1,8 +1,8 @@
 const svg = d3.select("#timeline")
 const margin = {top: 40, right: 40, bottom: 40, left: 60};
 const padding = 0;
-const width = +svg.attr("width") - margin.left - margin.right;
-const height = +svg.attr("height") - margin.top - margin.bottom;
+const width = +svg.attr("width");
+const height = +svg.attr("height");
 
 const fontFamily = "sans-serif";
 const fontScale = 15;
@@ -22,7 +22,7 @@ function formatDate(date) {
 
 //Create axes
 const x = d3.scaleUtc()
-const y = d3.scaleBand()
+const y = d3.scaleBand() //doc: https://observablehq.com/@d3/d3-scaleband
 
 const color = d3.scaleOrdinal(d3.schemeCategory10) //10catégories!
 //
@@ -42,6 +42,9 @@ function createColorScale(values){
 // - https://observablehq.com/@tezzutezzu/world-history-timeline
 // - https://observablehq.com/@d3/stacked-horizontal-bar-chart
 function timeline(time, dataset){
+  console.log("let's create a timeline for: ")
+  console.log(dataset)
+
 
   //create svg space for the timline
     svg
@@ -49,18 +52,17 @@ function timeline(time, dataset){
       .attr("font-family", fontFamily)
       .attr("text-anchor", "middle");
   
-  const g = svg.append("g").attr("transform", (d,i)=>`translate(${margin.left} ${margin.top})`);
+  const g = svg.append("g").attr("transform", (d,i)=>`translate(0, ${margin.top})`);
 
   //Add axes domain and range
   x
     .domain([parseDate(time[0]), parseDate(time[1])])
-    .range([margin.left, width - margin.right])
+    .range([margin.left, width-margin.right])
 
   y
+    .range([margin.top, height-margin.bottom])
     .domain(dataset.map(d => d.properties.id))
-    .range([0,height - margin.bottom - margin.top])
     .padding(0.2)
-
 
   //Build axes
   var xAxis = (g, x) => g
@@ -69,14 +71,12 @@ function timeline(time, dataset){
 
   var yAxis = (g, y) => g
     .attr("transform", `translate(${margin.left},0)`)
-    .call(d3.axisLeft(y).ticks(null, "s"))
-    .call(g => g.select(".domain").remove())
-    .call(g => g.select(".tick:last-of-type text").clone()
-        .attr("x", -margin.left)
-        .attr("y", -margin.top)
-        .attr("text-anchor", "start")
-        .attr("font-weight", "bold")
-        .text("Personnes"))  
+    .call(d3.axisLeft(y).ticks(null, "s").tickSize(-(width-margin.left-margin.right)))
+    .call(g => g.selectAll(".tick line").attr("stroke", (d, i) => i ? "#ccc" : null)) //test crééer une ligne pour chaque y
+    .call(g => g.select(".domain").remove()) //enlève la ligne verticale
+
+
+  
 
   //bind data and add class "person"
   const people = g
@@ -86,7 +86,7 @@ function timeline(time, dataset){
     .append("g")
     .attr("class", "person")
 
-  people.attr("transform", (d,i)=>`translate(0 ${y(d.properties.id)})`)
+  //people.attr("transform", (d,i)=>`translate(0,${y(d.properties.id)})`)
 
 
   //for each person, addPerson to the timeline
@@ -124,7 +124,7 @@ function addPerson(d){
   const startLife = x(parseDate(birth.date));
   const endLife = x(parseDate(death.date));
   const widthLife = endLife - startLife;
-
+  const person = y(d.properties.id)-(y.bandwidth()/2);
 
 
   //faire un rectangle pour chaque range
@@ -134,8 +134,8 @@ function addPerson(d){
   .enter()
   .append("rect")
   .attr("x", r => x(parseDate(r.start)))
-  .attr("y", y(d.properties.id)-10)
-  .attr("height", "20px") //Quand plusieurs, utiliser: y.bandwith()
+  .attr("y", person-(y.bandwidth()/2)) //pour centrer le rectangle sur la ligne (et non qu'il soit en dessous)
+  .attr("height", y.bandwidth())
   .attr("width", r => (x(parseDate(r.end)) - x(parseDate(r.start))))
   .attr("fill", r => color(r.label))//TODO : make a color range
   .attr("fill-opacity","0.5")
@@ -147,10 +147,11 @@ function addPerson(d){
     .append("rect")
     .attr("class", "lifeline")
     .attr("x", startLife)
-    .attr("y", y(d.properties.id))
+    .attr("y", person)
     .attr("height", "1px")
     .attr("width", widthLife)
     .attr("fill", "black")
+    .on("mouseover", d => console.log(d.properties.id))
 
   //faire un point pour chaque point
   const dots = el
@@ -162,7 +163,7 @@ function addPerson(d){
   .attr("class", "dot")
   .attr("r", 3) //rayon des points
   .attr("cx", p => x(parseDate(p.date)))
-  .attr("cy", y(d.properties.id));
+  .attr("cy", person);
   //TODO: ajouter interactivité: date on hover
 }
 
@@ -182,10 +183,12 @@ Promise.all([
   })
   createColorScale(indexRoles);
 
+  var vip = new Set (["gourlier", "rohault", "hurtault", "heurtier", "blouet", "caristie"])
+  console.log(vip)
 
-  dataset = data.features.filter(d => d.properties.id == "gourlier")
-  
-  var intervalle = ["1750-01-01", "1895-12-31"]
+  dataset = data.features.filter(d => vip.has(d.properties.id))
+  console.log(dataset)
+  var intervalle = ["1733-01-01", "1895-12-31"]
   timeline(intervalle, dataset);
 
 
