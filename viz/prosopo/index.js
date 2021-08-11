@@ -6,6 +6,7 @@ const height = +svg.attr("height");
 
 const fontFamily = "sans-serif";
 const fontScale = 15;
+const radius = 3;  //rayon des points
 
 //parse le format "xxxx-xx-xx" en date
 const parseDate = d3.timeParse("%Y-%m-%d");
@@ -87,9 +88,6 @@ function timeline(time, dataset){
     .append("g")
     .attr("class", "person")
 
-  //people.attr("transform", (d,i)=>`translate(0,${y(d.properties.id)})`)
-
-
   //for each person, addPerson to the timeline
   people.each(addPerson)
 
@@ -106,15 +104,43 @@ function timeline(time, dataset){
 
 }
 
+//interactivité cercles
+//d continent les données, c-a-d la chronométrie du point en question
+//this = element svg (cercle) en question
+function handleMouseOverCircle(d) { 
+  console.log(d)
+  console.log(this)
+  var localheight =  d3.select(this). attr("cy");
 
+  // Use D3 to select element, change color and size
+  d3.select(this)
+   .attr("r", radius * 2);
+
+  // Specify where to put label of text
+  svg.append("text")
+    .attr("id", "t" + d.date)
+    .attr("x", x(parseDate(d.date)) + 20)
+    .attr("y", localheight)
+    .style("font-size", "11px")
+    .text(d.label + ": " + d.date);
+}
+
+function handleMouseOutCircle(d) {
+  // Use D3 to select element, change color back to normal
+  d3.select(this)
+    .attr("r", radius);
+
+  // Select text by id and then remove
+  d3.select("#t" + d.date ).remove();  // Remove text location
+}
 
 //Ajoute l'information sur une personne dans la chronologie
 function addPerson(d){
   const el = d3.select(this);
 
   //d est la personne pour laquelle on ajoute des informations
-  console.log("let's add "+d.properties.name)
-  console.log(d)
+  //console.log("let's add "+d.properties.name)
+  //console.log(d)
 
   //À propos de la personne
   //Attention à gérer si ce n'est pas renseigné
@@ -130,7 +156,7 @@ function addPerson(d){
 
   //faire un rectangle pour chaque range
   const rects = el
-  .selectAll("rect") //Attention quand on a plusieurs personnes ça risque de planter ça
+  .selectAll("rect") //Attention quand on a plusieurs personnes ça risque de planter ça --> ne plante pas parce qu'on est dans "person" donc pas de confusion
   .data(ranges)
   .enter()
   .append("rect")
@@ -161,11 +187,11 @@ function addPerson(d){
   .append("circle")
   .style("fill", "black")
   .attr("class", "dot")
-  .attr("r", 3) //rayon des points
+  .attr("r", radius)
   .attr("cx", p => x(parseDate(p.date)))
   .attr("cy", person)
-  .on("mouseover", function (d){
-    d => console.log(d.properties.id));
+  .on("mouseover", handleMouseOverCircle)
+  .on("mouseout", handleMouseOutCircle);
   //TODO: ajouter interactivité: date on hover
 
   el
