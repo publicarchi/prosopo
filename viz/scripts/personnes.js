@@ -2,7 +2,7 @@
 const fs = require('fs-extra');
 
 const conbavil = JSON.parse(fs.readFileSync('/Users/lena/Documents/atlasNumerique/data/conbavil.json', {encoding: 'utf8'}));
-var france = JSON.parse(fs.readFileSync('./data/departements-version-simplifiee.geojson', {encoding: 'utf8'}))
+//var france = JSON.parse(fs.readFileSync('./data/departements-version-simplifiee.geojson', {encoding: 'utf8'}))
 
 var indexDpt = {};
 
@@ -75,9 +75,7 @@ for (i in indexDpt){
     
 }
 
-//var sorted = arrayData.sort(function(a, b){return b.occurences - a.occurences})
-
-fs.writeJSONSync('./data/DptPersonnes.json', arrayData, {spaces: 2, encoding: 'utf8'});
+fs.writeJSONSync('./data/dptPersonnes.json', arrayData, {spaces: 2, encoding: 'utf8'});
 
 
 
