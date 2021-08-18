@@ -171,8 +171,6 @@ function timeline(time, dataset){
 //d continent les données, c-a-d la chronométrie du point en question
 //this = element svg (cercle) en question
 function handleMouseOverCircle(d) { 
-  console.log(d)
-  console.log(this)
   var localheight =  d3.select(this). attr("cy");
 
   // Use D3 to select element, change color and size
@@ -195,6 +193,41 @@ function handleMouseOutCircle(d) {
 
   // Select text by id and then remove
   d3.select("#t" + d.date ).remove();  // Remove text location
+}
+
+//interactivité rectangles
+//d continent les données, c-a-d la chronométrie du range en question
+//this = element svg (rectangle) en question
+function handleMouseOverRect(d) { 
+  console.log(this)
+  var height = d3.select(this).attr("y")
+  var localheight =  Number(height) - 100
+
+  var localx = d3.select(this).attr("x");
+
+
+  // Use D3 to select element, change color and size
+  d3.select(this)
+   .attr("style", "outline: thin solid black");
+
+  // Specify where to put label of text
+  svg.append("text")
+    .attr("id", "t" + d.start)
+    .attr("x", localx)
+    .attr("y", localheight + 150)
+    .style("font-size", "11px")
+    .style("fill", "#800000")
+    .attr("text-anchor", "start")
+    .text(d.label + " de " + d.start + " à " + d.end);
+}
+
+function handleMouseOutRect(d) {
+  // Use D3 to select element, change color back to normal
+  d3.select(this)
+  .attr("style", "outline: none");
+
+  // Select text by id and then remove
+  d3.select("#t" + d.start ).remove();  // Remove text location
 }
 
 //Ajoute l'information sur une personne dans la chronologie
@@ -269,6 +302,8 @@ function addPerson(d){
   .attr("width", r => (x(parseDate(r.end)) - x(parseDate(r.start))))
   .attr("fill", r => color(r.label))//TODO : make a color range
   .attr("fill-opacity","0.5")
+  .on("mouseover", handleMouseOverRect)
+  .on("mouseout", handleMouseOutRect);
 
 
 
@@ -295,7 +330,6 @@ function addPerson(d){
   .attr("cy", person)
   .on("mouseover", handleMouseOverCircle)
   .on("mouseout", handleMouseOutCircle);
-  //TODO: ajouter interactivité: date on hover
 
   el
     .append("text")
