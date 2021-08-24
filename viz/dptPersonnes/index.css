@@ -1,2 +1,17 @@
 
 
+* {
+    box-sizing: border-box;
+  }
+  
+
+  
+  #map {
+    width: 70%;
+    float: left;
+    padding: 15px;
+  }
+  
+p {
+    font-size: 10pt;
+}
