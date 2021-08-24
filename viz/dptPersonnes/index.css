@@ -3,14 +3,20 @@
 * {
     box-sizing: border-box;
   }
-  
 
-  
-  #map {
-    width: 70%;
+
+
+#map {
+    width: 60%;
     float: left;
     padding: 15px;
-  }
+}
+
+#extraMap {
+    width: 15%;
+    float: left;
+    padding: 15px;
+}
   
 p {
     font-size: 10pt;

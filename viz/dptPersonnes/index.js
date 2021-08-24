@@ -6,17 +6,26 @@ const svgMap = d3.select("#map")
   .attr("font-family", "sans-serif")
   .attr("font-size", 10)
 
+  const svgExtraMap = d3.select("#extraMap")
+  .attr("font-family", "sans-serif")
+  .attr("font-size", 10)
+
 const svgVIP = d3.select("#VIP")
 .attr("font-family", "sans-serif")
 .attr("font-size", 10)
  
-const marginPeople = {top: 40, right: 40, bottom: 40, left: 60};
-const marginMap = {top: 40, right: 40, bottom: 40, left: 60};
+const marginPeople = {top: 10, right: 10, bottom: 10, left: 10};
+const marginMap = {top: 10, right: 10, bottom: 10, left: 10};
+const marginExtraMap = {top: 40, right: 10, bottom: 40, left: 10};
 
 const widthP = svgPeople.attr("width") - marginPeople.left - marginPeople.right;
 
 const widthM = svgMap.node().getBoundingClientRect().width - marginMap.left - marginMap.right;
-const heightM =  svgMap.attr("height") //Fait un carré (même hauteur que largeur)
+const heightM =  svgMap.attr("height") - marginMap.top - marginMap.bottom;
+
+
+const widthEM = svgExtraMap.node().getBoundingClientRect().width - marginExtraMap.left - marginExtraMap.right;
+const heightEM =  svgExtraMap.attr("height") - marginExtraMap.top - marginExtraMap.bottom;
 
 const y = d3.scaleBand() 
 var yAxis = (g, y) => g
@@ -37,47 +46,57 @@ function projection(data){
 }
 
 function handleMouseOver(d, i){
+
+  var label = d.properties ? d.properties.code : d;
+  var name = d.properties ? d.properties.nom : d;
+
   //changes color on mouseOver
   d3.select(this)
     .style('fill', 'CornflowerBlue');
 
-  d3.select('#dpt'+d.properties.code)
+  d3.select('#dpt'+label)
     .style('font-weight', 'bold')
-    .text(d => d.properties.code);
 
+  var labelLocation =  widthM / 3 * 2;
   svgMap.append("text")
-    .attr("id", "dpt" + d.properties.code + i)
-    .attr("x", widthM - 250)
-    .attr("y", 80)
-    .text("Departement: " + d.properties.nom)
+    .attr("id", "dpt" + label + i)
+    .attr("x", labelLocation)
+    .attr("y", marginMap.top)
+    .text("Departement: " + name)
     .style("font-weight", "bold")
 
 }
 
 function handleMouseOut(d,i){
+
+  var label = d.properties ? d.properties.code : d;
   //changes color back 
   d3.select(this)
     .style('fill', 'AntiqueWhite');
 
-  d3.select('#dpt'+d.properties.code)
+  d3.select('#dpt'+label)
     .style('font-weight', 'normal')
-    .text(d => d.properties.nom);
 
-  d3.select("#dpt" + d.properties.code + i).remove();
-  d3.select("#nb" + d.properties.code + i).remove();
+  d3.select("#dpt" + label + i).remove();
+  d3.select("#nb" + label + i).remove();
 } 
 
 function handleClick(d,i){
-  d3.select("#dptVIP").text(d.properties.nom)
+
+
+  var label = d.properties ? d.properties.code : d;
+  var name = d.properties ? d.properties.nom : d;
+
+  d3.select("#dptVIP").text(name)
   var html = "";
-  var info = allData.filter(f => f.dpt == d.properties.code)
+  var info = allData.filter(f => f.dpt == label)
 
   //console.log(Array.from(info[0].roles))
   d3.entries(info[0].roles).forEach(d => {
     var pers = d3.entries(d.value.personnes)
     var noms = "";
     pers.forEach(p => {
-      noms = noms + p.value.nom + "(" + p.value.value + ") "
+      noms = noms + p.value.nom + " (" + p.value.value + ") "
     })
 
 
@@ -95,7 +114,7 @@ function handleClick(d,i){
 function mapFrance(data){
   
   var mapView = svgMap.append("g")
-    .attr("viewBox", [0, 0, widthM, heightM])
+    .attr("viewBox", [marginMap.left, marginMap.top, widthM, heightM])
     .attr("class", "map")
 
   projection(data);
@@ -145,25 +164,68 @@ function mapFrance(data){
 }
 
 
+function mapOtherLocations(data){
+
+  var scale = heightEM / data.length;
+
+  function getEMheight(d){
+    var h = data.indexOf(d) * scale + marginExtraMap.top
+    return h
+  }
+
+
+  var mapExtra = svgExtraMap.append("g")
+    .attr("viewBox", [0, 0, widthEM, heightEM])
+    .attr("class", "map")
+
+ 
+
+  var places = mapExtra
+    .selectAll("circle")
+    .data(data)
+    .enter()
+    .append("circle")
+    .style("fill", "AntiqueWhite")
+    .attr("class", "dot")
+    .attr("r", 10)
+    .attr("cx", marginExtraMap.left)
+    .attr("cy", d => getEMheight(d) - 4)
+    .on("mouseover", handleMouseOver)
+    .on("mouseout", handleMouseOut)
+    .on("click", handleClick);
+
+  var labels = mapExtra.append('g').attr('class', 'labels');
+  var lx = marginExtraMap.left + 15;
+
+
+  labels.selectAll('.label')
+  .data(data)
+  .enter()
+  .append('text')
+    .attr("class", "label")
+    .attr('transform', (d => "translate(" + lx + ","+ getEMheight(d) + ")"))
+    .attr("id", (d => "dpt"+d))
+    .style('text-anchor', 'start')
+    .style('font-family', 'sans-serif')
+    .text(d => d);
+
+  
+
+  return svgExtraMap.node();
+
+}
+/*
 function addDpt(d){
 
   var heightP =  d.roles.size * 50; //pour chaque entrée de data, 50px
   const el = d3.select(this);
 
-  var dptView = el.append("g")
-  .attr("viewBox", [0, y(d.dpt), widthP, heightP])
-  .attr("class", "dpt")
-
-dptView 
-  .append("text")
-    .attr("y", 0)
-    .attr("x", marginPeople.left)
-    .text(d.dpt);
 
 }
+*/
 
-function showDptPeople(data){
-  
+function dptSelector(data){
+  /*
   var height =  data.length * 50; //pour chaque entrée de data, 50px
   y.range([marginPeople.top, height-marginPeople.bottom])
     .domain(data.map(d => d.dpt))
@@ -180,25 +242,42 @@ function showDptPeople(data){
   dpt.each(addDpt)
   
   return svgPeople.node();
-
+*/
 }
 
 Promise.all([
   d3.json('../data/dptPersonnes.json'),
   d3.json('../data/departements-version-simplifiee.geojson')
 ]).then(([data, mapdata]) => {
-  console.log(data)
-  console.log(mapdata)
-  //make a small map as selector
-
+  //Attribute data to global var allData
   allData = data;
-  //for each dpt
-  /*
-  var num = 0;
-  data.forEach(d => {
-    showDptPeople(d, num)
-    num += height;
-  }*/
+
+  //make a map 
   mapFrance(mapdata);
-  showDptPeople(data);
+
+  
+  //identify locations that are not in the map of France
+  //  all locations in data
+  var location = [];
+  allData.forEach(d => location.push(d.dpt))
+
+
+  //all other locations in map
+  var mapLocations = new Set ();
+  mapdata.features.forEach(f => mapLocations.add(f.properties.code))
+
+  var otherLocations = [];
+  location.forEach(l => {
+    if (!mapLocations.has(l)){
+      otherLocations.push(l)
+    }
+  })
+  /* Erreurs dans données: 
+  - Meuse: Gigault d'Olincourt, va dans  55 
+  - 00? à vérifier dans les données */
+  
+  //add locations that are not in the map of France
+  mapOtherLocations(otherLocations);
+
+  dptSelector(data);
 });
