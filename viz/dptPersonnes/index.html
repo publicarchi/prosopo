@@ -7,17 +7,20 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <h1>Liste des personnes identifiées dans CONBAVIL</h1>
   <div class="grid-container">
+    <span id="VIP">
+      <h1>Liste des personnes identifiées dans CONBAVIL</h1>
+      <h3 id="dptVIP"></h3>
+      <div id="dptInfo"></div>
+    </span>
     <div>
       <svg height="450" id="map"></svg>
-      <svg height="450" id="extraMap"></svg>
-      <span id="VIP">
-        <h3 id="dptVIP"></h3>
-        <div id="dptInfo"></div>
-      </span>
+      <svg height="450" id="extraMap"></svg> 
     </div>
-    <div id="people"></div>
+    <div id="list">
+      <input type="text" id="myInput" onkeyup="myListFilter()" placeholder="Recherche dans la liste des lieux.." title="Type in a name">
+      <ul id="myUL"></ul>
+    </div>
   </div>
   
   <script src="https://d3js.org/d3.v5.min.js"></script>

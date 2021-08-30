@@ -1,4 +1,5 @@
 const svg = d3.select("#timeline")
+const svgLegend = d3.select("#legend")
 const margin = {top: 40, right: 40, bottom: 40, left: 60};
 const padding = 0;
 const width = +svg.attr("width");
@@ -27,36 +28,98 @@ function formatDate(date) {
 const x = d3.scaleUtc()
 const y = d3.scaleBand() //doc: https://observablehq.com/@d3/d3-scaleband
 
-const color = d3.scaleOrdinal(d3.schemeCategory10) //10catégories!
-//
-function createColorScale(values){
-  color.domain(Array.from(values));
-  console.log(color.domain())
-};
-/*
-function createTooltip(el) {
-  el
-    .style("position", "absolute")
-    .style("pointer-events", "none")
-    .style("top", 0)
-    .style("opacity", 0)
-    .style("background", "white")
-    .style("border-radius", "5px")
-    .style("box-shadow", "0 0 10px rgba(0,0,0,.25)")
-    .style("padding", "10px")
-    .style("line-height", "1.3")
-    .style("font", "11px sans-serif")
+const color = d3.scaleOrdinal(d3.schemeSet3) //12catégories!
+
+//wrap text in legend
+//https://observablehq.com/@dagonar/text-wrap-axis
+function wrap(text, wrapWidth, yAxisAdjustment = 0) {
+  text.each(function() {
+    var text = d3.select(this),
+        words = text.text().split(/\s+/).reverse(),
+        word,
+        line = [],
+        lineNumber = 0,
+        lineHeight = 1.1, // ems
+        y = 5,
+        dy = parseFloat(2) - yAxisAdjustment,
+        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", `${dy}em`);
+    while (word = words.pop()) {
+      line.push(word);
+      tspan.text(line.join(" "));
+      if (tspan.node().getComputedTextLength() > wrapWidth) {
+        line.pop();
+        tspan.text(line.join(" "));
+        line = [word];
+        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+      }
+    }
+  });
+  return 0;
 }
 
-function getTooltipContent(d) {
-  return `<b>${d.civilization}</b>
-  <br/>
-  <b style="color:${d.color.darker()}">${d.region}</b>
-  <br/>
-  ${d.name}
-  `
-}
-*/
+
+//
+function createColorScale(values){
+  var w = svgLegend.node().getBoundingClientRect().width
+  console.log(w)
+  var colors = Array.from(values)
+  color.domain(colors);
+
+  var scale = w / colors.length;
+  
+  function getPosition(d){
+    var h = colors.indexOf(d) * scale + 20
+    return h
+  }
+  
+  
+  //make legend
+  var legend = svgLegend.append("g")
+      .attr("transform", `translate(0,20)`)
+  
+
+  var circles = legend
+    .selectAll("circle")
+    .data(colors)
+    .enter()
+    .append("circle")
+    .style("fill", c => color(c))
+    .attr("class", "dot")
+    .attr("r", 10)
+    .attr("cx", c => getPosition(c))
+    .attr("cy", 15)
+  var labels = legend.append('g').attr('class', 'labels');
+
+  labels.selectAll('.label')
+  .data(colors)
+  .enter()
+  .append('text')
+    .attr("class", "label")
+    .attr('transform', (d => "translate(" + getPosition(d) + ","+ 15 + ")"))
+    .attr("id", (d => "color"+d))
+    .style('text-anchor', 'middle')
+    .style('font-family', 'sans-serif')
+    .attr('font-size', '10px')
+    .text(d => d);
+
+  labels.selectAll(".label")
+    .call(wrap, scale, 0)
+
+  legend.append("text")
+      .attr("class", "caption")
+      .attr("y", -10)
+      .attr("fill", "#000")
+      .attr("text-anchor", "start")
+      .attr("font-weight", "bold")
+      .style('font-family', 'sans-serif')
+      .attr("font-size", "14px")
+      .text("Légende des couleurs");
+
+
+  return svgLegend.node()
+
+};
+
 
 //crée la base pour la chronologie
 
