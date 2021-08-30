@@ -134,7 +134,10 @@ function topAxis(x){
   xAxis  
     .attr("transform", `translate(0,10)`)
     .call(d3.axisBottom(x).ticks(width / 80).tickSizeOuter(0))    
-    
+  
+  //next: on mousemouver, calculate x and show it on the topAxis
+
+
   return svgTopAxis.node()
 }
 
