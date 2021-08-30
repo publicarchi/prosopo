@@ -1,6 +1,8 @@
 const svg = d3.select("#timeline")
 const svgLegend = d3.select("#legend")
-const margin = {top: 40, right: 40, bottom: 40, left: 60};
+
+const svgTopAxis = d3.select("#axisTop")
+const margin = {top: 5, right: 40, bottom: 40, left: 60};
 const padding = 0;
 const width = +svg.attr("width");
 const height = +svg.attr("height");
@@ -120,6 +122,21 @@ function createColorScale(values){
 
 };
 
+function topAxis(x){
+  svgTopAxis
+      .attr("viewBox", [0, 0, width, 20])
+      .attr("font-family", fontFamily)
+      .attr("text-anchor", "middle");
+
+  var xAxis = svgTopAxis
+    .append("g")
+
+  xAxis  
+    .attr("transform", `translate(0,10)`)
+    .call(d3.axisBottom(x).ticks(width / 80).tickSizeOuter(0))    
+    
+  return svgTopAxis.node()
+}
 
 //crée la base pour la chronologie
 
@@ -158,16 +175,16 @@ function timeline(time, dataset, reorg){
     .attr("transform", `translate(0,${height - margin.bottom})`)
     .call(d3.axisBottom(x).ticks(width / 80).tickSizeOuter(0))
 
-  //var x2Axis = (g, x) => g
-  //  .attr("transform", `translate(0,${height - margin.bottom})`)
-  //  .call(d3.axisBottom(x).ticks(width / 80).tickSizeOuter(0))
-
+  
   var yAxis = (g, y) => g
     .attr("transform", `translate(${margin.left},0)`)
     .call(d3.axisLeft(y).ticks(null, "s").tickSize(-(width-margin.left-margin.right)))
     .call(g => g.select(".domain").remove()) //enlève la ligne verticale
     .call(g => g.selectAll(".tick line").attr("stroke", (d, i) => i ? "#bbb" : null)) 
     //crée une ligne pour chaque y
+
+  topAxis(x)
+
 
   //Append réorganisations
   const conseil = svg.append("g")
