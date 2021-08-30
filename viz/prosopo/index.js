@@ -130,7 +130,7 @@ function createColorScale(values){
 // - https://observablehq.com/@lenamk/testing-time-scales
 // - https://observablehq.com/@tezzutezzu/world-history-timeline
 // - https://observablehq.com/@d3/stacked-horizontal-bar-chart
-function timeline(time, dataset){
+function timeline(time, dataset, reorg){
   console.log("let's create a timeline for: ")
   console.log(dataset)
 
@@ -169,11 +169,19 @@ function timeline(time, dataset){
     .call(g => g.selectAll(".tick line").attr("stroke", (d, i) => i ? "#bbb" : null)) 
     //crée une ligne pour chaque y
 
-  
-  //Some interactivity
-  //const tooltip = d3.select(document.createElement("div")).call(createTooltip);
-
-  
+  //Append réorganisations
+  const conseil = svg.append("g")
+  conseil
+    .selectAll("line")
+    .data(reorg)
+    .enter()
+    .append("line")
+      .attr("class", "cbc")
+      .attr("y1", margin.top-10)
+      .attr("y2", height-margin.bottom)
+      .attr("stroke", "#bbb")
+      .attr("transform", d => `translate(${x(parseDate(d.date))}, 0)`)
+      .on("mouseover", d => console.log(d.nom + ": " + d.date_fr))
 
   //bind data and add class "person"
   const people = g
@@ -187,20 +195,6 @@ function timeline(time, dataset){
   people
     .each(addPerson)
 
-    /*
-    .on("mouseover", function(d) { //some interactivity
-      d3.select(this).select("rect").attr("fill", d.color.darker())
-
-      tooltip
-        .style("opacity", 1)
-        .html(getTooltipContent(d))
-    })
-      .on("mouseleave", function(d) {
-      d3.select(this).select("rect").attr("fill", d.color)
-      tooltip.style("opacity", 0)
-    })*/
-
-
   //Append axes
   const gx = svg.append("g")
     .call(xAxis, x);
@@ -209,9 +203,10 @@ function timeline(time, dataset){
       .call(yAxis, y);
 
   
-  const line = svg.append("line").attr("y1", margin.top-10).attr("y2", height-margin.bottom).attr("stroke", "rgba(0,0,0,0.2)").style("pointer-events","none");
 
+  
   //some interactivity
+  const line = svg.append("line").attr("y1", margin.top-10).attr("y2", height-margin.bottom).attr("stroke", "rgba(0,0,0,0.2)").style("pointer-events","none");
 
   svg.on("mousemove", function(d) {
 
@@ -220,9 +215,7 @@ function timeline(time, dataset){
     y +=20;
     if(x>width/2) x-= 100;
 
-    /*tooltip
-      .style("left", x + "px")
-      .style("top", y + "px") */
+    //this is where to work on the visibility
   }) 
 
   
@@ -278,8 +271,7 @@ function handleMouseOverRect(d) {
     .attr("id", "t" + d.start)
     .attr("x", localx)
     .attr("y", localheight + 150)
-    .style("font-size", "11px")
-    .style("fill", "#800000")
+    .attr("class", "label")
     .attr("text-anchor", "start")
     .text(d.label + " de " + d.start + " à " + d.end);
 }
@@ -409,8 +401,9 @@ function addPerson(d){
 }
 
 Promise.all([
-  d3.json('../data/prosopo.json')
-]).then(([data]) => {
+  d3.json('../data/prosopo.json'),
+  d3.json('../data/reorganisations.json')
+]).then(([data, reorg]) => {
   
   var indexRoles = new Set();
   //types de roles
@@ -424,13 +417,10 @@ Promise.all([
   })
   createColorScale(indexRoles);
 
-  var vip = new Set (["gourlier", "rohault", "hurtault", "heurtier", "blouet", "caristie"])
-  console.log(vip)
-
-  dataset = data.features.filter(d => vip.has(d.properties.id))
-  console.log(dataset)
+  //var vip = new Set (["gourlier", "rohault", "hurtault", "heurtier", "blouet", "caristie"])
+  //dataset = data.features.filter(d => vip.has(d.properties.id))
   
-  timeline(intervalle, data.features);
+  timeline(intervalle, data.features, reorg);
 
 
 });

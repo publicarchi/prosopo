@@ -14,3 +14,9 @@
     visibility: hidden;
   }
 
+
+.label{
+  font-size: 11px;
+  background: #ffffff;
+  border-radius: .1rem;
+}
