@@ -60,9 +60,9 @@ function wrap(text, wrapWidth, yAxisAdjustment = 0) {
 }
 
 
-//
+//color scale + légende
 function createColorScale(values){
-  var w = svgLegend.node().getBoundingClientRect().width
+  var w = svgLegend.node().getBoundingClientRect().width - margin.left
   console.log(w)
   var colors = Array.from(values)
   color.domain(colors);
@@ -77,10 +77,12 @@ function createColorScale(values){
   
   //make legend
   var legend = svgLegend.append("g")
-      .attr("transform", `translate(0,20)`)
+      .attr("transform", `translate(${margin.left},8)`)
   
 
-  var circles = legend
+  var circles = legend.append("g").attr('class', 'circles');
+
+  circles
     .selectAll("circle")
     .data(colors)
     .enter()
@@ -89,7 +91,8 @@ function createColorScale(values){
     .attr("class", "dot")
     .attr("r", 10)
     .attr("cx", c => getPosition(c))
-    .attr("cy", 15)
+    .attr("cy", 2)
+
   var labels = legend.append('g').attr('class', 'labels');
 
   labels.selectAll('.label')
@@ -97,7 +100,7 @@ function createColorScale(values){
   .enter()
   .append('text')
     .attr("class", "label")
-    .attr('transform', (d => "translate(" + getPosition(d) + ","+ 15 + ")"))
+    .attr('transform', (d => "translate(" + getPosition(d) + ","+ 2 + ")"))
     .attr("id", (d => "color"+d))
     .style('text-anchor', 'middle')
     .style('font-family', 'sans-serif')
@@ -107,33 +110,59 @@ function createColorScale(values){
   labels.selectAll(".label")
     .call(wrap, scale, 0)
 
-  legend.append("text")
-      .attr("class", "caption")
-      .attr("y", -10)
-      .attr("fill", "#000")
-      .attr("text-anchor", "start")
-      .attr("font-weight", "bold")
-      .style('font-family', 'sans-serif')
-      .attr("font-size", "14px")
-      .text("Légende des couleurs");
-
-
   return svgLegend.node()
 
 };
 
-function topAxis(x){
+function topAxis(x, reorg){
   svgTopAxis
-      .attr("viewBox", [0, 0, width, 20])
+      .attr("viewBox", [0, 0, width, 30])
       .attr("font-family", fontFamily)
+      .attr("border", "black")
       .attr("text-anchor", "middle");
 
-  var xAxis = svgTopAxis
+  var xTopAxis = svgTopAxis
     .append("g")
-
-  xAxis  
+  
+  const topLine = svgTopAxis
+    .append("line")
+    .attr("y1", -25)
+    .attr("y2", 10)
+    .attr("stroke", "red")
+    .style("pointer-events","none");
+  
+  xTopAxis  
     .attr("transform", `translate(0,10)`)
-    .call(d3.axisBottom(x).ticks(width / 80).tickSizeOuter(0))    
+    .call(d3.axisBottom(x).ticks(width / 80).tickSizeOuter(0))
+  
+  svgTopAxis.on("mousemove", function(d) {
+
+      let posX = d3.mouse(this)[0];
+      topLine.attr("transform", `translate(${posX}, 0)`);
+
+      
+
+      
+      //si la souris est dans la chronologie
+      //dif 
+      //line.attr("transform", `translate(${x} 0)`);
+
+    })  
+    
+    //Append réorganisations
+  const conseil = svgTopAxis.append("g")
+  conseil
+    .selectAll("line")
+    .data(reorg)
+    .enter()
+    .append("line")
+      .attr("class", "cbc")
+      .attr("y1", -25)
+      .attr("y2", 10)
+      .attr("stroke", "purple")
+      .attr("transform", d => `translate(${x(parseDate(d.date))}, 0)`)
+      .on("mouseover", d => console.log(d.nom + ": " + d.date_fr)) //to better
+
   
   //next: on mousemouver, calculate x and show it on the topAxis
 
@@ -186,23 +215,10 @@ function timeline(time, dataset, reorg){
     .call(g => g.selectAll(".tick line").attr("stroke", (d, i) => i ? "#bbb" : null)) 
     //crée une ligne pour chaque y
 
-  topAxis(x)
+  topAxis(x, reorg)
 
 
-  //Append réorganisations
-  const conseil = svg.append("g")
-  conseil
-    .selectAll("line")
-    .data(reorg)
-    .enter()
-    .append("line")
-      .attr("class", "cbc")
-      .attr("y1", margin.top-10)
-      .attr("y2", height-margin.bottom)
-      .attr("stroke", "#bbb")
-      .attr("transform", d => `translate(${x(parseDate(d.date))}, 0)`)
-      .on("mouseover", d => console.log(d.nom + ": " + d.date_fr))
-
+  
   //bind data and add class "person"
   const people = g
     .selectAll("g")
@@ -227,7 +243,7 @@ function timeline(time, dataset, reorg){
   
   //some interactivity
   const line = svg.append("line").attr("y1", margin.top-10).attr("y2", height-margin.bottom).attr("stroke", "rgba(0,0,0,0.2)").style("pointer-events","none");
-
+/*
   svg.on("mousemove", function(d) {
 
     let [x,y] = d3.mouse(this);
@@ -236,7 +252,7 @@ function timeline(time, dataset, reorg){
     if(x>width/2) x-= 100;
 
     //this is where to work on the visibility
-  }) 
+  }) */
 
   
   return svg.node();
@@ -258,7 +274,7 @@ function handleMouseOverCircle(d) {
     .attr("id", "t" + d.date)
     .attr("x", x(parseDate(d.date)) + 20)
     .attr("y", localheight)
-    .style("font-size", "11px")
+    .attr("class", "label")
     .text(d.label + ": " + d.date);
 }
 
@@ -275,7 +291,7 @@ function handleMouseOutCircle(d) {
 //d continent les données, c-a-d la chronométrie du range en question
 //this = element svg (rectangle) en question
 function handleMouseOverRect(d) { 
-  console.log(this)
+
   var height = d3.select(this).attr("y")
   var localheight =  Number(height) - 100
 
