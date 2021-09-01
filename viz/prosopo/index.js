@@ -19,9 +19,9 @@ const parsePosition = d3.timeFormat("%Y-%m-%d");
 
 //line verticale sur le graphique
 const line = svg.append("line")
-  .attr("y1", margin.top-10)
+  .attr("y1", 0)
   .attr("y2", height-margin.bottom)
-  .attr("stroke", "rgba(0,0,0,0.2)")
+  .attr("stroke", "grey")
   .style("pointer-events","none");
 
 
@@ -69,7 +69,7 @@ function createColorScale(values){
   var colors = Array.from(values)
   color.domain(colors);
 
-  var scale = w / colors.length;
+  var scale = w / colors.length ;
   
   function getPosition(d){
     var h = colors.indexOf(d) * scale + 20
@@ -111,6 +111,7 @@ function createColorScale(values){
   labels.selectAll(".label")
     .call(wrap, scale, 0)
 
+ 
   return svgLegend.node()
 
 };
@@ -128,8 +129,8 @@ function topAxis(x, reorg){
   const topLine = svgTopAxis 
     .append("line")
     .attr("y1", -25)
-    .attr("y2", 10)
-    .attr("stroke", "red")
+    .attr("y2", 50)
+    .attr("stroke", "grey")
     .style("pointer-events","none");
 
   //label qui indique la date à laquelle se trouve la souris ()
@@ -139,6 +140,7 @@ function topAxis(x, reorg){
     .attr("x", margin.left)
     .attr("y", 8)
     .style('font-size', '14px')
+    .style('font-weight', 'bold')
     .style('text-anchor', 'end')
     .attr("class", "label")
 
@@ -147,14 +149,43 @@ function topAxis(x, reorg){
     .attr("transform", `translate(0, 10)`)
     .call(d3.axisBottom(x).ticks(width / 80).tickSizeOuter(0))
   
+   //add reset button
+   var reset = svgTopAxis.append("g")
+   .attr("transform", `translate(0,8)`)
+   .attr("id", "reset")
+  var resetX = 5;
+  var resetY = 5;
+  
+  reset.append('rect')
+    .attr("x", resetX-5)
+    .attr("y", resetY-15)
+    .attr("width", 70)
+    .attr("height", 25)
+    .attr("id", "resetZone")
+    .attr("color", "black")
+    .attr("fill", "lightgrey")
+  
+  reset.append('text')
+    .attr('transform', (d => "translate(" + resetX + ","+ resetY + ")"))
+    .attr('border', "black")
+    .attr("id", "resetText")
+    .style('text-anchor', 'start')
+    .style('font-family', 'sans-serif')
+    .attr('font-size', '10px')
+    .text("Tout afficher"); 
+
   //interactivity
   svgTopAxis.on("mousemove", function(d) {
 
     let posX = d3.mouse(this)[0];
 
-    //placer les lignes verticales là où est la souris
-    topLine.attr("transform", `translate(${posX}, 0)`);
-    line.attr("transform", `translate(${posX} 0)`);
+    if (posX > margin.left){
+      //placer les lignes verticales là où est la souris
+      topLine.attr("transform", `translate(${posX}, 0)`);
+      line.attr("transform", `translate(${posX} 0)`);
+    }
+
+    
     
     //inscrire la date concernée
     var cDate = x.invert(posX)
@@ -174,16 +205,6 @@ function topAxis(x, reorg){
           d3.select("#"+d.properties.id).attr("visibility", "collapse") 
       })
   }) 
-
-  svgTopAxis.on("click", function(d) {  
-    let posX = d3.mouse(this)[0];
-    console.log("mouseclic: " + posX)
-    //filtre..
-
-    
-    })
-
-   
     
   //Append réorganisations
   const conseil = svgTopAxis.append("g")
@@ -216,14 +237,6 @@ function timeline(time, dataset, reorg){
   console.log("let's create a timeline for: ")
   console.log(dataset)
 
-  //create svg space for the timeline
-    svg
-      .attr("viewBox", [0, 0, width, height])
-      .attr("font-family", fontFamily)
-      .attr("text-anchor", "middle");
-  
-  const g = svg.append("g").attr("transform", `translate(0, ${margin.top})`);
-
   //Add axes domain and range
   x
     .domain([parseDate(time[0]), parseDate(time[1])])
@@ -239,8 +252,40 @@ function timeline(time, dataset, reorg){
     .attr("transform", `translate(0,${height - margin.bottom})`)
     .call(d3.axisBottom(x).ticks(width / 80).tickSizeOuter(0))
 
+  //create svg space for the timeline
+  svg
+    .attr("viewBox", [0, 0, width, height])
+    .attr("font-family", fontFamily)
+    .attr("text-anchor", "middle");
+  
+  const g = svg.append("g").attr("transform", `translate(0, ${margin.top})`);
+  
+  //make grey background (rectangles) before first and after last appearance
+  var firstA = d3.min(dataset, d => d.firstA)
+  var lastA = d3.max(dataset, d => d.lastA)
+  svg.append('rect')
+    .attr("x", margin.left)
+    .attr("y", 0)
+    .attr("width", x(parseDate(firstA)) - margin.left)
+    .attr("height", height)
+    .attr("id", "resetZone")
+    .attr("color", "black")
+    .attr("fill", "lightgrey")
+    .attr("opacity", "20%")
+
+    svg.append('rect')
+    .attr("x", x(parseDate(lastA)))
+    .attr("y", 0)
+    .attr("width", width - x(parseDate(lastA)))
+    .attr("height", height)
+    .attr("id", "resetZone")
+    .attr("color", "black")
+    .attr("fill", "lightgrey")
+    .attr("opacity", "20%")
+
   topAxis(x, reorg)
 
+  
   
   //bind data and add class "person"
   const people = g
@@ -493,10 +538,15 @@ Promise.all([
   data.features.forEach(d => {
     var ranges = d.chronometry.filter(t => t.type == "range")
     var starts = []
-    ranges.forEach(r => starts.push(r.start))
-    var firstApp = d3.min(starts)
+    var ends = []
+    ranges.forEach(r => {
+      starts.push(r.start)
+      ends.push(r.end)
+    })
+ 
     
-    d.firstA = firstApp;
+    d.firstA = d3.min(starts);
+    d.lastA = d3.max(ends)
     
 
   })
