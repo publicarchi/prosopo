@@ -151,24 +151,37 @@ function topAxis(x, reorg){
   svgTopAxis.on("mousemove", function(d) {
 
     let posX = d3.mouse(this)[0];
-    
-    //inscrire la date concernée
-    var cDate = x.invert(posX)
+
     //placer les lignes verticales là où est la souris
     topLine.attr("transform", `translate(${posX}, 0)`);
     line.attr("transform", `translate(${posX} 0)`);
-
+    
+    //inscrire la date concernée
+    var cDate = x.invert(posX)
     topLabel.text(parsePosition(cDate).substr(0,7)); //show only year and month
+  }) 
 
+  svgTopAxis.on("click", function(d) {  
+    let posX = d3.mouse(this)[0];
+    console.log("mouseclic: " + posX)
     //filtre..
-    svg.selectAll("person")
-      .style("visibility", "visible")
+
+    svg.selectAll(".person")
+      .attr("visibility", "visible")
       .filter( d => {
-        console.log(d)
+        var ranges = d.chronometry.filter(t => t.type == "range")
+        var show = false;
+        ranges.forEach(r => {
+          if (x(parseDate(r.start)) <= posX && posX <= x(parseDate(r.end))) {
+            show = true;
+          }
+        })
+        if (show == false)
+          d3.select("#"+d.properties.id).attr("visibility", "collapse") 
       })
+    })
 
-
-  })  
+   
     
   //Append réorganisations
   const conseil = svgTopAxis.append("g")
@@ -234,6 +247,8 @@ function timeline(time, dataset, reorg){
     .enter()
     .append("g")
     .attr("class", "person")
+    .attr("visibility", "visible")
+    .attr("id", d => d.properties.id)
 
   //for each person, addPerson to the timeline
   people
@@ -379,7 +394,7 @@ function addPerson(d){
     .attr("y2", person)
     .attr("stroke", "silver")
     .attr("stroke-width", "1px")
-    .style("visibility", "inherit")
+    .attr("visibility", "inherit")
     .on("click", d => console.log(d))
 
   var xlabel = margin.left - 2
@@ -390,7 +405,7 @@ function addPerson(d){
     .attr("x", xlabel)
     .attr("y", person - margin.top)
     .attr("fill", "silver")
-    .style("visibility", "inherit")
+    .attr("visibility", "inherit")
     .style("font-size", "10px")
     .style("text-anchor", "end")
     .style("dominant-baseline", "hanging");  
@@ -407,7 +422,7 @@ function addPerson(d){
     .attr("width", r => (x(parseDate(r.end)) - x(parseDate(r.start))))
     .attr("fill", r => color(r.label))
     .attr("fill-opacity","0.5")
-    .style("visibility", "inherit")
+    .attr("visibility", "inherit")
     .on("mouseover", handleMouseOverRect)
     .on("mouseout", handleMouseOutRect);
 
@@ -420,7 +435,7 @@ function addPerson(d){
     .attr("height", "1px")
     .attr("width", widthLife)
     .attr("fill", "black")
-    .style("visibility", "inherit")
+    .attr("visibility", "inherit")
 
   //faire un point pour chaque point
   const dots = el
@@ -433,7 +448,7 @@ function addPerson(d){
   .attr("r", radius)
   .attr("cx", p => x(parseDate(p.date)))
   .attr("cy", person)
-  .style("visibility", "inherit")
+  .attr("visibility", "inherit")
   .on("mouseover", handleMouseOverCircle)
   .on("mouseout", handleMouseOutCircle);
 
@@ -443,7 +458,7 @@ function addPerson(d){
     .attr("x", startLife + 3)
     .attr("y", person - 15)
     .attr("fill", "black")
-    .style("visibility", "inherit")
+    .attr("visibility", "inherit")
     .style("font-size", "10px")
     .style("text-anchor", "start")
     .style("dominant-baseline", "hanging");
