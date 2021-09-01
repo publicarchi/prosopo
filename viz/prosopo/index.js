@@ -17,6 +17,14 @@ const parseDate = d3.timeParse("%Y-%m-%d");
 //parse le format date en "xxxx-xx-xx"
 const parsePosition = d3.timeFormat("%Y-%m-%d");
 
+//line verticale sur le graphique
+const line = svg.append("line")
+  .attr("y1", margin.top-10)
+  .attr("y2", height-margin.bottom)
+  .attr("stroke", "rgba(0,0,0,0.2)")
+  .style("pointer-events","none");
+
+
 //intervalle de la chronologie
 var intervalle = ["1733-01-01", "1895-12-31"]
 
@@ -73,7 +81,6 @@ function createColorScale(values){
   var legend = svgLegend.append("g")
       .attr("transform", `translate(${margin.left},8)`)
   
-
   var circles = legend.append("g").attr('class', 'circles');
 
   circles
@@ -140,25 +147,28 @@ function topAxis(x, reorg){
     .attr("transform", `translate(0, 10)`)
     .call(d3.axisBottom(x).ticks(width / 80).tickSizeOuter(0))
   
+  //interactivity
   svgTopAxis.on("mousemove", function(d) {
 
     let posX = d3.mouse(this)[0];
-    topLine.attr("transform", `translate(${posX}, 0)`);
-
+    
     //inscrire la date concernée
     var cDate = x.invert(posX)
+    //placer les lignes verticales là où est la souris
+    topLine.attr("transform", `translate(${posX}, 0)`);
+    line.attr("transform", `translate(${posX} 0)`);
 
-      topLabel.text(parsePosition(cDate).substr(0,7)); //show only year and month
+    topLabel.text(parsePosition(cDate).substr(0,7)); //show only year and month
 
-      //filtre..
-      svg.selectAll("person")
-        .style("visibility", "visible")
-        .filter( d => {
-          console.log(d)
-        })
+    //filtre..
+    svg.selectAll("person")
+      .style("visibility", "visible")
+      .filter( d => {
+        console.log(d)
+      })
 
 
-    })  
+  })  
     
   //Append réorganisations
   const conseil = svgTopAxis.append("g")
@@ -191,7 +201,6 @@ function timeline(time, dataset, reorg){
   console.log("let's create a timeline for: ")
   console.log(dataset)
 
-
   //create svg space for the timeline
     svg
       .attr("viewBox", [0, 0, width, height])
@@ -215,17 +224,7 @@ function timeline(time, dataset, reorg){
     .attr("transform", `translate(0,${height - margin.bottom})`)
     .call(d3.axisBottom(x).ticks(width / 80).tickSizeOuter(0))
 
-  /*
-  var yAxis = (g, y) => g
-    .attr("transform", `translate(${margin.left},0)`)
-    .call(d3.axisLeft(y).ticks(null, "s").tickSize(-(width-margin.left-margin.right)))
-    .call(g => g.select(".domain").remove()) //enlève la ligne verticale
-    .call(g => g.selectAll(".tick line").attr("stroke", (d, i) => i ? "#bbb" : null)) 
-    //crée une ligne pour chaque y
-  */  
-
   topAxis(x, reorg)
-
 
   
   //bind data and add class "person"
@@ -244,27 +243,7 @@ function timeline(time, dataset, reorg){
   const gx = svg.append("g")
     .call(xAxis, x);
 
-  /*
-  svg.append("g")
-      .call(yAxis, y);
-  */
-  
 
-  
-  //some interactivity
-  const line = svg.append("line").attr("y1", margin.top-10).attr("y2", height-margin.bottom).attr("stroke", "rgba(0,0,0,0.2)").style("pointer-events","none");
-
-  svg.on("mousemove", function(d) {
-
-    let [x,y] = d3.mouse(this);
-    line.attr("transform", `translate(${x} 0)`);
-    y +=20;
-    if(x>width/2) x-= 100;
-
-    //this is where to work on the visibility
-  }) 
-
-  
   return svg.node();
 
 }
