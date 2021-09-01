@@ -24,7 +24,21 @@ const line = svg.append("line")
   .attr("stroke", "grey")
   .style("pointer-events","none");
 
+//tooltip
+const tooltip = d3.select("body").append("div")
+  .attr("class", "tooltip")
+  .style("position", "absolute")
+  .attr("visibility", "hidden")
 
+//tooltip function
+function showToolTip(text, coords){
+  console.log(coords)
+  d3.select(".tooltip")
+    .text(text)
+    .style("top", coords[1] + "px")
+    .style("left", coords[0] + "px")
+    .attr("visibility", "visible");
+}  
 //intervalle de la chronologie
 var intervalle = ["1733-01-01", "1895-12-31"]
 
@@ -392,7 +406,8 @@ function handleMouseOverRect(d) {
   d3.select(this)
    .attr("style", "outline: thin solid black");
 
-  // Specify where to put label of text
+  
+   // Specify where to put label of text
   svg.append("text")
     .attr("id", "t" + d.start)
     .attr("x", localx)
@@ -509,8 +524,20 @@ function addPerson(d){
     .attr("fill", r => color(r.label))
     .attr("fill-opacity","0.5")
     .attr("visibility", "inherit")
-    .on("mouseover", handleMouseOverRect)
-    .on("mouseout", handleMouseOutRect);
+    .on("mouseover", function(d){
+      let location = d3.mouse(this);
+      var text = d.label + " de " + d.start + " à " + d.end;
+      showToolTip(text, location)
+    })
+    .on("mousemove", function(d) {
+      let location = d3.mouse(this);
+      d3.select(".tooltip")
+        .style("top", location[0] + "px")
+        .style("left", location[1] + "px")
+    })
+    .on("mouseout", function() {
+      d3.select(".tooltip").attr("visibility", "hidden")
+    })
 
   //crée la ligne de vie
   el
@@ -525,7 +552,7 @@ function addPerson(d){
 
   //faire un point pour chaque point
   const dots = el
-  .selectAll("circle") //Attention quand on a plusieurs personnes ça risque de planter ça
+  .selectAll("circle")
   .data(points)
   .enter()
   .append("circle")
@@ -535,8 +562,20 @@ function addPerson(d){
   .attr("cx", p => x(parseDate(p.date)))
   .attr("cy", person)
   .attr("visibility", "inherit")
-  .on("mouseover", handleMouseOverCircle)
-  .on("mouseout", handleMouseOutCircle);
+  .on("mouseover", function(d){
+    let location = d3.mouse(this);
+    var text = d.label + " de " + d.date;
+    showToolTip(text, location)
+  })
+  .on("mousemove", function(d) {
+    let location = d3.mouse(this);
+    d3.select(".tooltip")
+      .style("top", location[0] + "px")
+      .style("left", location[1] + "px")
+  })
+  .on("mouseout", function() {
+    d3.select(".tooltip").style("visibility", "hidden")
+  })
 
   el
     .append("text")
