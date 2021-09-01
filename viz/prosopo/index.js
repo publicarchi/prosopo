@@ -4,8 +4,8 @@ const svgLegend = d3.select("#legend")
 const svgTopAxis = d3.select("#axisTop")
 const margin = {top: 5, right: 40, bottom: 40, left: 60};
 const padding = 0;
-const width = +svg.attr("width");
-const height = +svg.attr("height");
+const width = svg.attr("width");
+const height = svg.attr("height");
 
 const fontFamily = "sans-serif";
 const fontScale = 15;
@@ -13,18 +13,12 @@ const radius = 3;  //rayon des points
 
 //parse le format "xxxx-xx-xx" en date
 const parseDate = d3.timeParse("%Y-%m-%d");
+
+//parse le format date en "xxxx-xx-xx"
+const parsePosition = d3.timeFormat("%Y-%m-%d");
+
 //intervalle de la chronologie
 var intervalle = ["1733-01-01", "1895-12-31"]
-
-//transforme la date en un string
-function formatDate(date) {
-  return date.toLocaleString("fr", {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-    timeZone: "UTC"
-  });
-}
 
 //Create axes
 const x = d3.scaleUtc()
@@ -118,38 +112,55 @@ function topAxis(x, reorg){
   svgTopAxis
       .attr("viewBox", [0, 0, width, 30])
       .attr("font-family", fontFamily)
-      .attr("border", "black")
       .attr("text-anchor", "middle");
 
   var xTopAxis = svgTopAxis
     .append("g")
   
-  const topLine = svgTopAxis
+  //ligne qui place la souris
+  const topLine = svgTopAxis 
     .append("line")
     .attr("y1", -25)
     .attr("y2", 10)
     .attr("stroke", "red")
     .style("pointer-events","none");
+
+  //label qui indique la date à laquelle se trouve la souris ()
+  const topLabel = svgTopAxis
+    .append("text")
+    .attr("id", "currentDate")
+    .attr("x", margin.left)
+    .attr("y", 8)
+    .style('font-size', '14px')
+    .style('text-anchor', 'end')
+    .attr("class", "label")
+
   
   xTopAxis  
-    .attr("transform", `translate(0,10)`)
+    .attr("transform", `translate(0, 10)`)
     .call(d3.axisBottom(x).ticks(width / 80).tickSizeOuter(0))
   
   svgTopAxis.on("mousemove", function(d) {
 
-      let posX = d3.mouse(this)[0];
-      topLine.attr("transform", `translate(${posX}, 0)`);
+    let posX = d3.mouse(this)[0];
+    topLine.attr("transform", `translate(${posX}, 0)`);
 
-      
+    //inscrire la date concernée
+    var cDate = x.invert(posX)
 
-      
-      //si la souris est dans la chronologie
-      //dif 
-      //line.attr("transform", `translate(${x} 0)`);
+      topLabel.text(parsePosition(cDate).substr(0,7)); //show only year and month
+
+      //filtre..
+      svg.selectAll("person")
+        .style("visibility", "visible")
+        .filter( d => {
+          console.log(d)
+        })
+
 
     })  
     
-    //Append réorganisations
+  //Append réorganisations
   const conseil = svgTopAxis.append("g")
   conseil
     .selectAll("line")
@@ -163,10 +174,6 @@ function topAxis(x, reorg){
       .attr("transform", d => `translate(${x(parseDate(d.date))}, 0)`)
       .on("mouseover", d => console.log(d.nom + ": " + d.date_fr)) //to better
 
-  
-  //next: on mousemouver, calculate x and show it on the topAxis
-
-
   return svgTopAxis.node()
 }
 
@@ -179,18 +186,19 @@ function topAxis(x, reorg){
 // - https://observablehq.com/@lenamk/testing-time-scales
 // - https://observablehq.com/@tezzutezzu/world-history-timeline
 // - https://observablehq.com/@d3/stacked-horizontal-bar-chart
+
 function timeline(time, dataset, reorg){
   console.log("let's create a timeline for: ")
   console.log(dataset)
 
 
-  //create svg space for the timline
+  //create svg space for the timeline
     svg
       .attr("viewBox", [0, 0, width, height])
       .attr("font-family", fontFamily)
       .attr("text-anchor", "middle");
   
-  const g = svg.append("g").attr("transform", (d,i)=>`translate(0, ${margin.top})`);
+  const g = svg.append("g").attr("transform", `translate(0, ${margin.top})`);
 
   //Add axes domain and range
   x
@@ -207,13 +215,14 @@ function timeline(time, dataset, reorg){
     .attr("transform", `translate(0,${height - margin.bottom})`)
     .call(d3.axisBottom(x).ticks(width / 80).tickSizeOuter(0))
 
-  
+  /*
   var yAxis = (g, y) => g
     .attr("transform", `translate(${margin.left},0)`)
     .call(d3.axisLeft(y).ticks(null, "s").tickSize(-(width-margin.left-margin.right)))
     .call(g => g.select(".domain").remove()) //enlève la ligne verticale
     .call(g => g.selectAll(".tick line").attr("stroke", (d, i) => i ? "#bbb" : null)) 
     //crée une ligne pour chaque y
+  */  
 
   topAxis(x, reorg)
 
@@ -235,15 +244,16 @@ function timeline(time, dataset, reorg){
   const gx = svg.append("g")
     .call(xAxis, x);
 
+  /*
   svg.append("g")
       .call(yAxis, y);
-
+  */
   
 
   
   //some interactivity
   const line = svg.append("line").attr("y1", margin.top-10).attr("y2", height-margin.bottom).attr("stroke", "rgba(0,0,0,0.2)").style("pointer-events","none");
-/*
+
   svg.on("mousemove", function(d) {
 
     let [x,y] = d3.mouse(this);
@@ -252,7 +262,7 @@ function timeline(time, dataset, reorg){
     if(x>width/2) x-= 100;
 
     //this is where to work on the visibility
-  }) */
+  }) 
 
   
   return svg.node();
@@ -339,7 +349,7 @@ function addPerson(d){
   var endLife;
   //gestion inconnnu dates naissance et mort
   if (birth && birth.date && death && death.date){
-    //si les deux sont connu
+    //si les deux sont connus
     startLife = x(parseDate(birth.date)); 
     endLife = x(parseDate(death.date));
   }
@@ -379,24 +389,48 @@ function addPerson(d){
   }
   const widthLife = endLife - startLife;
   const person = y(d.properties.id)-(y.bandwidth()+6);
+  
+  //crée la ligne de référence
+  el
+    .append("line")
+    .attr("class", "refLine")
+    .attr("x1", x(parseDate(intervalle[0])))
+    .attr("x2", x(parseDate(intervalle[1])))
+    .attr("y1", person)
+    .attr("y2", person)
+    .attr("stroke", "silver")
+    .attr("stroke-width", "1px")
+    .style("visibility", "inherit")
+    .on("click", d => console.log(d))
 
+  var xlabel = margin.left - 2
+  //ajoute le id dans la marge
+  el
+    .append("text")
+    .text(d.properties.id)
+    .attr("x", xlabel)
+    .attr("y", person - margin.top)
+    .attr("fill", "silver")
+    .style("visibility", "inherit")
+    .style("font-size", "10px")
+    .style("text-anchor", "end")
+    .style("dominant-baseline", "hanging");  
 
   //faire un rectangle pour chaque range
   const rects = el
-  .selectAll("rect") //Attention quand on a plusieurs personnes ça risque de planter ça --> ne plante pas parce qu'on est dans "person" donc pas de confusion
+  .selectAll("rect")
   .data(ranges)
   .enter()
-  .append("rect")
-  .attr("x", r => x(parseDate(r.start)))
-  .attr("y", person-(y.bandwidth()/2)) //pour centrer le rectangle sur la ligne (et non qu'il soit en dessous)
-  .attr("height", y.bandwidth())
-  .attr("width", r => (x(parseDate(r.end)) - x(parseDate(r.start))))
-  .attr("fill", r => color(r.label))//TODO : make a color range
-  .attr("fill-opacity","0.5")
-  .on("mouseover", handleMouseOverRect)
-  .on("mouseout", handleMouseOutRect);
-
-
+    .append("rect")
+    .attr("x", r => x(parseDate(r.start)))
+    .attr("y", person-(y.bandwidth()/2)) //pour centrer le rectangle sur la ligne (et non qu'il soit en dessous)
+    .attr("height", y.bandwidth())
+    .attr("width", r => (x(parseDate(r.end)) - x(parseDate(r.start))))
+    .attr("fill", r => color(r.label))
+    .attr("fill-opacity","0.5")
+    .style("visibility", "inherit")
+    .on("mouseover", handleMouseOverRect)
+    .on("mouseout", handleMouseOutRect);
 
   //crée la ligne de vie
   el
@@ -407,6 +441,7 @@ function addPerson(d){
     .attr("height", "1px")
     .attr("width", widthLife)
     .attr("fill", "black")
+    .style("visibility", "inherit")
 
   //faire un point pour chaque point
   const dots = el
@@ -419,6 +454,7 @@ function addPerson(d){
   .attr("r", radius)
   .attr("cx", p => x(parseDate(p.date)))
   .attr("cy", person)
+  .style("visibility", "inherit")
   .on("mouseover", handleMouseOverCircle)
   .on("mouseout", handleMouseOutCircle);
 
@@ -428,11 +464,10 @@ function addPerson(d){
     .attr("x", startLife + 3)
     .attr("y", person - 15)
     .attr("fill", "black")
+    .style("visibility", "inherit")
     .style("font-size", "10px")
     .style("text-anchor", "start")
     .style("dominant-baseline", "hanging");
-
-
 
 }
 
@@ -455,8 +490,43 @@ Promise.all([
 
   //var vip = new Set (["gourlier", "rohault", "hurtault", "heurtier", "blouet", "caristie"])
   //dataset = data.features.filter(d => vip.has(d.properties.id))
+
+  //add firstApparance property
+  //var richData = 
   
-  timeline(intervalle, data.features, reorg);
+  data.features.forEach(d => {
+    var ranges = d.chronometry.filter(t => t.type == "range")
+    var starts = []
+    ranges.forEach(r => starts.push(r.start))
+    var firstApp = d3.min(starts)
+    
+    d.firstA = firstApp;
+    
+
+  })
+
+  //var filteredData = data.features.filter(d => d.chronometry)
+  
+  var sortedDate = data.features.sort((a, b) => d3.ascending(a.firstA, b.firstA))
+
+   
+  
+  //data.features.sort((a, b) => d3.ascending(d3.min(a.chronometry.filter(t => t.type == "range")), d3.min(b.chronometry.filter(t => t.type == "range"))))
+  
+  
+  
+  /*{
+    var startDates = a.chronometry.filter(t => t.type == "range")
+    console.log(startDates)
+    console.log(d3.min(startDates))
+    
+  }  */
+    
+    
+    //d3.ascending(a.chronometry.)
+  
+  
+  timeline(intervalle, sortedDate, reorg);
 
 
 });
