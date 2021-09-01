@@ -159,12 +159,6 @@ function topAxis(x, reorg){
     //inscrire la date concernée
     var cDate = x.invert(posX)
     topLabel.text(parsePosition(cDate).substr(0,7)); //show only year and month
-  }) 
-
-  svgTopAxis.on("click", function(d) {  
-    let posX = d3.mouse(this)[0];
-    console.log("mouseclic: " + posX)
-    //filtre..
 
     svg.selectAll(".person")
       .attr("visibility", "visible")
@@ -179,6 +173,14 @@ function topAxis(x, reorg){
         if (show == false)
           d3.select("#"+d.properties.id).attr("visibility", "collapse") 
       })
+  }) 
+
+  svgTopAxis.on("click", function(d) {  
+    let posX = d3.mouse(this)[0];
+    console.log("mouseclic: " + posX)
+    //filtre..
+
+    
     })
 
    
