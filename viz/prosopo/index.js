@@ -143,6 +143,7 @@ function topAxis(x, reorg){
     .style('font-weight', 'bold')
     .style('text-anchor', 'end')
     .attr("class", "label")
+    .attr("visibility", "hidden")
 
   
   xTopAxis  
@@ -153,43 +154,48 @@ function topAxis(x, reorg){
    var reset = svgTopAxis.append("g")
    .attr("transform", `translate(0,8)`)
    .attr("id", "reset")
-  var resetX = 5;
-  var resetY = 5;
-  
-  reset.append('rect')
-    .attr("x", resetX-5)
-    .attr("y", resetY-15)
-    .attr("width", 70)
-    .attr("height", 25)
-    .attr("id", "resetZone")
-    .attr("color", "black")
-    .attr("fill", "lightgrey")
-  
+   .attr("visibility", "hidden")
+  var resetX = 10;
+  var resetY = -25;
+
   reset.append('text')
-    .attr('transform', (d => "translate(" + resetX + ","+ resetY + ")"))
-    .attr('border', "black")
-    .attr("id", "resetText")
-    .style('text-anchor', 'start')
-    .style('font-family', 'sans-serif')
-    .attr('font-size', '10px')
-    .text("Tout afficher"); 
+        .attr('transform', (d => "translate(" + resetX + ","+ resetY + ")"))
+        .attr('border', "black")
+        .attr("id", "resetText")
+        .style('text-anchor', 'start')
+        .style('font-family', 'sans-serif')
+        .attr('font-size', '10px')
+        .text("Clic pour réinitialiser")
+        
+    
+  reset.select("#resetText")
+        .call(wrap, margin.left, 0)
+ 
 
   //interactivity
   svgTopAxis.on("mousemove", function(d) {
 
     let posX = d3.mouse(this)[0];
 
-    if (posX > margin.left){
+    if (posX < margin.left){
+      reset.attr("visibility", "visible")
+
+      topLabel.attr("visibility", "hidden")
+    }else{
+
+      reset.attr("visibility", "hidden")
       //placer les lignes verticales là où est la souris
       topLine.attr("transform", `translate(${posX}, 0)`);
       line.attr("transform", `translate(${posX} 0)`);
-    }
 
+      //inscrire la date concernée
+      var cDate = x.invert(posX)
+      topLabel
+        .text(parsePosition(cDate).substr(0,7)) //show only year and month
+        .attr("visibility", "visible"); 
+    }
     
     
-    //inscrire la date concernée
-    var cDate = x.invert(posX)
-    topLabel.text(parsePosition(cDate).substr(0,7)); //show only year and month
 
     svg.selectAll(".person")
       .attr("visibility", "visible")
@@ -205,7 +211,17 @@ function topAxis(x, reorg){
           d3.select("#"+d.properties.id).attr("visibility", "collapse") 
       })
   }) 
-    
+  
+  svgTopAxis.on("click", function(d) {
+    let posX = d3.mouse(this)[0];
+
+    if (posX < margin.left){
+      reset.attr("visibility", "hidden")
+      
+      svg.selectAll(".person")
+        .attr("visibility", "visible")
+    }
+  })
   //Append réorganisations
   const conseil = svgTopAxis.append("g")
   conseil
@@ -217,8 +233,31 @@ function topAxis(x, reorg){
       .attr("y1", -25)
       .attr("y2", 10)
       .attr("stroke", "purple")
+      .attr("stroke-width", 1)
       .attr("transform", d => `translate(${x(parseDate(d.date))}, 0)`)
-      .on("mouseover", d => console.log(d.nom + ": " + d.date_fr)) //to better
+      .on("mouseover", function(d){
+
+        d3.select(this)
+          .attr("stroke-width", 3)
+
+
+        svgLegend.append("text")
+        .attr("id", "t" + d.date)
+        .attr("x", 10)
+        .attr("y", 80)
+        .attr("class", "label")
+        .attr("font-family", 'sans-serif')
+        .attr("text-anchor", "start")
+        .text(d.date + ": " + d.nom);
+      })
+      .on("mouseout", function(d){
+        // Select text by id and then remove
+        d3.select("#t" + d.date ).remove(); 
+
+
+        d3.select(this)
+          .attr("stroke-width", 1)
+      })
 
   return svgTopAxis.node()
 }
