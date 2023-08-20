@@ -303,11 +303,18 @@
        ref="#jay"
        >Jaÿ</persName>, puis inspecteur principal en 1842 à l’École normale, sous <persName
        ref="#gisorsAlphonseHenri">Alphonse-Henri de Gisors</persName>.</p>
-      <p>En 1846, il fut désigné architecte de l’Hôtel du Timbre, rue de la Banque, commencé par <persName
-       ref="#lelong"
-       >Paul Lelong</persName> et achevé en 1852. Il devint architecte des Grandes halles centrales de Paris en 1847, en collaboration avec <persName
-       ref="#callet"
-       >Callet</persName>. Il fut architecte en chef de la première section des travaux de la ville de Paris en 1848, il intervint à ce titre dans de nombreuses églises à Paris (notamment, Saint-Germain-des-Prés, Saint-Jacques-du-Haut-Pas, Saint-Gervais, Saint-Séverin, Saint-Roch, le Temple de Pentemont, et Saint-Eustache dont il réalisa le maître-autel et la chaire à prêcher et le buffet d’orgue). Il restaura l’Hôtel de l’archevêché et dirigea pendant plusieurs années le fêtes de l’Hôtel de ville dont la fête de l’Industrie universelle, celle de la proclamation de l’Empire et celle du mariage de l’Empereur. De 1842 à 1846, il fut aussi professeur supplémentaire d’architecture à l’École des beaux-arts et, à partir de 1846, membre du Jury.</p>
+      <p>En 1846, il fut désigné architecte de l’Hôtel du Timbre, rue de la Banque, commencé par
+        <persName ref="#lelong">Paul Lelong</persName> et achevé en 1852. Il devint architecte des
+       Grandes halles centrales de Paris en 1847, en collaboration avec <persName ref="#callet"
+        >Callet</persName>. Il fut architecte en chef de la première section des travaux de la ville
+       de Paris en 1848, il intervint à ce titre dans de nombreuses églises à Paris (notamment,
+       Saint-Germain-des-Prés, Saint-Jacques-du-Haut-Pas, Saint-Gervais, Saint-Séverin, Saint-Roch,
+       le Temple de Pentemont, et Saint-Eustache dont il réalisa le maître-autel, la chaire à
+       prêcher et le buffet d’orgue). Il restaura l’Hôtel de l’archevêché et dirigea pendant
+       plusieurs années les fêtes de l’Hôtel de ville dont la fête de l’Industrie universelle, celle
+       de la proclamation de l’Empire et celle du mariage de l’Empereur. De 1842 à 1846, il fut
+       aussi professeur supplémentaire d’architecture à l’École des beaux-arts et, à partir de 1846,
+       membre du Jury.</p>
       <p>Baltard connut de nombreux succès dans les concours publics. Il participa à celui pour le Tombeau de Napoléon et celui pour le Monument de <persName>Monseigneur Affre, ancien archevêque de Paris</persName>. Il réalisa diverses constructions particulières à Paris et dans les départements. De 1826 à 1833, il collabore à la publication des <title>Grands prix d’architecture</title>. En 1844, il publiait avec le <persName>duc de Luynes</persName> et <persName>Huillard-Bréolles</persName> l’<title>Histoire de Frédéric II et de la maison de Souabe en Italie</title>, en 1847 un <title>Mémoire sur les halles et marchés en France et à l’étranger</title>, et en 1848 une <title>Monographie historique et statistique de la villa Médicis et de l’Institution du grand prix de Rome</title></p>
      </note>
      <listBibl type="biblio">
@@ -347,8 +354,10 @@
       <date notBefore="1845">après 1845, en 1848</date>
      </affiliation>
      <note type="biography">
-      <p>Élève de <persName ref="#lebas"
-       >Lebas</persName> à l’École des beaux-arts depuis 1835, il passa élève de première classe en 1839, il obtint le Grand prix en 1840. Il fut pensionnaire à la Villa Médicis à Rome du 7 octobre 1841 au 31 décembre 1845. Il devint alors auditeur au Conseil des bâtiments civils.</p>
+      <p>Élève de <persName ref="#lebas">Lebas</persName> à l’École des beaux-arts depuis 1835, il
+       passa élève de première classe en 1839 et obtint le Grand prix en 1840. Il fut pensionnaire à
+       la Villa Médicis à Rome du 7 octobre 1841 au 31 décembre 1845. Il devint alors auditeur au
+       Conseil des bâtiments civils.</p>
       <p>En 1851, il fut architecte adjoint de l’église Sainte-Clotilde à Paris sous la direction de <persName
         ref="#gau"
        >Gau</persName> qu’il remplaça en 1854. L’année suivante, il fut chargé de la restauration de la tour Saint-Jacques-de-la-Boucherie. Architecte divisionnaire lors de la création du service d’architecture de la ville de Paris, il fut chargé des édifices cultuels à partir de 1860, et édifia à ce titre plusieurs églises dans cette ville.</p>
@@ -911,10 +920,9 @@
       <date from="1842-01">de janvier 1842</date>
      </affiliation>
      <note type="biography">
-      <p>Fils de <persName ref="#bruyere"
-        >Louis Bruyère</persName>, il fut admis à l’École des beaux-arts le 6 janvier 1832. élève de <persName
-        ref="#huyot"
-       >Jean-Nicolas Huyot</persName>, il optint de nombreuses récompenses jusqu’en 1835.</p>
+      <p>Fils de <persName ref="#bruyere">Louis Bruyère</persName>, il fut admis à l’École des
+       beaux-arts le 6 janvier 1832. Élève de <persName ref="#huyot">Jean-Nicolas Huyot</persName>,
+       il obtint de nombreuses récompenses jusqu’en 1835.</p>
      </note>
      <listBibl type="biblio">
       <bibl>{Delaire@117}</bibl>
@@ -965,9 +973,19 @@
       <orgName>Commission des monuments historiques</orgName>
       <date from="1837">1837</date>
       <note type="biography">
-       <p>Fils et petit-fils d’architectes d’origine italienne actifs à <placeName>Autun</placeName> et <placeName>Amiens</placeName> puis <placeName>Dijon</placeName>, fut d’abord élève de son père. De 1804 à 1807, il fut conducteur des travaux du pont de l’Archevêché et du quai de la Baleine à <placeName>Lyon</placeName> avant de venir à <placeName>Paris</placeName>, à l’âge de vingt-quatre ans, pour compléter son éducation artistique auprès de <persName
-         ref="#vaudoyer">Vaudoyer</persName> et <persName ref="#percier"
-        >Percier</persName>. De 1811 à 1813, il suivit comme sous-inspecteur, les travaux de construction de l’Hôtel des postes (plus tard ministère des Finances, rue de Rivoli). Il obtint en 1812 le prix départemental, et en 1813 le premier Grand-prix sur un projet d’hôtel de ville pour une capitale. Il passa alors sept années en Italie, de 1813 à 1820. Caristie dessina le Forum romain, la Voie sacrée et leurs monuments, entre autres le temple dit de Jupiter Stator ; le Panthéon, les ruines de Pompéi et le fameux temple de Sérapis à Pouzzoles, édifice dont il étudia la restauration en quarante-sept feuilles de dessin, accompagnées d’un mémoire.</p>
+       <p>Fils et petit-fils d’architectes d’origine italienne actifs à <placeName>Autun</placeName>
+        et <placeName>Amiens</placeName> puis <placeName>Dijon</placeName>, il fut d’abord élève de
+        son père. De 1804 à 1807, il fut conducteur des travaux du pont de l’Archevêché et du quai
+        de la Baleine à <placeName>Lyon</placeName> avant de venir à <placeName>Paris</placeName>, à
+        l’âge de vingt-quatre ans, pour compléter son éducation artistique auprès de <persName
+         ref="#vaudoyer">Vaudoyer</persName> et <persName ref="#percier">Percier</persName>. De 1811
+        à 1813, il suivit comme sous-inspecteur, les travaux de construction de l’Hôtel des postes
+        (plus tard ministère des Finances, rue de Rivoli). Il obtint en 1812 le prix départemental,
+        et en 1813 le premier Grand-prix sur un projet d’hôtel de ville pour une capitale. Il passa
+        alors sept années en Italie, de 1813 à 1820. Caristie dessina le Forum romain, la Voie
+        sacrée et leurs monuments, entre autres le temple dit de Jupiter Stator ; le Panthéon, les
+        ruines de Pompéi et le fameux temple de Sérapis à Pouzzoles, édifice dont il étudia la
+        restauration en quarante-sept feuilles de dessin, accompagnées d’un mémoire.</p>
        <p>De retour à Paris, il fut attaché comme inspecteur aux travaux de la Bourse. Il donna divers projets pour une fontaine monumentale pour la place de Breteuil, pour une église paroissiale pour Paris, un presbytère pour la Madeleine qui fut exécuté et un hôtel de préfecture pour Nevers. Il fut chargé par le gouvernement de la restauration de l’arc antique d’Orange et de la construction du mausolée et de la chapelle de Quiberon en souvenir des victimes de l’expédition de l’an IV. On doit encore à Caristie le palais de justice, la caserne de gendarmerie et la prison de Reims (Marne), ainsi que pour le <persName>comte de Caraman</persName>, la restauration du portail d’entrée de la chapelle du château d’Anet.</p>
        <p>Nommé relativement tôt inspecteur général au Conseil des bâtiments civils, la carrière de Caristie avait été cependant assez pauvre en opportunités de travaux. Il allait devenir président du Conseil des bâtiments civils à la mort de <persName
          ref="#rohault"
@@ -1184,14 +1202,23 @@
       </note>
      </residence>
      <note type="biography">
-      <p>Jean-François Chalgrin, fut élève de <persName ref="#servandoni"
-        >Servandoni</persName>, puis de <persName>Boulée</persName>. Il remporta en 1758 le Grand Prix de Rome cavec <persName
-        ref="#cherpitel"
-        >Cherpitel</persName> et sera pensionnaire à Rome de 1759 à 1762. À son retour d’Italie, il travailla comme inspecteur des travaux de la ville de paris sous la direction de <persName
-        ref="#moreauDesproux"
-        >Pierre-Louis Moreau-Desproux</persName>. Chargé de travaux importants, il entra à l’<orgName>Académie d’architecture</orgName> et devint successivement architecte de Monsieur (le futur roi Louis XVIII). On lui doit en outre l’Hôtel du duc de La Vrillière, l’Hôtel de Saint-Florentin, de 1765 à 1767, l’église Saint-Philippe-du-Roule élevée entre 1769 et 1784, et le Collège de France. Il avait également construit l’Hôtel de Langeac, les Écuries neuves à Versailles et un pavillon pour Madame Élisabeth à Versailles, le Château de Brunoy, les Jardins de Madame au Petit-Montreuil, le Séminaire de la rue des Postes (ensuite Collège Rollin), l’église de Saint-Chaumont rue Saint-Denis. Ayant succédé à <persName
-        ref="#servandoni"
-       >Servandoni</persName> à l’église Saint-Sulpice, il ne put achever que l’une des tours, il y réalisa le buffet d’orgues et la chapelle du baptistère. Il avait été admis à l’Académie royale d’architecture le 7 mai 1770, et fut l’un des six premiers architecte composant la section d’architecture lors de la création de l’Institut en 1799.</p>
+      <p>Jean-François Chalgrin, fut élève de <persName ref="#servandoni">Servandoni</persName>,
+       puis de <persName>Boulée</persName>. Il remporta en 1758 le Grand Prix de Rome avec <persName
+        ref="#cherpitel">Cherpitel</persName> et sera pensionnaire à Rome de 1759 à 1762. À son
+       retour d’Italie, il travailla comme inspecteur des travaux de la ville de Paris sous la
+       direction de <persName ref="#moreauDesproux">Pierre-Louis Moreau-Desproux</persName>. Chargé
+       de travaux importants, il entra à l’<orgName>Académie d’architecture</orgName> et devint
+       successivement architecte de Monsieur (le futur roi Louis XVIII). On lui doit en outre
+       l’Hôtel du duc de La Vrillière, l’Hôtel de Saint-Florentin, de 1765 à 1767, l’église
+       Saint-Philippe-du-Roule élevée entre 1769 et 1784, et le Collège de France. Il avait
+       également construit l’Hôtel de Langeac, les Écuries neuves à Versailles et un pavillon pour
+       Madame Élisabeth à Versailles, le Château de Brunoy, les Jardins de Madame au
+       Petit-Montreuil, le Séminaire de la rue des Postes (ensuite Collège Rollin), l’église de
+       Saint-Chaumont rue Saint-Denis. Ayant succédé à <persName ref="#servandoni"
+        >Servandoni</persName> à l’église Saint-Sulpice, il ne put achever que l’une des tours, il y
+       réalisa le buffet d’orgues et la chapelle du baptistère. Il avait été admis à l’Académie
+       royale d’architecture le 7 mai 1770, et fut l’un des six premiers architectes composant la
+       section d’architecture lors de la création de l’Institut en 1799.</p>
       <p>Pendant la Révolution, Chalgrin fut un moment détenu au Luxembourg où il avait travaillé pour le duc de Provence, et son épouse périt sur l’échafaud. Mais l’époque thermidorienne lui fut plus favorable. Chalgrin fut nommé membre du Conseil des bâtiments civils, avec <persName
         ref="#brongniart">Brongniart</persName> et <persName ref="#rondelet"
         >Rondelet</persName>, lors de sa première organisation en 1795. Il en resta membre jusqu’à sa mort. Il devint architecte des fêtes publiques, sous le Consulat, et ordonna les célébrations de la paix d’Amiens en 1802. Architecte du Palais du Luxembourg, il y fit de nombreux travaux d’aménagement à l’occasion de l’installation du Directoire dans cet édifice. En 1806, il fut chargé de l’Arc de Triomphe de l’Étoile, d’abord en collaboration avec <persName
@@ -1533,10 +1560,24 @@
       </note>
      </affiliation>
      <note type="biography">
-      <p>Élève d’<persName ref="#antoine"
-        >Antoine</persName>, Delannoy remporta le Grand prix d’architecture en 1779, il partit la même année à Rome. De retour à Paris, il travailla avec Antoine dont il avait épousé la nièce en 1792. Il fit un projet d’hôpital pour le livre de Iberti, <title>Observations générales sur les hôpitaux, suivies d’un projet d’hôpital</title>, publié en 1788.</p>
-      <p>Delannoy embrassa vivement le parti révolutionnaire et participa activement aux Sociétés d’artistes qui se constituèrent à cette époque. Il fut membre de la Commission du Muséum des arts, puis du premier Conservatoire. Il fut nommé architecte du Théâtre de la République et du magasin des Fêtes nationales. Il avait été chargé de la construction de deux monuments pour orner l’entrée du palais des Tuileries le 27 messidor an II, et s’occupa des deux piédestaux destinés à placer les chevaux de Marly placés à l’entrée de l’avenue des Champs-Élysées sur la place de la Concorde. </p>
-      <p>En 1808, il débuta la construction à paris les Greniers de réserve, boulevard Bourdon. En 1811, il fut chargé de construire la salle de concert du Conservatoire. Il augmenta les bâtiments de la Banque de France à l’Hôtel de la Vrillière. Il réalisa la galerie Vivienne de 1823 à 1826. Il fit aussi un projet pour la reconstruction de la Bibliothèque royale, avant que Visconti ne lui succède en 1829, qui fut gravé par son fils en 1839. En 1818 il était architecte de l’Opéra. </p>
+      <p>Élève d’<persName ref="#antoine">Antoine</persName>, Delannoy remporta le Grand prix
+       d’architecture en 1779, il partit la même année à Rome. De retour à Paris, il travailla avec
+       Antoine dont il avait épousé la nièce en 1792. Il fit un projet d’hôpital pour le livre
+       d'Iberti, <title>Observations générales sur les hôpitaux, suivies d’un projet
+        d’hôpital</title>, publié en 1788.</p>
+      <p>Delannoy embrassa vivement le parti révolutionnaire et participa activement aux Sociétés
+       d’artistes qui se constituèrent à cette époque. Il fut membre de la Commission du Muséum des
+       arts, puis du premier Conservatoire. Il fut nommé architecte du Théâtre de la République et
+       du magasin des Fêtes nationales. Il avait été chargé de la construction de deux monuments
+       pour orner l’entrée du palais des Tuileries le 27 messidor an II, et s’occupa des deux
+       piédestaux destinés à placer les chevaux de Marly situés à l’entrée de l’avenue des
+       Champs-Élysées sur la place de la Concorde. </p>
+      <p>En 1808, il débuta la construction à Paris des Greniers de réserve, boulevard Bourdon. En
+       1811, il fut chargé de construire la salle de concert du Conservatoire. Il augmenta les
+       bâtiments de la Banque de France à l’Hôtel de la Vrillière. Il réalisa la galerie Vivienne de
+       1823 à 1826. Il fit aussi un projet pour la reconstruction de la Bibliothèque royale, avant
+       que Visconti ne lui succède en 1829, qui fut gravé par son fils en 1839. En 1818 il était
+       architecte de l’Opéra. </p>
      </note>
      <note>
       <p>Projet d’hôpital en 1788, théâtre des Italiens en 1825, travaille à la Banque de France et la Galerie Vivienne.</p>
@@ -1594,9 +1635,15 @@
       </note>
      </affiliation>
      <note type="biography">
-      <p>Delespine était issus, du côté de son père d’une grande famille qui avait produit plusieurs architectes de valeur, et avait pour ascendant Mansard du côté de sa mère. Fils de Louis Jules Delespine, il fut élève de <persName>Peyre</persName> et de <persName>Renard</persName>. Il fit de bonnes études et se rendit en Italie et dans d’autres pays d’Europe. Delespine avait construit le marché Saint-Gervais (des Blancs-Manteaux) et quelques maisons de la rue de Rivoli. Il fut chargé de travaux de restauration à Saint-Roch et de l’achèvement du marché Saint-Germain commencé par <persName
-        ref="#labarre"
-       >Éloi de Labarre</persName>. Il dirigea à Rouen l’appropriation de l’ancienne abbaye Saint-Ouen en hôtel de ville.</p>
+      <p>Delespine était issu, du côté de son père, d’une grande famille qui avait produit plusieurs
+       architectes de valeur, et avait pour ascendant Mansard du côté de sa mère. Fils de Louis
+       Jules Delespine, il fut élève de <persName>Peyre</persName> et de
+       <persName>Renard</persName>. Il fit de bonnes études et se rendit en Italie et dans d’autres
+       pays d’Europe. Delespine avait construit le marché Saint-Gervais (des Blancs-Manteaux) et
+       quelques maisons de la rue de Rivoli. Il fut chargé de travaux de restauration à Saint-Roch
+       et de l’achèvement du marché Saint-Germain commencé par <persName ref="#labarre">Éloi de
+        Labarre</persName>. Il dirigea à Rouen l’appropriation de l’ancienne abbaye Saint-Ouen en
+       hôtel de ville.</p>
       <p>« Très considéré pour son savoir sérieux et précis » nous dit Soubies, Delespine fut chef d’atelier à l’École des beaux-arts de 1800 à 1825. Il fut élu membre de l’Académie des beaux-arts en 1824, à la section d’architecture à la suite du décès de <persName
         ref="#hurtault"
        >Maximilien Joseph Hurtault</persName> auquel il succéda également au Conseil des bâtiments civils.</p>
@@ -1710,7 +1757,9 @@
       </note>
      </affiliation>
      <note type="biography">
-      <p>Famin fréquenta l’École des beaux-arts du 18 janvier 1830 au 19 septembre 1835. Élève de Vaudoyer puis de Labrouste, il obtint le Grand prix en 1835, puis fut pensionnaire à Rome puis voyagea en Égypte.</p>
+      <p>Famin fréquenta l’École des beaux-arts du 18 janvier 1830 au 19 septembre 1835. Élève de
+       Vaudoyer puis de Labrouste, il obtint le Grand prix en 1835, puis fut pensionnaire à Rome et
+       voyagea en Égypte.</p>
       <p>Il réalisa la restauration d’un château dans le Berry puis s’occupa de la reconstruction du Collège Rolin. Principalement actif à Chartres où il s’installa à partir de 1859, il participa à la restauration de la Cathédrale et à l’organisation du musée de la ville. Il fut membre du Conseil des bâtiments civils de cette ville de 1862 à 1879.</p>
      </note>
      <listBibl type="biblio">
@@ -1763,8 +1812,24 @@
       </note>
      </affiliation>
      <note type="biography">
-      <p>Lieutenant-colonel, chevalier de Saint-Louis et officier de la Légion-d’honneur dès 1811, il été né d’une ancienne famille noble de Provence. Il fit ses premières armes dans l’armée royale de Berri, sous les ordres de Phelippeaux. Employé dans plusieurs campagnes des armées françaises, il s’était fait remarquer par ses talents et sa bravoure. Au siège de Girone en Espagne, il monta deux fois à l’assaut. Atteint d’un coup de biscaïen qui le renversa sur la brêche, il continua à commander et ne quitta son poste qu’après avoir fait enlever du champ de bataille tous les soldats blessés. À peine guéri, il retourna à l’assaut où il reçut une nouvelle blessure dont il était resté estropié. Cet accident l’obligea de demander sa retraite à trente-et-un ans.</p>
-      <p>De Féraudy fut alors employé dans les bureaux du Génie où il devint chef de Bureau avant d’être appelé par Montalivet comme secrétaire du Conseil des bâtiments civils en 1812. Dès juin 1813, Antoine-Daniel de Féraudy s’était fait confirmer qu’il avait voix délibérative au Conseil des bâtiments civils en raison de ses connaissances acquises comme ingénieur. C’était en quelque sorte l’homme de main de Montalivet. Il prêta serment de fidélité à la dynastie des Bourbons en avril 1814, et prit même les armes le 15 mars 1815 devant les dangers qui menaçaient le trône. Aussi de Féraudy conserva sa place de secrétaire du Conseil des bâtiments civils jusqu’en 1822 date à laquelle il fut appelé comme inspecteur général. Il la conserva jusqu’à sa mise à sa suppression en 1829 pour motif d’économie.</p>
+      <p>Lieutenant-colonel, chevalier de Saint-Louis et officier de la Légion-d’honneur dès 1811,
+       il été né d’une ancienne famille noble de Provence. Il fit ses premières armes dans l’armée
+       royale de Berri, sous les ordres de Phelippeaux. Employé dans plusieurs campagnes des armées
+       françaises, il s’était fait remarquer par ses talents et sa bravoure. Au siège de Girone en
+       Espagne, il monta deux fois à l’assaut. Atteint d’un coup de biscaïen qui le renversa sur la
+       brêche, il continua à commander et ne quitta son poste qu’après avoir fait enlever du champ
+       de bataille tous les soldats blessés. À peine guéri, il retourna à l’assaut où il reçut une
+       nouvelle blessure dont il resta estropié. Cet accident l’obligea à demander sa retraite à
+       trente-et-un ans.</p>
+      <p>De Féraudy fut alors employé dans les bureaux du Génie où il devint chef de Bureau avant
+       d’être appelé par Montalivet comme secrétaire du Conseil des bâtiments civils en 1812. Dès
+       juin 1813, Antoine-Daniel de Féraudy s’était fait confirmer qu’il avait voix délibérative au
+       Conseil des bâtiments civils en raison de ses connaissances acquises comme ingénieur. C’était
+       en quelque sorte l’homme de main de Montalivet. Il prêta serment de fidélité à la dynastie
+       des Bourbons en avril 1814, et prit même les armes le 15 mars 1815 devant les dangers qui
+       menaçaient le trône. Aussi de Féraudy conserva sa place de secrétaire du Conseil des
+       bâtiments civils jusqu’en 1822, date à laquelle il fut appelé comme inspecteur général. Il la
+       conserva jusqu’à sa suppression en 1829 pour motif d’économie.</p>
      </note>
      <note>
       <p>Indiqué dans l’Almanach national an X, p. 176 Captitaine à Landrecy</p>
@@ -1909,10 +1974,20 @@
       <date from="1833-05-05">5 mai 1833</date>
      </affiliation>
      <note type="biography">
-      <p>François-Tranquille Gauché, fut élève de <persName ref="#deWailly"
-        >de Wailly</persName>, il obtint le deuxième grand prix d’architecture en 1789. Il fit un projet de construction d’une maison de plaisance sur le sommet du Mont Renaud près de Noyon en 1804-1805. L’architecte avait exposé en 1802 un projet d’abattoir public. Il fut nommé le 14 juillet 1808 membre de la commission chargé de l’étude de la rédaction définitive des quatre grands abattoirs de Paris dont la construction avait été décidée par le décret de décembre 1807. Il donna trois esquisses pour ces abattoirs et dirigea la construction de celui de Grenelle (avec Gisors). En 1808, il dressa le projet pour l’entrepôt général des vins sur des terrains appartenant aux hospices près de la Salpétrière. Il fut chargé sa construction de 1813 à 1819. En 1815, il fut architecte des travaux d’appropriation de l’ancien hôtel Bazancourt pour la maison de détention pour les délits politiques, quai Saint-Bernard, et de l’établissement des jeunes aveugles de la rue Saint-Victor après <persName
-        ref="#philippon"
-       >Philippon</persName>. Il fut également l’auteur, au cimetière du Père-Lachaise, des sépultures des familles de Lépine et Marescot exécutés entre 1811 et 1824.</p>
+      <p>François-Tranquille Gauché, fut élève de <persName ref="#deWailly">de Wailly</persName>, il
+       obtint le deuxième grand prix d’architecture en 1789. Il fit un projet de construction d’une
+       maison de plaisance sur le sommet du Mont Renaud près de Noyon en 1804-1805. L’architecte
+       avait exposé en 1802 un projet d’abattoir public. Il fut nommé le 14 juillet 1808 membre de
+       la commission chargée de l’étude de la rédaction définitive des quatre grands abattoirs de
+       Paris, dont la construction avait été décidée par le décret de décembre 1807. Il donna trois
+       esquisses pour ces abattoirs et dirigea la construction de celui de Grenelle (avec Gisors).
+       En 1808, il dressa le projet pour l’entrepôt général des vins sur des terrains appartenant
+       aux hospices près de la Salpétrière. Il fut chargé de sa construction de 1813 à 1819. En
+       1815, il fut architecte des travaux d’appropriation de l’ancien hôtel Bazancourt pour la
+       maison de détention pour les délits politiques, quai Saint-Bernard, et de l’établissement des
+       jeunes aveugles de la rue Saint-Victor après <persName ref="#philippon">Philippon</persName>.
+       Il fut également l’auteur, au cimetière du Père-Lachaise, des sépultures des familles de
+       Lépine et Marescot exécutés entre 1811 et 1824.</p>
       <p>Il fut nommé expert du cadastre de Paris le 25 avril 1809, membre du Jury de l’École d’architecture le 20 décembre 1808, et membre honoraire du Conseil des bâtiments civils le 24 mai 1819.</p>
       <p>En 1829, il acheva avec Lelong le marché des Carmes dont les travaux avaient été débutés par Antoine-Laurent-Thomas Vaudoyer (des difficultés s’élevèrent entre Lelong et lui, et Lelong avait fait seul les projets et dirigé les travaux). Il fut l’auteur d’un projet de palais de justice pour la ville de Castelnaudary, et de l’étude d’une restauration pour l’église Notre-Dame de Tonnerre. En 1841, il avait proposé des projets pour la Bibliothèque du roi. Gauché succéda à Durand, dont il avait d’abord été le suppléant, comme professeur d’architecture à l’École polytechnique.</p>
      </note>
@@ -1982,7 +2057,11 @@
       </note>
      </affiliation>
      <note type="biography">
-      <p>Guy de Gisors, dit aussi « Gisors jeune », était le fils de Guy, « bourgeois de Paris », et de Marie-Catherine Courseron. On ne connaît pas précisément ses liens de parenté avec Jacques-Pierre Gisors probablement son cousin avec qui il est souvent confondu. Il est l’oncle d’Alphonse-Henry de Gisors dont il favorisera la carrière dans l’administration des bâtiments civils et l’oncle par alliance d’André-Antoine Despois peintre d’histoire.</p>
+      <p>Guy de Gisors, dit aussi « Gisors jeune », était le fils de Guy, « bourgeois de Paris », et
+       de Marie-Catherine Courseron. On ne connaît pas précisément ses liens de parenté avec
+       Jacques-Pierre Gisors, probablement son cousin, avec qui il est souvent confondu. Il est
+       l’oncle d’Alphonse-Henry de Gisors dont il favorisera la carrière dans l’administration des
+       bâtiments civils et l’oncle par alliance d’André-Antoine Despois, peintre d’histoire.</p>
       <p>Gisors étudia l’architecture avec <hi rend="bold"
         >Sevestre </hi>et se lia alors d’amitié avec deux condisciples <persName ref="#percier"
         >Charles Percier</persName> et <persName ref="#fontaine"
@@ -2000,9 +2079,21 @@
       <p>Gisors fut alors chargé des travaux des bâtiments occupés par l’École des Mines et par le bureau des Poids et mesures (30 prairial an X – 19 juin 1802). Ses attributions furent par la suite étendues à l’Hôtel Vaucanson, à l’École vétérinaire d’Alfort (26 avril 1806), au Musée des artistes à la Sorbonne (27 octobre 1808 au 1<hi
         rend="#superscript"
        >er</hi> février 1810). Guy de Gisors installa l’École Polytechnique dans le Collège de Navarre (de 1805 à 1807) et fut aussi chargé des fonctions de contrôleur des travaux de la Bourse et du tribunal de commerce (30 septembre 1806 au 27 octobre 1808). Le 13 juillet 1810, il devint architecte du Ministère de la guerre. Parallèlement, Gisors exposa plusieurs projets au salon et participa au concours pour l’édification d’un Temple de la gloire sur les sous-bassement de l’église de la Madeleine pour lequel il obtint le second prix en 1809 (Salon des Beaux-Arts de Paris, 1997).</p>
-      <p>En 1807, le ministre de l’intérieur Montalivet le chargea de dresser les plans de l’église Saint-Vincent de Mâcon dont les travaux furent conduits sur place par l’ingénieur en chef des Ponts et chaussées Guillaumot, de 1808 à 1811. En 1808, Gisors dont les qualités étaient appréciées par l’administration fut chargé d’une importante mission à Pontivy (Napoléonville). Il établit un projet définitif pour la ville et rectifia ceux en cours d’exécution et donna les plans d’une église. Ces deux projets d’églises sont caractéristiques de l’art de Gisors par leur économie néoclassique et un certain éclectisme des sources.</p>
+      <p>En 1807, le ministre de l’intérieur Montalivet le chargea de dresser les plans de l’église
+       Saint-Vincent de Mâcon dont les travaux furent conduits sur place par l’ingénieur en chef des
+       Ponts et chaussées Guillaumot, de 1808 à 1811. En 1808, Gisors dont les qualités étaient
+       appréciées par l’administration fut chargé d’une importante mission à Pontivy
+       (Napoléonville). Il établit un projet définitif pour la ville, rectifia ceux en cours
+       d’exécution et donna les plans d’une église. Ces deux projets d’églises sont caractéristiques
+       de l’art de Gisors par leur économie néoclassique et un certain éclectisme des sources.</p>
       <p>Guy de Gisors fut nommé le 20 mai 1811 Inspecteur général au Conseil des bâtiments civils où il prit une place prédominante par son activité. Membre du Conseil des bâtiments civils pendant vingt-deux ans, Gisors fut chargé de l’examen de 1 441 projets d’architecture soumis au Conseil des bâtiments civils, sans compter les révisions de mémoires, les diverses commissions dont il fut membre et l’important travail des alignements de Paris. Il exécuta pour le Conseil un grand nombre de missions dans les départements. Citons, parmi les plus importantes, celle à Rome en 1812 avec <persName>Louis-Martin Berthault</persName> ou celle qui le conduisit à Chambéry, Aix-les-Bains et dans le Sud de la France en 1813 et en 1817 dans le Rhône, le Puy-de-Dôme, la Corrèze et le Loiret.</p>
-      <p>Comme Inspecteur général du Conseil des bâtiments civils Gisors ne put diriger lui-même des travaux exécutés pour le compte du gouvernement. La maison centrale de détention de Melun, trois dépôt de mendicité, l’un à Saint-Germain en Laye, l’autre à Noyon, le troisième à Orléans furent bâtis d’après ses plans sous la direction d’autres architectes. Dans l’exercice de ses fonctions, l’architecte donna aussi de nombreuses esquisses en correction des projets des départements dont une partie est rassemblée dans un manuscrit conservé à l’Institut.</p>
+      <p>Comme Inspecteur général du Conseil des bâtiments civils, Gisors ne put diriger lui-même
+       des travaux exécutés pour le compte du gouvernement. La maison centrale de détention de
+       Melun, trois dépôt de mendicité, l’un à Saint-Germain en Laye, l’autre à Noyon, le troisième
+       à Orléans furent bâtis d’après ses plans sous la direction d’autres architectes. Dans
+       l’exercice de ses fonctions, l’architecte donna aussi de nombreuses esquisses en correction
+       des projets des départements dont une partie est rassemblée dans un manuscrit conservé à
+       l’Institut.</p>
       <p>En 1815, Gisors fut membre de l’académie de Saint Luc et membre du jury chargé de juger les projets des élèves de l’École d’architecture. L’architecte fut décoré de la Légion d’Honneur le 6 mai 1821. Le 16 décembre 1825, sur la recommandation de Fontaine, il fut chargé de présider la Commission de l’Arc de Triomphe jusqu’à la réintégration de <persName
         ref="#huyot"
        >Jean-Nicolas Huyot</persName> en 1828. Il fut nommé membre du Comité consultatif des bâtiments de la couronne en 1825, puis il devint architecte du roi (1831). En 1832, âgé de soixante-dix ans, il demanda et obtint sa mise à la retraite le 11 juin après une carrière essentiellement dédiée à l’administration. En 1834 il fit partie de la liste des membres de la Société d’Architecture. Resté, membre honoraire du Conseil des bâtiments civils, il mourut en 1835.</p>
@@ -2130,7 +2221,10 @@
       <date notBefore="1845">Après 1845, en 1848</date>
      </affiliation>
      <note type="biography">
-      <p>Élève de l’école entre 1829 et 1839, il deux fois logistes avant d’obtenir le Grand prix en 1836. Il fit une carrière d’architecte des bâtiments civils et fut membre temporaire du Conseil général des Bâtiments civils en 1867-68. Il donna son nom à un prix de l’École des beaux-arts.</p>
+      <p>Élève de l’école entre 1829 et 1839, il fut deux fois logiste avant d’obtenir le Grand prix
+       en 1836. Il fit une carrière d’architecte des bâtiments civils et fut membre temporaire du
+       Conseil général des Bâtiments civils en 1867-68. Il donna son nom à un prix de l’École des
+       beaux-arts.</p>
      </note>
      <listBibl type="bibliography">
       <bibl>{Delaire}</bibl>
@@ -2250,9 +2344,13 @@
         ref="#labarre"
         >de Labarre</persName>. On lui doit notamment l’installation du chauffage à air chaud de ce bâtiment sous la direction de <persName>Gay-Lussac</persName> et <persName>Thénard</persName>. Par la suite, le 10 mars 1827, il fut nommé architecte des Greniers de réserve en remplacement de <persName
         ref="#caristie">Caristie</persName>, fonction qu’il occupa jusqu’en 1831.</p>
-      <p>Entré au Conseil des bâtiments civils en 1819 en qualité de rapporteur, il devint inspecteur général à partir de 1834. Il remplit à plusieurs reprises les fonctions de secrétaire, de 1822 à 1834, puis de nouveau à partir 1840. En 1834, il s’occupa de la rédaction des projets d’organisation des bâtiments civil sous la direction d’<persName
-        ref="#blanc"
-       >Edmond Blanc</persName> et prit voix délibérative au Conseil. Devenu inspecteur général de la comptabilité avec l’organisation de 1838, il occupa cette place jusqu’à sa mort. </p>
+      <p>Entré au Conseil des bâtiments civils en 1819 en qualité de rapporteur, il devint
+       inspecteur général à partir de 1834. Il remplit à plusieurs reprises les fonctions de
+       secrétaire, de 1822 à 1834, puis de nouveau à partir 1840. En 1834, il s’occupa de la
+       rédaction des projets d’organisation des bâtiments civils sous la direction d’<persName
+        ref="#blanc">Edmond Blanc</persName> et prit voix délibérative au Conseil. Devenu inspecteur
+       général de la comptabilité avec l’organisation de 1838, il occupa cette place jusqu’à sa
+       mort. </p>
       <p>Ce fut l’un des fondateurs de la Société des architectes dont il fut le rapporteur et le secrétaire depuis la création de cette société jusqu’en 1853. Il fut un membre très actif de la Société d’encouragement et il fit faire d’importants progrès à la brique industrielle. La carrière de Charles-Pierre Gourlier ne s’illustre pas vraiment par ses réalisations, l’architecte était particulièrement versé dans la comptabilité des bâtiments. Il s’occupa également d’entreprise dans le domaine de la brique industrielle et déposa de nombreux brevets. Il fut également professeur à l’École centrale des arts et manufactures. Il publia, avec ses collègues <persName
         ref="#biet">Biet</persName>, <persName ref="#tardieu">Grillon</persName>, et <persName
         ref="#tardieu"
@@ -2335,7 +2433,25 @@
       </note>
      </affiliation>
      <note type="biography">
-      <p>Né à Stockholm de parents français, Guillaumot étudia d’abord à Hambourg, avant de venir étudier l’architecture à Paris. Il fut élève de l’Académie, mais sa qualité d’étranger l’écartait du Grand prix et il entreprit le voyage de Rome à ses frais. Il remporta à Rome le prix clémentin de l’Académie de Saint-Luc en 1750. Il visita aussi l’Angleterre et l’Espagne avant de revenir en France en 1754. Bénéficiant de protections il obtint d’importantes commandes publiques et privées. Il réalisa les trois casernes des gardes suisse de 1754 à 1756, et bénéficiant du soutien de la famille Berthier de Sauvigny, il réalisa divers travaux à Paris et en Bourgogne. Il fut nommé, en 1761, ingénieur en chef de la généralité de Paris. En 1773, il fut élu membre de l’Académie royale d’architecture. Devenu directeur et inspecteur général des carrières, en 1777, il fit beaucoup pour la consolidation des catacombes sous Paris dont l’entretien avait jusqu’alors été négligé. En 1780, à la mort de Soufflot il l’avait remplacé comme intendant général des bâtiments, jardins, arts et manufactures royales. Il se vit confier en 1787 des projets d’agrandissement des grandes écures de Versailles qui furent abandonnés en raison de leur prix. En 1789, il fut nommé directeur de la manufacture des Gobelins, mais trop marqué par ses relations avec la haute noblesse, il fut écarté en 1791 et arrêté car suspecté d’avoir aidé la famille royale à s’enfuir. Après sa libération en 1794, Charles Axel Guillaumot fut réintégré dans ses fonctions, mais uniquement comme inspecteur des Carrières et directeur de la manufacture des Gobelins, un poste qu’il occupait encore à sa mort. </p>
+      <p>Né à Stockholm de parents français, Guillaumot étudia d’abord à Hambourg, avant de venir
+       étudier l’architecture à Paris. Il fut élève de l’Académie, mais sa qualité d’étranger
+       l’écartait du Grand prix et il entreprit le voyage de Rome à ses frais. Il remporta à Rome le
+       prix clémentin de l’Académie de Saint-Luc en 1750. Il visita aussi l’Angleterre et l’Espagne
+       avant de revenir en France en 1754. Bénéficiant de protections, il obtint d’importantes
+       commandes publiques et privées. Il réalisa les trois casernes des gardes suisses de 1754 à
+       1756, et bénéficiant du soutien de la famille Berthier de Sauvigny, il réalisa divers travaux
+       à Paris et en Bourgogne. Il fut nommé, en 1761, ingénieur en chef de la généralité de Paris.
+       En 1773, il fut élu membre de l’Académie royale d’architecture. Devenu directeur et
+       inspecteur général des carrières, en 1777, il fit beaucoup pour la consolidation des
+       catacombes sous Paris dont l’entretien avait jusqu’alors été négligé. En 1780, à la mort de
+       Soufflot il l’avait remplacé comme intendant général des bâtiments, jardins, arts et
+       manufactures royales. Il se vit confier en 1787 des projets d’agrandissement des grandes
+       écuries de Versailles qui furent abandonnés en raison de leurs prix. En 1789, il fut nommé
+       directeur de la manufacture des Gobelins, mais trop marqué par ses relations avec la haute
+       noblesse, il fut écarté en 1791 et arrêté car suspecté d’avoir aidé la famille royale à
+       s’enfuir. Après sa libération en 1794, Charles Axel Guillaumot fut réintégré dans ses
+       fonctions, mais uniquement comme inspecteur des Carrières et directeur de la manufacture des
+       Gobelins, un poste qu’il occupait encore à sa mort. </p>
       <p>Guillaumot apparaît sur le tableau de la loge des Neuf-Sœurs à partir de 1783 et y figure également en 1784 et sur ceux de 1806. Au tableau de la même Loge figuraient <persName>Lacépède</persName>, <persName
         ref="#poyet"
         >Poyet</persName>, <persName>Vernet</persName>, <persName>Bonnet de Bois-Guillaume</persName>, et <persName>Eustache de Saint Far</persName> depuis 1779.</p>
@@ -2393,10 +2509,19 @@
      </affiliation>
      <note type="biography">
       <p>Élève de <persName ref="#labarre">Éloi de Labarre</persName>, de <persName ref="#debret"
-        >François Debret</persName> et d’<persName ref="#lebas"
-        >Hippolyte Lebas</persName> à l’École des beaux-arts, Grillon remporta en 1809 le second grand prix de Rome pour un projet de cathédrale et fit le voyage d’Italie. En 1811, il fut nommé sous-inspecteur des travaux à l’abattoir du Roule, puis inspecteur du Palais des beaux-arts et de l’Opéra en 1820. En 1824, il était inspecteur de <persName
-        ref="#debret"
-        >Debret</persName> avec <persName>Mesnager</persName> et <persName>de Guerchy</persName> à l’église Sainte-Geneviève. En 1825, il devint architecte du gouvernement et fut chargé des travaux du piédestal de la statue de Louis XVI qui devait être érigée place de la Concorde ; les constructions serviront plus tard à l’obélisque de Louqsor. De 1833 à 1834, il édifia l’entrepôt des douanes à Paris. Il donna également les bâtiments de l’entrepôt des sels en collaboration avec <persName>Adolphe Gréterin</persName> de l’entrepôt libre et de la compagnie générale du magasinage public, ainsi que plusieurs usines. En 1831, il édifia aussi quatre hôtels réunis dans les rues Las Cases et Saint-Dominique.</p>
+        >François Debret</persName> et d’<persName ref="#lebas">Hippolyte Lebas</persName> à l’École
+       des beaux-arts, Grillon remporta en 1809 le second grand prix de Rome pour un projet de
+       cathédrale et fit le voyage d’Italie. En 1811, il fut nommé sous-inspecteur des travaux à
+       l’abattoir du Roule, puis inspecteur du Palais des beaux-arts et de l’Opéra en 1820. En 1824,
+       il était inspecteur de <persName ref="#debret">Debret</persName> avec
+        <persName>Mesnager</persName> et <persName>de Guerchy</persName> à l’église
+       Sainte-Geneviève. En 1825, il devint architecte du gouvernement et fut chargé des travaux du
+       piédestal de la statue de Louis XVI qui devait être érigée place de la Concorde ; les
+       constructions serviront plus tard à l’obélisque de Louqsor. De 1833 à 1834, il édifia
+       l’entrepôt des douanes à Paris. Il donna également les bâtiments de l’entrepôt des sels en
+       collaboration avec <persName>Adolphe Gréterin</persName>, de l’entrepôt libre et de la
+       compagnie générale du magasinage public, ainsi que plusieurs usines. En 1831, il édifia aussi
+       quatre hôtels réunis dans les rues Las Cases et Saint-Dominique.</p>
       <p>De 1834 à 1848, Grillon fut également conseiller municipal de Paris. Une note du service à son sujet dit de lui en 1827 « Cet artiste très distingué sous tous les rapports est l’un de ceux à qui l’on peut confier avec une pleine sécurité les grands travaux publics. » Entré comme rapporteur au Conseil des bâtiments civils, il devint provisoirement inspecteur général en 1832, et officiellement le 15 avril 1838, place qu’il occupa jusqu’à sa mort. En 1838, il fut membre du jury d'architecture à l’École royale des beaux-arts, il fut également membre du Comité historique des arts et monuments. Il fut membre de la Société centrale à sa création et membre actif de la Société libre des Beaux-Arts. Il obtint la Légion d’honneur en 1834. Il publia avec ses collègues <persName
         ref="#gourlier"><persName ref="#gourlier"
          >Gourlier</persName></persName>, <persName><persName ref="#biet"
@@ -2462,9 +2587,19 @@
      </affiliation>
      <note type="biography">
       <p>Hénard fut envoyé à Paris comme pensionnaire du département de Seine-et-Marne à l’École des beaux-arts. Admis comme élève de seconde classe à l’École des beaux-arts le 29 mars 1833, il y obtint plusieurs mentions et fut proclamé élève de première classe le 12 février 1836. Trois fois admis à participer au concours de Rome jusqu’à ce qu’il obtienne le second Grand prix le 7 octobre 1837. Il participa aux concours jusqu’en 1841 sans pouvoir bénéficier du séjour de Rome.</p>
-      <p>En 1845, il était sous-inspecteur à l’hôtel du Timbre. Il participa au concours de l’Opéra et son projet fut primé. Ses travaux reçurent de nombreux prix au Salon ainsi qu’à l’exposition de Londres de 1851. Hénard exécuta plusieurs travaux tant à Paris que dans les départements de la Loire, de la Vienne, du Finistère, de l’Aube et du Loiret, de Seine-et-Marne et de Seine-et-OIse, trois châteaux, sept maisons de campagnes et villas, quatre maisons et deux hôtels à Paris. Il fut l’auteur des monuments des généraux Duromel et Lepic, et celui de Gabriel Jars, maire de Lyon et député du Rhône. Il exécuta un hôtel à Paris rue de l’université (n° 93). Il fut inspecteur des travaux de l’église Saint-François-Xavier en 1861, puis de la mairie du XII<hi
-        rend="superscript"
-        >e</hi> arrondissement, en devient l’architecte adjoint. Il reconstruisit l’église Notre-Dame-de-Bercy en 1873 et fut l’auteur de plusieurs travaux dans cet arrondissement. Il fut le père de <persName>Gaston Hénard (1843-1897)</persName> et d’<persName>Eugène Hénard (1849-1923)</persName>, tous deux architectes à Paris.</p>
+      <p>En 1845, il était sous-inspecteur à l’hôtel du Timbre. Il participa au concours de l’Opéra
+       et son projet fut primé. Ses travaux reçurent de nombreux prix au Salon ainsi qu’à
+       l’exposition de Londres de 1851. Hénard exécuta plusieurs travaux tant à Paris que dans les
+       départements de la Loire, de la Vienne, du Finistère, de l’Aube et du Loiret, de
+       Seine-et-Marne et de Seine-et-Oise, trois châteaux, sept maisons de campagnes et villas,
+       quatre maisons et deux hôtels à Paris. Il fut l’auteur des monuments des généraux Duromel et
+       Lepic, et celui de Gabriel Jars, maire de Lyon et député du Rhône. Il exécuta un hôtel à
+       Paris rue de l’université (n° 93). Il fut inspecteur des travaux de l’église
+       Saint-François-Xavier en 1861, puis de la mairie du XII<hi rend="superscript">e</hi>
+       arrondissement, en devient l’architecte adjoint. Il reconstruisit l’église
+       Notre-Dame-de-Bercy en 1873 et fut l’auteur de plusieurs travaux dans cet arrondissement. Il
+       fut le père de <persName>Gaston Hénard (1843-1897)</persName> et d’<persName>Eugène Hénard
+        (1849-1923)</persName>, tous deux architectes à Paris.</p>
      </note>
      <listBibl type="biblio">
       <bibl>{Delaire}</bibl>
@@ -2574,7 +2709,17 @@
       </note>
      </affiliation>
      <note type="biography">
-      <p>Heurtier avait été élève de l’Académie royale de peinture et sculpture, il fut l’élève de Lécuyer et de Legeay. Dès le début des années 1760, il fut attaché au général Thiboutaut comme dessinateur de plans et de fortification et comme aide de camp pendant la guerre de sept ans. Revenu à ses études, il obtint le Grand prix en 1765. Pensionnaire à Rome pendant trois ans et se fixa à Versailles à son retour en France. Employé dans les Bâtiments du roi à partir de 1763, d’abord comme dessinateur, ensuite comme inspecteur du château de Versailles à son retour de Rome en 1770. En 1776, il fut reçu à l’Académie royale d’architecture et devint inspecteur général de tous les bâtiments, une place qu’il occupa jusqu’en 1792. En 1777, il fut choisi pour la construction d’une nouvelle salle de spectacle pour la ville de Versailles. De 1781 à 1783, il érigea la salle du Théâtre des Italiens (salle Favart) qui fit sa célébrité mais qui disparut dans un incendie en 1838.</p>
+      <p>Heurtier avait été élève de l’Académie royale de peinture et sculpture, il fut l’élève de
+       Lécuyer et de Legeay. Dès le début des années 1760, il fut attaché au général Thiboutaut
+       comme dessinateur de plans et de fortification et comme aide de camp pendant la guerre de
+       sept ans. Revenu à ses études, il obtint le Grand prix en 1765. Pensionnaire à Rome pendant
+       trois ans, il se fixa à Versailles à son retour en France. Il fut employé dans les Bâtiments
+       du roi à partir de 1763, d’abord comme dessinateur, ensuite comme inspecteur du château de
+       Versailles à son retour de Rome en 1770. En 1776, il fut reçu à l’Académie royale
+       d’architecture et devint inspecteur général de tous les bâtiments, une place qu’il occupa
+       jusqu’en 1792. En 1777, il fut choisi pour la construction d’une nouvelle salle de spectacle
+       pour la ville de Versailles. De 1781 à 1783, il érigea la salle du Théâtre des Italiens
+       (salle Favart) qui fit sa célébrité mais qui disparut dans un incendie en 1838.</p>
       <p>Pendant la Révolution, après la fuite de d’Angiviller, Heurtier remplit les fonctions d’Inspecteur des bâtiments de la République, sous Roland. En 1801, Heurtier fut élu à l’Institut de France à la place d’<persName
         ref="#antoine"
         >Antoine</persName>. Il fut commissaire voyer de la ville de Paris à partir de 1804, et en 1809 il était inspecteur général de la grande voirie de cette même ville. En 1807, il fut aussi nommé au Conseil des bâtiments civils par Champagny pour donner une nouvelle impulsion à ses travaux, et il en prit la présidence. <?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?>Il fut, avec <persName
@@ -2649,10 +2794,23 @@
       </note>
      </affiliation>
      <note type="biography">
-      <p>Élève de Mique, Hurtault avait assisté Jacques-Pierre Gisors et Lecomte pour la remise en état du Manège pour l’établissement du Conseil des Cinq-Cents. Ensuite, il devint inspecteur de <persName
-        ref="#percier">Percier</persName> et <persName ref="#fontaine"
-       >Fontaine</persName> pour la restauration des Tuileries. Il obtint le second Grand prix le 23 septembre 1797 et se rendit en Italie. À son retour, il obtint diverses commandes pour des travaux particuliers dont deux immeubles rue de la Paix et passage Sandrier. La carrière de Hurtault fut ensuite liée aux travaux de la Couronne. Nommés architecte du Château de Fontainebleau en 1810, il restaura la galerie de Diane pour y établir la bibliothèque, il construisit la fontaine de Diane, le pavillon de l’Étang et l’oratoire. En 1813, il aménagea un jardin à l’anglais au jardin des pins. Il fut ensuite nommé à Saint-Cloud en 1819.</p>
-      <p>Il fut élu à l’Institut en 1819, et fut nommé membre honoraire du Conseil des bâtiments civils la même année. Il fut désigné inspecteur général, au moment du départ à la retraite de Heurtier et Rondelet, le 8 février 1822. Sa disparition prématurée lui laissa guère le temps d’occuper ses fonctions. On lui doit un marché et une salle de réunion à Joigny (Yonne) en 1823 qui avait été bâti sur une de ses esquisses, et son propre tombeau au Père Lachaise, il avait exposé au salon de 1819 un projet de fontaine monumentale pour le boulevard Bonne-Nouvelle.</p>
+      <p>Élève de Mique, Hurtault avait assisté Jacques-Pierre Gisors et Lecomte pour la remise en
+       état du Manège pour l’établissement du Conseil des Cinq-Cents. Ensuite, il devint inspecteur
+       de <persName ref="#percier">Percier</persName> et <persName ref="#fontaine"
+        >Fontaine</persName> pour la restauration des Tuileries. Il obtint le second Grand prix le
+       23 septembre 1797 et se rendit en Italie. À son retour, il obtint diverses commandes pour des
+       travaux particuliers dont deux immeubles rue de la Paix et passage Sandrier. La carrière de
+       Hurtault fut ensuite liée aux travaux de la Couronne. Nommé architecte du Château de
+       Fontainebleau en 1810, il restaura la galerie de Diane pour y établir la bibliothèque, il
+       construisit la fontaine de Diane, le pavillon de l’Étang et l’oratoire. En 1813, il aménagea
+       un jardin à l’anglaise au jardin des pins. Il fut ensuite nommé à Saint-Cloud en 1819.</p>
+      <p>Il fut élu à l’Institut en 1819, et fut nommé membre honoraire du Conseil des bâtiments
+       civils la même année. Il fut désigné inspecteur général, au moment du départ à la retraite de
+       Heurtier et Rondelet, le 8 février 1822. Sa disparition prématurée ne lui laissa guère le
+       temps d’occuper ses fonctions. On lui doit un marché et une salle de réunion à Joigny (Yonne)
+       en 1823 qui avait été bâtie sur une de ses esquisses, et son propre tombeau au Père Lachaise.
+       Il avait exposé au salon de 1819 un projet de fontaine monumentale pour le boulevard
+       Bonne-Nouvelle.</p>
      </note>
      <note>
       <p>habile et ingénieux (Soubies)</p>
@@ -2718,12 +2876,19 @@
       </note>
      </affiliation>
      <note type="biography">
-      <p>Jean Jacques Marie Huvé était le fils de <persName ref="#huveJeanJacques"
-         >Jean Jacques Huvé, il fut son élève et celui de <persName ref="#percier"
-         >Percier</persName>.</persName> Admis le 1<hi rend="superscript"
-        >er</hi> janvier 1805 à l’École des beaux-art où il obtint plusieurs distinctions. Conducteur des travaux de la Madeleine en 1808, il en poursuivit le chantier après la mort de <persName
-        ref="#vignon">Vignon</persName>, de 1828 à 1843. En 1817, il secondait <persName ref="#viel"
-        >Viel</persName> aux travaux des hospices, et fut après sa mort en 1819 l’un des quatre architecte qui avaient été choisis pour lui succéder. Ses attributions comptaient la Salpétrière, l’hospice de la Rochefoucauld, l’hôpital Necker, l’hôpital des Enfants malades, l’hôpital Beaujon, l’hôpital de la Pitié, les Incurables femmes, l’hospice des Ménages et enfin l’Hôtel-Dieu, au sujet duquel il fit un projet qui dégageait entièrement les abords de Notre-Dame. À la même époque, Huvé édifiait le marché des vaches grasses à Paris, et du Château de Saint-Ouen édifié pour Louis XVIII. Il acquit sous la restauration une importante clientèle privée.</p>
+      <p>Jean Jacques Marie Huvé était le fils de <persName ref="#huveJeanJacques">Jean Jacques
+        Huvé, il fut son élève et celui de <persName ref="#percier">Percier</persName>.</persName>
+       Admis le 1<hi rend="superscript">er</hi> janvier 1805 à l’École des beaux-art où il obtint
+       plusieurs distinctions. Conducteur des travaux de la Madeleine en 1808, il en poursuivit le
+       chantier après la mort de <persName ref="#vignon">Vignon</persName>, de 1828 à 1843. En 1817,
+       il secondait <persName ref="#viel">Viel</persName> aux travaux des hospices, et fut après sa
+       mort en 1819 l’un des quatre architectes qui avaient été choisis pour lui succéder. Ses
+       attributions comptaient la Salpétrière, l’hospice de la Rochefoucauld, l’hôpital Necker,
+       l’hôpital des Enfants malades, l’hôpital Beaujon, l’hôpital de la Pitié, les Incurables
+       femmes, l’hospice des Ménages et enfin l’Hôtel-Dieu, au sujet duquel il fit un projet qui
+       dégageait entièrement les abords de Notre-Dame. À la même époque, Huvé édifiait le marché des
+       vaches grasses à Paris, et du Château de Saint-Ouen édifié pour Louis XVIII. Il acquit sous
+       la restauration une importante clientèle privée.</p>
       <p>En 1823, il fut nommé architecte de Compiègne, et en 1827 de l’administration des Postes. Il obtint un premier prix au concours pour le théâtre Ventadour à Paris en 1828, qu’il exécuta avec Louis Régnier Deguerchy. En 1828, il dressa un projet de théâtre pour la ville de Tours en collaboration avec <persName
         ref="#guerin"
        >Bernard-Mathias Guérin (c. 1790-1839)</persName>. Il construisit également l’hospice de Marie-Thérèse, et laissa avant sa mort un projet d’hôpital général pour la ville de Cherbourg et divers projets d’embellissements pour Versailles.</p>
@@ -2792,10 +2957,16 @@
       </note>
      </affiliation>
      <note type="biography">
-      <p>Élève de <persName>Loriot</persName> et de <persName ref="#soufflot"
-        >Soufflot</persName>, Jallier obtint le grand prix en 1760. Il se rendit à Rome l'année suivante. Il fut collaborateur de <persName>Ange-Jacques Gabriel</persName> à la direction des Bâtiments du roi, puis actif en Suisse et dans l’Est de la France. On lui doit le château de Montvillers à Bazeilles (Ardennes) en 1770 et un projet de surélévation du phare de Cordouan qu’il conçut avec l’ingénieur Borda approuvé en 1786 et exécuté deux ans plus tard. Il donna un projet de place Louis XVI pour la ville de Brest (Finistère) en 1784. En 1789, il obtint le premier prix pour le concours de la Caisse d’Escompte devant <persName
-        ref="#antoine">Jacques Denis Antoine</persName>, et <persName ref="#brongniart"
-        >Alexandre-Théodore Brongniart</persName>.</p>
+      <p>Élève de <persName>Loriot</persName> et de <persName ref="#soufflot">Soufflot</persName>,
+       Jallier obtint le grand prix en 1760. Il se rendit à Rome l'année suivante. Il fut
+       collaborateur de <persName>Ange-Jacques Gabriel</persName> à la direction des Bâtiments du
+       roi, puis actif en Suisse et dans l’Est de la France. On lui doit le château de Montvillers à
+       Bazeilles (Ardennes) en 1770 et un projet de surélévation du phare de Cordouan qu’il conçut
+       avec l’ingénieur Borda, approuvé en 1786 et exécuté deux ans plus tard. Il donna un projet de
+       place Louis XVI pour la ville de Brest (Finistère) en 1784. En 1789, il obtint le premier
+       prix pour le concours de la Caisse d’Escompte devant <persName ref="#antoine">Jacques Denis
+        Antoine</persName>, et <persName ref="#brongniart">Alexandre-Théodore
+       Brongniart</persName>.</p>
       <p>Architecte des bâtiments civils, il fut chargé du Conservatoire national des arts et métiers, et de la Bibliothèque de l’Arsenal.</p>
      </note>
      <listBibl type="biblio">
@@ -2850,11 +3021,20 @@
      </affiliation>
      <note type="biography">
       <p>Élève de <persName ref="#raymond">Raymond</persName> et <persName ref="#chalgrin"
-        >Chalgrin</persName>, il fut Grand prix en 1797 pour un projet de greniers publics. Il remporta le prix d’exécution pour la distribution des terrains du Château-Trompette à Bordeaux. Il suivit à Paris comme inspecteur la restauration du Palais du Luxembourg sous la direction de <persName
-        ref="#chalgrin"
-        >Chalgrin</persName> et fit exécuter la Colonne colossale de Boulogne-sur-Mer (Pas-de-Calais) qui sera seulement achevée en 1841 huit ans après sa mort, ainsi que le Théâtre de cette même ville (incendié en 1854). Ce fut à lui que revint le soin d’achever la Bourse de <persName
-        ref="#brongniart"
-       >Brongniart</persName>. Le monument étant seulement élevé au quart de son exécution, il ne se gêna pas pour modifier les plans de son prédécesseur pour le faire correspondre aux besoins de l’institution. Il donna plus d’élévation à l’édifice et remplaça le style corinthien et le style ionien adopté par l’auteur du projet. L’édifice fut livré aux spéculateurs en 1827, l’intérieur est entièrement de lui et sa couverture en métal témoigne d’un talent de constructeur. Il était également bon dessinateur et avait été employé par Raymond et avait reproduit et fait gravé le projet de son maître pour l’Arc de Triomphe de l’Étoile.</p>
+        >Chalgrin</persName>, il fut Grand prix en 1797 pour un projet de greniers publics. Il
+       remporta le prix d’exécution pour la distribution des terrains du Château-Trompette à
+       Bordeaux. Il suivit à Paris comme inspecteur la restauration du Palais du Luxembourg sous la
+       direction de <persName ref="#chalgrin">Chalgrin</persName> et fit exécuter la Colonne
+       colossale de Boulogne-sur-Mer (Pas-de-Calais) qui sera seulement achevée en 1841, huit ans
+       après sa mort, ainsi que le Théâtre de cette même ville (incendié en 1854). Ce fut à lui que
+       revint le soin d’achever la Bourse de <persName ref="#brongniart">Brongniart</persName>. Le
+       monument étant seulement élevé au quart de son exécution, il ne se gêna pas pour modifier les
+       plans de son prédécesseur pour le faire correspondre aux besoins de l’institution. Il donna
+       plus d’élévation à l’édifice et remplaça le style corinthien et le style ionien adopté par
+       l’auteur du projet. L’édifice fut livré aux spéculateurs en 1827, l’intérieur est entièrement
+       de lui et sa couverture en métal témoigne d’un talent de constructeur. Il était également bon
+       dessinateur et avait été employé par Raymond. Il avait reproduit et fait graver le projet de
+       son maître pour l’Arc de Triomphe de l’Étoile.</p>
       <p>Architecte laborieux malgré un parcours brillant, son style d’architecture est pur et sévère, les ornements étant appliqués avec justesse et modération. Éloi de Labarre fut élu à l’Institut le 26 juillet 1826. Il fut membre honoraire du Conseil des bâtiments civils à partir du 1<hi
         rend="superscript"
        >er</hi> septembre 1830. Paralysé depuis un an au moment de sa mort, il vivait retiré dans sa maison de campagne de Vitry-sur-Seine.</p>
@@ -3096,7 +3276,15 @@
       </note>
      </residence>
      <note type="biography">
-      <p>Legrand fit le voyage en Italie avec Molinos en 1785. Passionné d’archéologie et fin connaisseur, il fut l’un des collaborateurs du <title>Voyage pittoresque</title> de Choiseul-Gouffier et rectifia les dessins de Desgodets sur les monuments antiques. Legrand et Molinos créèrent un musée de moulages antique dans leur immeuble rue Saint-Florentin. D’intérêt large, les deux architectes étudièrent et relevèrent les monuments du Quattrocento. Auteur du propos historique introductif du Parallèle de Durand et du texte historique, il donna également le texte historique des <title>Antiquités de la France</title> de Clérisseau. Il publia seul une <title>Galerie antique</title> en 1806, et <title>La Description de Paris</title> avec Landon en 1818.</p>
+      <p>Legrand fit le voyage en Italie avec Molinos en 1785. Passionné d’archéologie et fin
+       connaisseur, il fut l’un des collaborateurs du <title>Voyage pittoresque</title> de
+       Choiseul-Gouffier et rectifia les dessins de Desgodets sur les monuments antiques. Legrand et
+       Molinos créèrent un musée de moulages antiques dans leur immeuble rue Saint-Florentin.
+       D’intérêt large, les deux architectes étudièrent et relevèrent les monuments du Quattrocento.
+       Auteur du propos historique introductif du Parallèle de Durand et du texte historique, il
+       donna également le texte historique des <title>Antiquités de la France</title> de Clérisseau.
+       Il publia seul une <title>Galerie antique</title> en 1806, et <title>La Description de
+        Paris</title> avec Landon en 1818.</p>
       <p>La carrière de Legrand fut intimement liée à celle de Molinos avec lequel il édifia plusieurs travaux pour des particuliers comme l’hôtel de Marbeuf en 1789 ou les deux immeubles des n° 6 et 10 rue Saint-Florentin. Le n° 6 qui fut leur habitation acclimate le style florentin de Michelozzo et d’Alberti à Paris. Ils furent surtout connus pour la couverture de la Halle aux blés qu’ils exécutèrent du 10 septembre 1782 au 20 septembre 1783. En 1785, ils reconstruisirent la fontaine des Innocents. En 1790, ils édifièrent le théâtre de Monsieur (Feydeau) pour une troupe italienne protégée du Comte de Provence où ils adoptèrent un parti ingénieux sur un terrain étroit. </p>
       <p>En 1791, toujours avec Molinos, ils collaborèrent avec le député Kersaint pour divers projets civiques (palais national, prytanés, kiosques, etc.). Architecte du cardinal Fesch, oncle de l’Empereur, dont il aménagea la résidence à la Chaussée-d’Antin, sous l’Empire. Il fut chargé des restaurations de la porte Saint-Denis, et d’études pour la basilique Saint-Denis d’un mausolée impérial.</p>
       <p>Successivement contrôleur des bâtiments de la ville, de contrôleur et d’architecte de la commune de Paris, Legrand devint inspecteur général lors de la formation du Conseil des bâtiments civils en 1794. Il fut supprimé par économie en l’an V (1797). Supprimé en thermidor an V, il avait alors été attaché depuis douze ans à l’administration des Travaux publics.</p>
@@ -3161,7 +3349,12 @@
       <date notBefore="1845">après juin 1845</date>
      </affiliation>
      <note type="biography">
-      <p>Lincelle est indiqué dans les archives comme élève de l’École des beaux-arts et petit-gendre de ÉLoi de Labarre, l’architecte de la Bourse. Il ne figure pas dans le Dictionnaire des élèves architectes de l’École des beaux-arts de Marie-Laure Crosnier Leconte. Il n’apparaît pas non plus dans le Delaire. Pourtant, un dénommé « Lincelle, architecte » fut souscripteur d’un ouvrage de la maison Bance consacré à Adolphe Lance en 1875 (Bouvier 2004).</p>
+      <p>Lincelle est indiqué dans les archives comme élève de l’École des beaux-arts et
+       petit-gendre de Éloi de Labarre, l’architecte de la Bourse. Il ne figure pas dans le
+       Dictionnaire des élèves architectes de l’École des beaux-arts de Marie-Laure Crosnier
+       Leconte. Il n’apparaît pas non plus dans le Delaire. Pourtant, un dénommé « Lincelle,
+       architecte » fut souscripteur d’un ouvrage de la maison Bance consacré à Adolphe Lance en
+       1875 (Bouvier 2004).</p>
      </note>
      <listBibl type="archives">
       <bibl>FRAN/F/21/1835</bibl>
@@ -3369,7 +3562,9 @@
       <date notAfter="1845">vers 1845</date>
      </affiliation>
      <note type="biography">
-      <p>Élève d’Auguste Guénepin, admis le 4 janvier 1836 à l’École des beaux-arts il y obtint de très nombreux succès. Il reste à l’école jusqu’au 17 avril 1840. Il fut surtout l’auteur de constructions particulières.</p>
+      <p>Élève d’Auguste Guénepin, admis le 4 janvier 1836 à l’École des beaux-arts il y obtint de
+       très nombreux succès. Il resta à l’école jusqu’au 17 avril 1840. Il fut surtout l’auteur de
+       constructions particulières.</p>
       <p>Gourlier dans sa notice le donne comme auditeur, mais il peut y avoir confusion avec Charles Mesnager (1813-1899).</p>
       <p>Cet auditeur fut sous-inspecteur à l’École polytechnique.</p>
      </note>
@@ -3587,9 +3782,16 @@
       <p>Fils de jardinier, Charles Norry étudia l’architecture à l’école de l’Académie où il remporta plusieurs prix d’émulation. Il eut pour maître <persName
         ref="#deWailly"
        >Charles de Wailly</persName> qu’il suivit pour l’assister dans ses travaux à Cassel et à Berlin. Par la suite, inspecteur des travaux du théâtre de l’Odéon. Il fit le voyage de Rome. De retour à Paris, il fut nommé, sous la direction de Couture, inspecteur des travaux de l’église de la Madeleine et construisit des maisons pour des particuliers. Il fut l’auteur de divers projets sous la Révolution dont l’aménagement de la salle du tribunal révolutionnaire.</p>
-      <p>Il fut désigné, par une lettre du 27 germinal an VI (3 avril 1798), l’un des quatre architectes de la Commission des arts et sciences attachés à l’expédition d’Égypte. Il y projeta un projet de Lazaret à Alexandrie qui ne fut pas exécuté. De retour en France le 8 messidor an VIII (27 juin 1800), il était nommé chef du bureau des Bâtiments civils et prisons, place qu’il occupa douze ans, avant que le ministre de l’Intérieur <persName
-        ref="#montalivet"
-       >Montalivet</persName> le fasse passer au Conseil des bâtiments civils comme membre, en 1812. En l’an IX, il s’était fait donné voix consultative au Conseil des bâtiments civils et la direction du travail des alignements. Norry était, à la même époque, inspecteur général de la Grande voirie à la préfecture de la Seine. En 1815, « cet artiste aussi modeste qu’estimable » était proposé pour la Légion d’honneur.</p>
+      <p>Il fut désigné, par une lettre du 27 germinal an VI (3 avril 1798), l’un des quatre
+       architectes de la Commission des arts et sciences attachés à l’expédition d’Égypte. Il y
+       projeta un projet de Lazaret à Alexandrie qui ne fut pas exécuté. De retour en France le 8
+       messidor an VIII (27 juin 1800), il était nommé chef du bureau des Bâtiments civils et
+       prisons, place qu’il occupa douze ans, avant que le ministre de l’Intérieur <persName
+        ref="#montalivet">Montalivet</persName> le fasse passer au Conseil des bâtiments civils
+       comme membre, en 1812. En l’an IX, il s’était fait donner voix consultative au Conseil des
+       bâtiments civils et la direction du travail des alignements. Norry était, à la même époque,
+       inspecteur général de la Grande voirie à la préfecture de la Seine. En 1815, « cet artiste
+       aussi modeste qu’estimable » était proposé pour la Légion d’honneur.</p>
       <p>Le 22 mars 1819, Norry remettait sa démission du Conseil pour des motifs de santé, son jeune fils de vingt-deux ans venant de mourir. Par ailleurs, il venait d’être nommé membre du Comité consultatif des bâtiments de la Couronne, place vacante après le décès de <persName
         ref="#gondouin"
        >Gondouin</persName>. À l’occasion de sa démission il exprimait des regrets à propos de la nouvelle organisation car il aurait préféré être conseiller. Sa démission était acceptée le 3 avril et il devint ensuite membre honoraire du Conseil des bâtiments civils jusqu’à sa mort. En tant que membre honoraire il participa au travail de la commission créée en 1820 sur l’organisation des travaux publics.</p>
@@ -3696,7 +3898,17 @@
       </note>
      </affiliation>
      <note type="biography">
-      <p>La carrière de Charles Percier fut presque indistinctement liée à celle de Pierre-François-Léonard Fontaine. Son cadet de deux ans, il obtint le Grand prix un an après lui en 1786 et put rejoindre son ami à Rome comme pensionnaire de l’Académie. Ils trouvèrent à leur retour en 1792 la France en pleine ébulition et Fontaine prit le parti d’émigrer à Londres avant d’être rappelé à Paris pour remplacer Pâris aux décorations de l’Opéra. Depuis cette époque ils travaillèrent en association. Ils exécutèrent alors des travaux aux châteaux de la Malmaison, de Saint-Cloud, de Compiègne, de Versailles et de Fontainebleau, à l’Élysée, au Louvre et aux Tuileries. On leur doit le dégagement du Château des Tuileries et le percement de la rue de Rivoli ainsi que la Fontaine de Desaix place Dauphine (aujourd’hui à Riom). Leur réalisation la plus connue, et sans doute représentative de la délicatesse de leur art est probablement l’Arc de Triomphe du Carroussel.</p>
+      <p>La carrière de Charles Percier fut presque indistinctement liée à celle de
+       Pierre-François-Léonard Fontaine. Son cadet de deux ans, il obtint le Grand prix un an après
+       lui en 1786 et put rejoindre son ami à Rome comme pensionnaire de l’Académie. Ils trouvèrent
+       à leur retour en 1792 la France en pleine ébullition et Fontaine prit le parti d’émigrer à
+       Londres avant d’être rappelé à Paris pour remplacer Pâris aux décorations de l’Opéra. Depuis
+       cette époque ils travaillèrent en association. Ils exécutèrent alors des travaux aux châteaux
+       de la Malmaison, de Saint-Cloud, de Compiègne, de Versailles et de Fontainebleau, à l’Élysée,
+       au Louvre et aux Tuileries. On leur doit le dégagement du Château des Tuileries et le
+       percement de la rue de Rivoli ainsi que la Fontaine de Desaix place Dauphine (aujourd’hui à
+       Riom). Leur réalisation la plus connue, et sans doute représentative de la délicatesse de
+       leur art est probablement l’Arc de Triomphe du Carroussel.</p>
       <p>Percier dont la santé était altérée renonça à la partie active de la profession à partir de 1814 pour se consacrer plus particulièrement à l’enseignement. Il forma de très nombreux élèves parmi lesquels de nombreux membres du Conseil des bâtiments civils ou des architectes employés dans les travaux. Membre de l’Institut depuis 1811, il fut nommé membre-adjoint du Conseil des bâtiments civils, sans traitement, le 28 août 1818. Il participa activement aux travaux du Conseil des bâtiments civils. Le 10 janvier 1834, il fut nommé président honoraire.</p>
      </note>
      <listBibl type="archives">
@@ -3746,7 +3958,12 @@
      </affiliation>
      <note type="biography">
       <p>Aîné de trois frères dont l’un se distingua comme chirurgien et l’autre comme archéologue (Charles-François Petit-Radel (1656-1836) avec lequel il est souvent confondu), il fut élève de Billaudel à l’Académie. Il concourut cinq fois pour le concours de Rome et obtint le troisième prix en 1763 pour un arc de triomphe.</p>
-      <p>En 1785, il édifia sur la rue du Faubourg poissonnière un immeuble en avant du Pavillon Tabary construit par Ledoux. Il s’occupa de l’embellissement de l’église Saint-Médard dont il entoura le chœur de piliers et couvrit la chapelle absidiale d’une voûte appareillée à joints vifs. Sous la terreur il imagina et fit connaître une méthode expéditive et sans danger pour provoquer l’effondrement d’une église qui lui valut les moqueries de Viollet-le-Duc et Lassus dans les <title>Annales</title> de Didron.</p>
+      <p>En 1785, il édifia sur la rue du Faubourg poissonnière un immeuble en avant du Pavillon
+       Tabary construit par Ledoux. Il s’occupa de l’embellissement de l’église Saint-Médard dont il
+       entoura le chœur de piliers et couvrit la chapelle absidiale d’une voûte appareillée à joints
+       vifs. Sous la Terreur, il imagina et fit connaître une méthode expéditive et sans danger pour
+       provoquer l’effondrement d’une église qui lui valut les moqueries de Viollet-le-Duc et Lassus
+       dans les <title>Annales</title> de Didron.</p>
       <p>Il fut expert-bourgeois de 1770 à 1792 puis fut membre de la Commission des artistes formée en mai 1793 avec <persName
         ref="#mouchelet">Mouchelet</persName> et <persName ref="#garrez"
         >Garrez</persName>. Il entra au Conseil des bâtiments civils du 1<hi rend="superscript"
@@ -3852,15 +4069,31 @@
       </note>
      </residence>
      <note type="biography">
-      <p>Frère cadet et élève de <persName>Marie-Joseph Peyre (1730-1785) dit l’Aîné</persName>. Ce fut sous son influence que Peyre qui avait d’abord étudié la peinture sous la direction de <persName>Pierre</persName> se consacra à l’architecture. Inscrit à l’Académie sous le patronage de <persName>Loriot</persName> il y obtint le troisième prix en 1761 pour une salle de concert, et remporta le Grand prix en 1762. Pensionnaire à Rome de 1763 à 1764, à son retour en France il fit carrière dans les Bâtiments du roi comme contrôleur de Saint-Germain-en-Laye, puis de Fontainebleau.</p>
+      <p>Frère cadet et élève de <persName>Marie-Joseph Peyre (1730-1785) dit l’Aîné</persName>. Ce
+       fut sous son influence que Peyre, qui avait d’abord étudié la peinture sous la direction de
+        <persName>Pierre</persName>, se consacra à l’architecture. Inscrit à l’Académie sous le
+       patronage de <persName>Loriot</persName> il y obtint le troisième prix en 1761 pour une salle
+       de concert, et remporta le Grand prix en 1762. Pensionnaire à Rome de 1763 à 1764, à son
+       retour en France il fit carrière dans les Bâtiments du roi comme contrôleur de
+       Saint-Germain-en-Laye, puis de Fontainebleau.</p>
       <p>Il fut recommandé par d’<persName>Angiviller </persName>à <persName>Clément-Wenceslas de Saxe</persName>, électeur de Trèves, pour remplacer <persName>Pierre-Michel Ixnard</persName> pour les travaux de son palais électoral à Coblence qui fut achevé en 1786. Admis dans la deuxième classe de l’Académie royale d’architecture en 1777, il se consacra à l’enseignement à la fin de sa vie. <persName
         ref="#percier">Charles Percier</persName>, <persName ref="#fontaine"
         >Pierre-François-Léonard Fontaine</persName>, <persName ref="#vaudoyer"
         >Antoine-Laurent-Thomas Vaudoyer</persName> et <persName ref="#baltard"
         >Louis-Pierre Baltard</persName> furent notamment ses élèves. </p>
-      <p>Nommé le 2 messidor an V (20 juin 1797) architecte des monuments conservés comme objets précieux pour les arts. Il fut aussi architecte de l’administration des hospices. C’est lui qui établir la Légion d’honneur à l’hôtel Salm. Au rétablissement du Conseil en 1816, il fut admis à la retraite et devint membre honoraire.</p>
-      <p>Suspect pendant la Révolution, il fut un moment détenu au château de Fontainebleau et ne retrouva sa liberté qu’après le 9 thermidor. Il fut élu dans la classe des Beaux-arts au moment du rétablissement de l’Institut le 15 décembre 1795. Inspecteur des bâtiments civils à la création du Conseil des bâtiments civils il en fut supprimé lors de la réduction de l’an V avant d’en redevenir membre en l’an VII. </p>
-      <p>Archéologue, il fut aussi l’auteur de plusieurs publications elles que les <title>Antiquités de la ville de Trèves</title> en 1789, et <title>Mémoire sur l’achèvement du Louvre</title> 1795, ou <title>Restauration du Panthéon français</title> 1779, et surtout la publication de ses œuvres architecturales en 1818.</p>
+      <p>Nommé le 2 messidor an V (20 juin 1797) architecte des monuments conservés comme objets
+       précieux pour les arts. Il fut aussi architecte de l’administration des hospices. C’est lui
+       qui établit la Légion d’honneur à l’hôtel Salm. Au rétablissement du Conseil en 1816, il fut
+       admis à la retraite et devint membre honoraire.</p>
+      <p>Suspect pendant la Révolution, il fut un moment détenu au château de Fontainebleau et ne
+       retrouva sa liberté qu’après le 9 thermidor. Il fut élu dans la classe des Beaux-arts au
+       moment du rétablissement de l’Institut le 15 décembre 1795. Inspecteur des bâtiments civils à
+       la création du Conseil des bâtiments civils, il en fut supprimé lors de la réduction de l’an
+       V avant d’en redevenir membre en l’an VII. </p>
+      <p>Archéologue, il fut aussi l’auteur de plusieurs publications telles que les
+        <title>Antiquités de la ville de Trèves</title> en 1789, et <title>Mémoire sur l’achèvement
+        du Louvre</title> 1795, ou <title>Restauration du Panthéon français</title> 1779, et surtout
+       de la publication de ses œuvres architecturales en 1818.</p>
       <p>On évoque sa générosité, <persName ref="#fontaine"
         >Fontaine</persName> en parle avec vénération dans son <title>Journal</title>. Il avança sur ses deniers la pension promise à <persName
         ref="#combes"
@@ -3926,11 +4159,39 @@
       <p>Antoine-Marie Peyre était le fils <persName>Marie-Joseph Peyre (1730-1785)</persName>, neveu d’<persName
         ref="#peyreAntoineFrancois"
         >Antoine-François Peyre (1739-1823)</persName> et leur élève. Parfois indiqué élève de <persName>Boulée</persName> et de <persName>Renard</persName>. Peyre prit du service pendant la révolution, aide de camp du <persName>général Lafayette</persName>, il fut blessé le 17 juillet 1791, mais s’engagea de nouveau en 1793 dans l’armée des côtes de Cherbourg comme soldat.</p>
-      <p>D’abord nommé pour la restauration de l’Observatoire, l’installation du musée des monuments français dans l’ancien couvent des Petits Augustins, et tous les dépôts littéraires et d’art et métiers en 1795, ses attributions furent réparties entre plusieurs confères avec son accord lors de la nouvelle organisation de l’an V. En l’an VIII, il désira participer de nouveau aux campagnes militaires et fut nommé lieutenant de hussards et passa comme adjoint à l’état major de l’armée des Grisons où il resta jusqu’à la fin de la guerre. Sa place ayant été supprimée à son retour le 28 vendémaire an IX (lundi 20 octobre 1800), il fut nommé le 9 brumaire an IX (31 octobre 1800) architecte du Théâtre français et Odéon, construit par son père avec <persName
-        ref="#deWailly"
-       >de Wailly</persName>. En l’an XII, il se disait père d’une nombreuse famille.</p>
-      <p>Peyre neveu eut la change d’avoir une carrière extrêmement féconde. Il construisit en 1800 l’ancien Théâtre de la Gaîté, puis en 1810 le marché Saint-Martin. Le 29 septembre 1812, il se vit aussi confier les travaux d’entretien de Gisors qui, devenu membre du Conseil, ne pouvait plus prendre une part active au service. Il s’occupait alors de l’École vétérinaire d’Alfort et des Moulins à papier de l’Île des cygnes. En 1815, il devint architecte en chef de la troisième section des travaux de la Ville de Paris qui comprenait les casernes, collèges, etc. Nommé architecte du palais de justice en 1822, on lui doit la restauration des voûtes souterraines de la Conciergerie et le bâtiment qui fut ajouté quai de l’horloge en 1824 et 1827. Il donna un projet pour l’entrée des Arts et métiers rue Saint-Martin, deux projets pour l’exposition des produits de l’industrie, un plan pour l’École d’Alfort et l’hôtel de ville de Béthune. Il réalisa un amphithéâtre aux arts et métiers en 1832, des travaux à l’Institut des sourds-muets 1823, le Théâtre de Soissons, l’Abattoir de Lille (1823) et des restaurations à l’hôtel de ville de la même ville, l’Hôtel de Ville à Béthune, l’École d’Alfort. Des travaux aux châteaux d’Écouen et de Maisons-Laffitte.</p>
-      <p>En 1795, il présenta au salon un projet de muséum d’antiquités dans le monument des Quatre-Nations ainsi qu’un projet de muséum d’histoire naturelle sur le terrain du jardin des plantes, et un projet de bibliothèque nationale dans le palais du Luxembourg. Au salon de 1804, il exposa un projet de monument pour la transformation de l’église de la Madeleine en Temple de la Gloire, pour lequel il obtint le troisième accessit dans un concours ouvert à ce sujet par l’Institut. Au salon de 1824, il exposa un projet de villa à exécuter sur les hauteurs du Trocadéro. Il combattit en 1814 et fut très actif pendant la révolution de 1830, on rapporte qu’il mit sa vie en danger en février 1831 en s’opposant aux mutilations des sculptures de l’Arc de triomphe de la place du Carrousel. </p>
+      <p>D’abord nommé pour la restauration de l’Observatoire, l’installation du musée des monuments
+       français dans l’ancien couvent des Petits Augustins, et tous les dépôts littéraires et d’art
+       et métiers en 1795, ses attributions furent réparties entre plusieurs confrères avec son
+       accord lors de la nouvelle organisation de l’an V. En l’an VIII, il désira participer de
+       nouveau aux campagnes militaires et fut nommé lieutenant de hussards et passa comme adjoint à
+       l’état major de l’armée des Grisons où il resta jusqu’à la fin de la guerre. Sa place ayant
+       été supprimée à son retour le 28 vendémaire an IX (lundi 20 octobre 1800), il fut nommé le 9
+       brumaire an IX (31 octobre 1800) architecte du Théâtre français et Odéon, construit par son
+       père avec <persName ref="#deWailly">de Wailly</persName>. En l’an XII, il se disait père
+       d’une nombreuse famille.</p>
+      <p>Peyre neveu eut la chance d’avoir une carrière extrêmement féconde. Il construisit en 1800
+       l’ancien Théâtre de la Gaîté, puis en 1810 le marché Saint-Martin. Le 29 septembre 1812, il
+       se vit aussi confier les travaux d’entretien de Gisors qui, devenu membre du Conseil, ne
+       pouvait plus prendre une part active au service. Il s’occupait alors de l’École vétérinaire
+       d’Alfort et des Moulins à papier de l’Île des cygnes. En 1815, il devint architecte en chef
+       de la troisième section des travaux de la Ville de Paris qui comprenait les casernes,
+       collèges, etc. Nommé architecte du palais de justice en 1822, on lui doit la restauration des
+       voûtes souterraines de la Conciergerie et le bâtiment qui fut ajouté quai de l’horloge en
+       1824 et 1827. Il donna un projet pour l’entrée des Arts et métiers rue Saint-Martin, deux
+       projets pour l’exposition des produits de l’industrie, un plan pour l’École d’Alfort et
+       l’hôtel de ville de Béthune. Il réalisa un amphithéâtre aux arts et métiers en 1832, des
+       travaux à l’Institut des sourds-muets 1823, le Théâtre de Soissons, l’Abattoir de Lille
+       (1823), des restaurations à l’hôtel de ville de la même ville, l’Hôtel de Ville à Béthune,
+       l’École d’Alfort, des travaux aux châteaux d’Écouen et de Maisons-Laffitte.</p>
+      <p>En 1795, il présenta au salon un projet de muséum d’antiquités dans le monument des
+       Quatre-Nations ainsi qu’un projet de muséum d’histoire naturelle sur le terrain du jardin des
+       plantes, et un projet de bibliothèque nationale dans le palais du Luxembourg. Au salon de
+       1804, il exposa un projet de monument pour la transformation de l’église de la Madeleine en
+       Temple de la Gloire, pour lequel il obtint le troisième accessit dans un concours ouvert à ce
+       sujet par l’Institut. Au salon de 1824, il exposa un projet de villa à exécuter sur les
+       hauteurs du Trocadéro. Il combattit en 1814 et fut très actif pendant la révolution de 1830.
+       On rapporte qu’il mit sa vie en danger en février 1831 en s’opposant aux mutilations des
+       sculptures de l’Arc de triomphe de la place du Carrousel. </p>
       <p>Il fut nommé membre honoraire du Conseil des bâtiments civils en 1832 lorsque les nouveaux règlements de 1832 le rendirent inadmissible aux fonctions d’architecte du service parce qu’il était déjà employé dans les services ordinaires de la préfecture de la Seine et y jouissait d’un traitement fixe. Il perdit à cette occasion le bénéfice de diriger l’exécution de ses projets pour la restauration des grands bâtiments des sourds et muets et dont il avait déjà exécuté les deux nouvelles ailes. En 1840, il dota le marché des Blancs-Manteaux d’une couverture métallique conçue d’après un système entièrement neuf à cette époque.</p>
       <p>Il fut notamment membre des sociétés royales de Lille, des prisons, d’encouragement, et du jury d’architecture. Il a formé de nombreux élèves et fut l’auteur de plusieurs publications telles qu’un <title>Parallèle de monuments antiques</title>, ou la publication de ses projets pour l’isolement du palais de justice ou de l’Odéon.</p>
      </note>
@@ -4351,14 +4612,27 @@
         >Jacques-François Blondel</persName>. Ayant pris part dans la polémique qui opposa <persName>Patte</persName> à <persName
         ref="#soufflot"
         >Soufflot</persName>, Rondelet fut engagé par ce dernier sur le chantier de l’église Sainte-Geneviève, où il prit une part de plus en plus importante aux travaux. Lors de l’arrêt du chantier de la nouvelle église, il avait, avec l’appui du <persName>baron de Breteuil</persName>, obtenu du <persName>comte d’Angiviller</persName> une bourse de voyage d’étude en Italie pour parfaire ses connaissances architecturales et techniques. Au cours de ce séjour (1783-1785), il réunit les éléments du grand ouvrage didactique qu’il projetait déjà sur l’art de bâtir.</p>
-      <p>À l’époque de sa nomination, Jean Rondelet était inspecteur sur les travaux de l’église Sainte-Geneviève auxquels il avait été attaché depuis 1770, désormais Panthéon sous la direction de <persName
-        ref="#quatremereDeQuincy"
-        >Quatremère de Quincy</persName>. Ces travaux étaient alors placés sous la direction du département de Paris. À la fin de 1790, il fut nommé par la Commune de Paris comme représentant du département des Travaux publics à la Commission des domaines nationaux avec <persName>Henri-François-Marie Carpentier (1769-1831)</persName>. L’architecte avait été nommé dans les deux jurys établis pour les concours de l’an II. Il fut également membre du Jury pour le concours des prix de peinture, sculpture et architecture, en 1793 avec <persName
-        ref="#dufourny">Dufourny</persName>, <persName ref="#leRoy"
-        >David Le Roy</persName>, <persName ref="#fleuriot">Fleuriot</persName>, <persName
-        ref="#delannoy">Delannoy</persName>, <persName ref="#poidevin"
-        >Poidevin</persName>, <persName ref="#monge"
-       >Monge</persName>. Il faut noter qu’il n’était pas alors qualifié d’architecte, mais de « constructeur ». Rondelet s’était très largement fait connaître par ses travaux de consolidation des piliers du Panthéon. Il était alors connu comme l’un des hommes les plus compétents du pays en matière de construction. Dès 1789, Rondelet avait adressé un mémoire sur l’architecture à l’Assemblée dans lequel il exposait ses idées sur l’organisation de cette administration. Nous verrons que sa nomination à la Commission des travaux publics devait lui offrir l’opportunité de mettre en œuvre une partie de ses conceptions. Surtout sa présence au centre de l’administration des bâtiments civils, devait avoir de grandes répercussions sur ces institutions.</p>
+      <p>À l’époque de sa nomination, Jean Rondelet était inspecteur sur les travaux de l’église
+       Sainte-Geneviève auxquels il avait été attaché depuis 1770, désormais Panthéon sous la
+       direction de <persName ref="#quatremereDeQuincy">Quatremère de Quincy</persName>. Ces travaux
+       étaient alors placés sous la direction du département de Paris. À la fin de 1790, il fut
+       nommé par la Commune de Paris comme représentant du département des Travaux publics à la
+       Commission des domaines nationaux avec <persName>Henri-François-Marie Carpentier
+        (1769-1831)</persName>. L’architecte avait été nommé dans les deux jurys établis pour les
+       concours de l’an II. Il fut également membre du Jury pour le concours des prix de peinture,
+       sculpture et architecture, en 1793 avec <persName ref="#dufourny">Dufourny</persName>,
+        <persName ref="#leRoy">David Le Roy</persName>, <persName ref="#fleuriot"
+        >Fleuriot</persName>, <persName ref="#delannoy">Delannoy</persName>, <persName
+        ref="#poidevin">Poidevin</persName>, <persName ref="#monge">Monge</persName>. Il faut noter
+       qu’il n’était pas alors qualifié d’architecte, mais de « constructeur ». Rondelet s’était
+       très largement fait connaître par ses travaux de consolidation des piliers du Panthéon. Il
+       était alors connu comme l’un des hommes les plus compétents du pays en matière de
+       construction. Dès 1789, Rondelet avait adressé un mémoire sur l’architecture à l’Assemblée
+       dans lequel il exposait ses idées sur l’organisation de cette administration. Nous verrons
+       que sa nomination à la Commission des travaux publics devait lui offrir l’opportunité de
+       mettre en œuvre une partie de ses conceptions. Surtout, sa présence au centre de
+       l’administration des bâtiments civils devait avoir de grandes répercussions sur ces
+       institutions.</p>
       <p>Rondelet prit une part considérable dans le travail de la Commission des travaux publics. On conserve plusieurs projets d’organisation de sa main, et ce fut à lui que <persName>Bénézech</persName> demanda un projet d’organisation pour le service des bâtiments civils. On peut donc le considérer comme le véritable concepteur de l’organisation du service. Auteur du <title>Traité de l’art de bâtir</title> au début du siècle, Rondelet fut aussi professeur de construction à l’École des beaux-arts. Même s’il ne présida jamais le Conseil, il occupa la place de membre pendant de très nombreuses années, et son ancienneté devait lui donner une forte prééminence. Il fut admis à la retraite en 1822 en même temps que <persName
         ref="#heurtier">Heurtier</persName>.</p>
      </note>
@@ -4619,9 +4893,14 @@
      </residence>
      <note type="biography">
       <p>Antoine-Laurent-Thomas Vaudoyer avait débuté dans la carrière militaire, en 1777, sous l’influence de son père. L’année suivante, après le décès de ce dernier, il devint l’élève de <persName>Marie-Joseph Peyre</persName> à l’Académie royale d’architecture où il obtint un prix d’émulation pour une laiterie en 1781. Il fut lauréat du Prix de Rome en 1783 pour une ménagerie renfermée dans le parc du château d’un souverain. Ses projets se caractérisaient par l’emploi des formes simples et monumentales alors en faveur dans les travaux des élèves, et la clarté géométrique de la composition. Il fut pensionnaire de l’Académie de France à Rome de 1784 à 1788 et son envoi de quatrième année portait sur le Théâtre de Marcellus.</p>
-      <p>À son retour à Paris en 1789, il ouvrit un atelier libre d’architecture pour former des élèves. Sa carrière allait être marquée par cet engagement professoral puisqu’il fonda, après la suppression des Académies en 1793, l’école d’architecture avec <persName
-        ref="#leRoy"
-        >Julien-David Le Roy</persName> qui allait être reconnue, en 1795, par le ministre de l’Intérieur. Son célèbre projet pour la maison d’un cosmopolite de 1785 qui rappelle celui de <persName>Boullée</persName> pour le Cénotaphe de <persName>Newton</persName>, explique que sa figure fut associée aux expérimentations de l’architecture française de l’époque révolutionnaire.</p>
+      <p>À son retour à Paris en 1789, il ouvrit un atelier libre d’architecture pour former des
+       élèves. Sa carrière allait être marquée par cet engagement professoral puisqu’il fonda, après
+       la suppression des Académies en 1793, l’école d’architecture avec <persName ref="#leRoy"
+        >Julien-David Le Roy</persName> qui allait être reconnue, en 1795, par le ministre de
+       l’Intérieur. Son célèbre projet pour la maison d’un cosmopolite de 1785, qui rappelle celui
+       de <persName>Boullée</persName> pour le Cénotaphe de <persName>Newton</persName>, explique
+       que sa figure fut associée aux expérimentations de l’architecture française de l’époque
+       révolutionnaire.</p>
       <p>À partir de 1794, il partagea une maison rue de Savoie avec l’ancien procureur du Châtelet, <persName>Lebas</persName> et <persName
         ref="#lebas"
         >Hippolyte Lebas</persName> fut son neveu. Il était marié à la fille de l’ancien directeur de l’Académie de France à Rome, <persName>Mademoiselle Lagrenée</persName>. En 1798, la publication d’un projet de reconstruction pour le Panthéon témoignait à la fois de sa compétence technique et de son ambition. En 1804, il publia un prospectus avec des projets pour la Madeleine, mention (2<hi
@@ -4730,7 +5009,12 @@
      <note type="biography">
       <p>Élève de <persName ref="#percier"
        >Percier</persName>, Louis Tullius Joachim Visconti entra à l’École des beaux-arts en 1808 et en sortit en 1817 après avoir remporté cinq médailles, le prix départemental et le second Grand prix de Rome. Entré en 1818 dans le service comme conducteur à l’entrepôt des vins, il fut nommé en 1820 sous-inspecteur des travaux du ministère des Finances, puis inspecteur de ces travaux en 1822. En 1825, il fut nommé architecte de la Bibliothèque de la rue de Richelieu pour la restauration de laquelle il dressa vingt-neuf projets. Il fut chargé des funérailles de l’Empereur et de son tombeau aux Invalides.</p>
-      <p>Pour la ville de Paris, l’architecte donna plusieurs fêtes publiques, il organisa notamment les funérailles du duc d’Orléans. Il était également l’auteur des fontaines de Gaillon, de la rue de Richelieu (square Louvois), et des fontaines Molière et Saint-Sulpice. Visconti fut aussi voyer des troisième et huitième arrondissement pendant vingt-deux ans. Il fut également l’auteur de nombreux travaux pour le compte de particuliers. On lui doit une douzaine d’hôtels particuliers et seize maisons particulières à Paris.</p>
+      <p>Pour la ville de Paris, l’architecte donna plusieurs fêtes publiques, il organisa notamment
+       les funérailles du duc d’Orléans. Il était également l’auteur des fontaines de Gaillon, de la
+       rue de Richelieu (square Louvois), et des fontaines Molière et Saint-Sulpice. Visconti fut
+       aussi voyer des troisième et huitième arrondissements pendant vingt-deux ans. Il fut
+       également l’auteur de nombreux travaux pour le compte de particuliers. On lui doit une
+       douzaine d’hôtels particuliers et seize maisons particulières à Paris.</p>
      </note>
      <listBibl type="archives">
       <bibl>
@@ -5323,12 +5607,33 @@
      </death>
      <occupation>Architecte dessinateur et graveur</occupation>
      <note type="biographie">
-      <p>Né à Goyencourt près de Roye dans une famille de cultivateurs modeste, un chanoine de la collégiale voisine dirigea sa première éduction jusqu’en 1773 année où son père l’envoya à Paris au collège de Montaigu. Il avait assez tôt manifesté son goût pour le dessin, et son aptitude remarquée par le supérieur de Montaigu lui permis de suivre les cours de l’école gratuite de dessin. Il remporta de nombreux prix trimestriels en 1780, 1781 et 1782, et obtint le grand prix annuel d’architecture de l’école en 1782. Au sortir de l’école préparatoire il se mit sous la direction de Thierry son professeur de l’école puis passa chez <persName>Gisors</persName> ancien pensionnaire de l’Académie de France à Rome. Il parvint à entrer à l’Académie d’architecture sous les auspices d’Antoine, et s’y distingua dans les concours. En 1790 deux médailles lui furent décernées, l’une pour un projet de halles, l’autre pour un phare en forme de colonne rostrale (publiée dans Landon, Annales du Musée, t. V, pl. 53). L’année suivante il obtint... [manque dans repro]. « Dès ce moment, Charles Normand devenu le promoteur, nous pourrions dire le créateur d’un genre de rgavure éminemment favorable à la reproduction des œuvres d’art qui ont la forme pour partie essentielle, fut l’âme d’une foule de publications importantes qui surgirent à la fois et se sucédèrent comme par enchantement. » Graveur du Parallèle d’architecte et des leçons de <persName
-        ref="#durand"
-       >Durand</persName>, Annales du Musée, Percier et Fontaine. 1802 à 1815, 7 000 planches au trait, et autant peut-être de dessins de son invention.</p>
+      <p>Né à Goyencourt près de Roye dans une famille de cultivateurs modeste, un chanoine de la
+       collégiale voisine dirigea sa première éducation jusqu’en 1773, année où son père l’envoya à
+       Paris au collège de Montaigu. Il avait assez tôt manifesté son goût pour le dessin, et son
+       aptitude remarquée par le supérieur de Montaigu lui permis de suivre les cours de l’école
+       gratuite de dessin. Il remporta de nombreux prix trimestriels en 1780, 1781 et 1782, et
+       obtint le grand prix annuel d’architecture de l’école en 1782. Au sortir de l’école
+       préparatoire il se mit sous la direction de Thierry, son professeur de l’école, puis passa
+       chez <persName>Gisors</persName> ancien pensionnaire de l’Académie de France à Rome. Il
+       parvint à entrer à l’Académie d’architecture sous les auspices d’Antoine, et s’y distingua
+       dans les concours. En 1790, deux médailles lui furent décernées, l’une pour un projet de
+       halles, l’autre pour un phare en forme de colonne rostrale (publiée dans Landon, Annales du
+       Musée, t. V, pl. 53). L’année suivante il obtint... [manque dans repro]. « Dès ce moment,
+       Charles Normand devenu le promoteur, nous pourrions dire le créateur d’un genre de gravure
+       éminemment favorable à la reproduction des œuvres d’art qui ont la forme pour partie
+       essentielle, fut l’âme d’une foule de publications importantes qui surgirent à la fois et se
+       sucédèrent comme par enchantement. » Graveur du Parallèle d’architecte et des leçons de
+        <persName ref="#durand">Durand</persName>, Annales du Musée, Percier et Fontaine. 1802 à
+       1815, 7 000 planches au trait, et autant peut-être de dessins de son invention.</p>
       <p>Il prit part au concours ouvert en ventôse an VIII (mars 1800) pour les colonnes départementales et obtint le prix d’exécution de celle de Melun. Le 14 ventôse an X (5 mars 1802), il obtint un prix de 2 000 fr. pour un projet d’Arc de triomphe pour la barrière de l’étoile. L’année suivante, il exposa pour son prix d’encouragement, le projet d’un Monument propre à recevoir l’Institut national de France. Donne un projet pour l’église de la Magdeleine, mais ne l’envoie pas, publié par Landon, tome XIV, pl. 4, 5, 6.</p>
-      <p>1815 à 1840 ne cessa de répondre à l’appel des artistes et des éditeurs qui requéraient sa pointe savante et facile. Nbx ouvrages. Palais massini, Musée de sculpture, Souvenir du Musée des monuments français édité par Biet, Description de Paris, etc. Parrlèle des ordres d’architecture. Recueil varié de plans et de façades de maison de ville et de campagne, et d’édifices publics et particuliers, 1815.</p>
-      <p>Chef de division à la Commission des travaux publics, Normand devient chef du Bureau de vérification en 1796. On lui doit de nombreux ouvrages imprimés. Il ne doit pas être confondu avec Louis-Marie Normand (1789-1874), ou normand fils, son élève et collaborateur.</p>
+      <p>1815 à 1840 ne cessa de répondre à l’appel des artistes et des éditeurs qui requéraient sa
+       pointe savante et facile. Nombreux ouvrages. Palais Massini, Musée de sculpture, Souvenir du
+       Musée des monuments français édité par Biet, Description de Paris, etc. Parallèle des ordres
+       d’architecture. Recueil varié de plans et de façades de maisons de ville et de campagne, et
+       d’édifices publics et particuliers, 1815.</p>
+      <p>Chef de division à la Commission des travaux publics, Normand devient chef du Bureau de
+       vérification en 1796. On lui doit de nombreux ouvrages imprimés. Il ne doit pas être confondu
+       avec Louis-Marie Normand (1789-1874), ou Normand fils, son élève et collaborateur.</p>
       <p>F1B41(1-2) le donne en l’an III et l’an IV comme agent de la commission, pour la direction, la vérification et règlement de ceux des ateliers d’armes dans la Commune de Paris. Les architectes <persName>Lemaire</persName> et <persName>Quin</persName> étaient ses adjoints.</p>
      </note>
      <listBibl>
@@ -5405,12 +5710,29 @@
       </note>
      </affiliation>
      <note type="biographical">
-      <p>On sait peut de chose de Poitevin, il fut chef de la Seconde division de la Commission des travaux publics et en tant que tel agent de 1ère classe, puis passa chef du Bureau des dessins lors de l’établissement du Conseil des bâtiments civils, place qu’il occupa pendant neuf ans. Au cours d’une délibération du 3 prairial (22 mai 1798) il fut décidé qu’il assisterait aux séances de l’assemblée « être à portée de se bien pénétrer’ des changements, réductions et modifications que les conférences feront juger nécessaires aux différents projets soumis à l’examen des architectes afin de les indiquer avec exactitude sur les plans. ». La disposition fut maintenue par le Conseil des bâtiments civils le 12 vendémiaire an VII (3 octobre 1798). F21* 2473, Procès-verbaux du Conseil des bâtiments civils, séance du 12 vendémiaire an VII (3 octobre 1798) n° 4, p. 73.</p>
+      <p>On sait peut de chose de Poitevin, il fut chef de la Seconde division de la Commission des
+       travaux publics et en tant que tel agent de 1ère classe, puis passa chef du Bureau des
+       dessins lors de l’établissement du Conseil des bâtiments civils, place qu’il occupa pendant
+       neuf ans. Au cours d’une délibération du 3 prairial (22 mai 1798) il fut décidé qu’il
+       assisterait aux séances de l’assemblée « être à portée de se bien pénétrer des changements,
+       réductions et modifications que les conférences feront juger nécessaires aux différents
+       projets soumis à l’examen des architectes afin de les indiquer avec exactitude sur les
+       plans. ». La disposition fut maintenue par le Conseil des bâtiments civils le 12 vendémiaire
+       an VII (3 octobre 1798). F21* 2473, Procès-verbaux du Conseil des bâtiments civils, séance du
+       12 vendémiaire an VII (3 octobre 1798) n° 4, p. 73.</p>
       <p>F13 646, demande de sa place par Guillot le 11 floréal an VIII (1<hi rend="superscript"
         >er</hi> mai 1800) car aurait été nommé sur autre place.</p>
       <p>En mai 1800, il fut nommé directeur en chef des travaux de reconstruction de Landrecies par lettre du Ministre Lucien Bonaparte avec Mouchelet comme Inspecteur général pv F21*2474, séance du 25 germinal an VIII (15 avril 1800), pp. 169-170. Mise en place d’une commission pv F21*2474, séance du 15 avril 12 floréal an VIII (2 mai 1800), pp. 178-179. [F13 647 :] 18 frimaire an IX (9 décembre 1800) Loi 27 ventôse an III (17 mars 1795) pour reconstruction de Landrecies. Arrêté des consuls en date du 25 brumaire [25 brumaire an IX ?? (16 novembre 1800)] a supprimé sa direction et l’a remplacée par un ingénieur en chef du département du Nord 18 frimaire an 9 [25 brumaire an IX ?? 16 novembre 1800] Cen Poidevin qui depuis 5 ans était employé au Conseil des bâtiments civils en qualité de chef du bureau des dessins et du dépôt de plans.. Sans emploi, demande la réintégration de ses fonctions. Pas remplacé. Toujours mentionné en 1811, mais poste supprimé avant 1807.</p>
-      <p>Proposé au Préfet du Finistère comme architecte le 24 vendémiaire an XIV (16 octobre 1805), F21* 2476, pp. 254-256. ’Poidevin est l’architecte tout désigné. Il est inspecteur des hospices civils et était précédemment chef du bureau des plans près le Conseil des Bâtiments civils. Personne très appliquée, d’un goût sûr, d’une moralité connue.’ Cette proposition n’eut pas de suite et le Conseil le proposait de nouveau au ministre pour remplir la place demandée par le Préfet de l’Indre-et-Loire F21*2477, séance du 22 janvier 1807, n° 23, p. 16. Encore proposé parmi d’autres pour la place d’architecte demandée pour la ville de Marseille F21* 2477, séance du 28 septembre 1807, n° 267, pp. 216-217.</p>
-      <p>Auteur des plans pour le dépôt de mendicité de Châteauroux dans l’Indre en 1810 en m^eme temps que fournissait des plans pour Landrecies.</p>
+      <p>Proposé au Préfet du Finistère comme architecte le 24 vendémiaire an XIV (16 octobre 1805),
+       F21* 2476, pp. 254-256. ’Poidevin est l’architecte tout désigné. Il est inspecteur des
+       hospices civils et était précédemment chef du bureau des plans près le Conseil des Bâtiments
+       civils. Personne très appliquée, d’un goût sûr, d’une moralité connue. Cette proposition
+       n’eut pas de suite et le Conseil le proposait de nouveau au ministre pour remplir la place
+       demandée par le Préfet de l’Indre-et-Loire F21*2477, séance du 22 janvier 1807, n° 23, p. 16.
+       Encore proposé parmi d’autres pour la place d’architecte demandée pour la ville de Marseille
+       F21* 2477, séance du 28 septembre 1807, n° 267, pp. 216-217.</p>
+      <p>Auteur des plans pour le dépôt de mendicité de Châteauroux dans l’Indre en 1810 en même
+       temps que fournissait des plans pour Landrecies.</p>
       <p>Demande de travaux au Conseil par lettre du 14 juillet 1818, Réponse signée du secrétaire : ’Le Conseil me charge de vous assurer en son nom de tout l’intérêt qu’il mettra à vous désigner au ministre lorsque S.E. le chargera de lui présenter un architecte pour quelques travaux intéressans. Il sera fort aise d’avoir cette occasion de signaler à S.E. l’estime particulière que vos talens et votre zèle vous ont acquises près de lui’. (F21* 2500, Procès-verbaux du Conseil des bâtiments civils, séance du 20 juillet 1818, n° 509 bis, p. 114)</p>
       <p>Poidevin qui construit ensuite l’abattoir de Montmartre entre 1811 et 1816</p>
      </note>
@@ -5446,7 +5768,9 @@
      <note type="biographical">
       <p>Poitevin fut l’élève de Percier et de Regnault à l’École des beaux-arts où il fut admis en 1809. D’abord nommé architecte de Jemmapes, Poitevin démissionna pour s’installer à Bordeaux. Après 1820 Architecte du Lot-et-Garonne, architecte de la Gironde, et architecte de la Ville de Bordeaux (1824) où il fut aussi professeur d’architecture.</p>
       <p>Il édifia notamment le palais de justice d’Agen, la prison, le palais de justice et l’hôtel de Ville de Marmande, la maison centrale de détention d’Eysse, l’hospice d’aliénés de Cadillac, l’église Saint-Nicolas-de-Bordeaux, les façades néo-gothiques des églises Saint-Éloi et Saint-Seurin. Il entreprit également la restauration et la réhabilitation du château de Cadillac en maison de détention pour femmes.</p>
-      <p>architecte du département de la Gironde jusqu’en 1830 où il démissionna et fut remplacé par Thiac, de même pour sa place d’architecte de la ville de Bordeaux où il fut remplacé par Bonfin.</p>
+      <p>Architecte du département de la Gironde jusqu’en 1830 où il démissionna et fut remplacé par
+       Thiac, de même pour sa place d’architecte de la ville de Bordeaux où il fut remplacé par
+       Bonfin.</p>
      </note>
      <note>
       <p>Fichier F13 <list>
@@ -5769,8 +6093,14 @@
       </note>
      </affiliation>
      <note type="biography">
-      <p>Dupin était officier du Génie. Il avait dirigé depuis le début du mois de juillet 1793 la troisième division du ministère de la guerre, chargée du personnel et du matériel de l’Artillerie et du Génie. À cette époque, il avait été impliqué dans un projet de création d’un corps des ingénieurs nationaux sur lequel il avait préparé un mémoire dès son arrivée au ministère. Dans le cadre de ces fonctions, il avait sans doute alors été en contact avec Gabriel-Étienne Lecamus qui dirigeait division Ponts et chaussées. Il constituait un complément bienvenu à la Commission après la renonciation de <persName
-        ref="#dejean">Dejean</persName>.</p>
+      <p>Dupin était officier du Génie. Il avait dirigé depuis le début du mois de juillet 1793 la
+       troisième division du ministère de la guerre, chargée du personnel et du matériel de
+       l’Artillerie et du Génie. À cette époque, il avait été impliqué dans un projet de création
+       d’un corps des ingénieurs nationaux sur lequel il avait préparé un mémoire dès son arrivée au
+       ministère. Dans le cadre de ces fonctions, il avait sans doute alors été en contact avec
+       Gabriel-Étienne Lecamus qui dirigeait la division Ponts et chaussées. Il constituait un
+       complément bienvenu à la Commission après la renonciation de <persName ref="#dejean"
+        >Dejean</persName>.</p>
       <p>La loi du 1<hi rend="superscript"
         >er</hi> avril 1794 qui créait les douze Commissions exécutives établissait que celles-ci seraient, pour la plupart, seulement composées de deux membres et d’un adjoint. Ces derniers furent nommés par la Convention nationale sur un rapport du Comité de salut public prononcé par Barère, le 29 germinal an II (18 avril 1794) : Edme-Henri-Victor Dupin (1743-1802) fut adjoint à <persName
         ref="#fleuriot">Fleuriot</persName> et <persName ref="#lecamus"
@@ -5799,7 +6129,21 @@
       </note>
      </affiliation>
      <note type="biography">
-      <p>Né à Bruxelles, l’architecte Jean-Baptiste-Édouard Fleuriot Lescot (1761-28 juillet 1794), s’était réfugié à Paris lors des troubles du Brabant auquel il avait pris part, peu avant la Révolution française. Depuis 1788, il avait été l’un des agents les plus actifs des mouvements populaires qui aboutirent à la révolution. Admis aux Jacobins dont il devint secrétaire le 20 nivôse an II (9 janvier 1794), il s’était lié avec Robespierre et s’était fait nommer par la Convention, le 13 mars 1793, substitut de l’accusateur public au tribunal révolutionnaire, Fouquier-Tinville. À son zèle révolutionnaire, l’homme ajoutait des compétences administratives récentes acquises en tant que chef des bureaux de l’administration des travaux publics de la commune de Paris. Il s’était également illustré par sa radicalité politique en représentant, selon le mot de Werner Szambien, « avec acharnement le point de vue patriotique » au sein de diverses réunions d’artistes révolutionnaires comme la Commune des arts, le Club révolutionnaire des Arts, et le premier Jury des arts établi par le décret du 27 brumaire an II (17 novembre 1793). Son civisme, à cette époque, ne semblait donc faire aucun doute. Il se voyait confier les matières concernant « les travaux civils et les bâtiments ».</p>
+      <p>Né à Bruxelles, l’architecte Jean-Baptiste-Édouard Fleuriot Lescot (1761-28 juillet 1794),
+       s’était réfugié à Paris lors des troubles du Brabant auquel il avait pris part, peu avant la
+       Révolution française. Depuis 1788, il avait été l’un des agents les plus actifs des
+       mouvements populaires qui aboutirent à la révolution. Admis aux Jacobins dont il devint
+       secrétaire le 20 nivôse an II (9 janvier 1794), il s’était lié avec Robespierre et s’était
+       fait nommer par la Convention, le 13 mars 1793, substitut de l’accusateur public au tribunal
+       révolutionnaire, Fouquier-Tinville. À son zèle révolutionnaire, l’homme ajoutait des
+       compétences administratives récentes, acquises en tant que chef des bureaux de
+       l’administration des travaux publics de la commune de Paris. Il s’était également illustré
+       par sa radicalité politique en représentant, selon le mot de Werner Szambien, « avec
+       acharnement le point de vue patriotique » au sein de diverses réunions d’artistes
+       révolutionnaires comme la Commune des arts, le Club révolutionnaire des Arts, et le premier
+       Jury des arts établi par le décret du 27 brumaire an II (17 novembre 1793). Son civisme, à
+       cette époque, ne semblait donc faire aucun doute. Il se voyait confier les matières
+       concernant « les travaux civils et les bâtiments ».</p>
       <p>Après la chute de Chaumette, et l’épuration de la commune de Paris de germinal an II, Fleuriot fut désigné, le 21 floréal an II (10 mai 1794) maire de Paris par le Comité de salut public en remplacement de Pache qui était en état d’arrestation. Dévoué à Robespierre, il allait être le principal moteur de l’insurrection dirigée contre la Convention le 9 thermidor (27 juillet 1794). Mis hors-la-loi et arrêté ainsi que Robespierre, il fut conduit à l’échafaud le 10 thermidor an II (28 juillet 1794), en même temps que plusieurs collègues de la commune.</p>
      </note>
      <death>
@@ -5931,9 +6275,31 @@
       </note>
      </affiliation>
      <note type="biography">
-      <p>Gabriel-Étienne Lecamus (1746- ?) avait été l’homme de confiance de Roland qui l’avait nommé premier commis de la quatrième division du ministère de l’Intérieur lors de son deuxième ministère, le 7 octobre 1792. Lecamus avait été reçu avocat au parlement de Paris en 1766, puis était entré comme élève à l’école des Ponts et chaussées où il avait étudié les mathématiques, l’architecture et la levée des plans pendant deux ans. Il poursuivit des recherches en histoire naturelle qui lui valurent d’être admis dans diverses académies françaises (Lyon, Dijon) et étrangères, et dans diverses commissions gouvernementales chargées d’examiner des procédés de chimie et de mécanique. Il ajoutait ainsi à sa formation juridique des compétences techniques.</p><p />
-      <p>Receveur des gabelles à Lyon de 1755 à 1790 par survivance de son père, il avait également exercé la charge élective de secrétaire-greffier de cette municipalité en 1791-1792. Il fut appelé au ministère de l’intérieur le 7 octobre 1792 par Roland, dont il était l’ami. Il était alors Chef de la Quatrième division du ministère (ministères de Roland et Garat). L’homme était donc doué d’une bonne expérience de l’administration, et sa nomination par la Convention à la commission Le 27 ventôse an II (1794) pouvait apparaître comme une mesure de continuité dans l’administration des routes, ponts et canaux. Il resta d’ailleurs par la suite attaché à ce service.</p>
-      <p>Le 3 novembre 1795, il devint directeur et administrateur de l’École polytechnique (jusqu’au 28 août 1797), jusqu’au ministère de François de Neufchâteau, qui le nomma à la tête de la Troisième division du ministère de l’Intérieur le 29 août 1797, place dont il resta chargé jusqu’au 19 juillet 1800. Après la Révolution, il fut nommé le 7 octobre 1801 inspecteur des Poids et mesures, puis le 8 juin 1803 géomètre-arpenteur des communes du Loiret, enfin le 9 octobre 1810 directeur des dépôts de mendicité des Apennins et le 9 mars 1811 directeur de la Maison centrale de Gaillon (Eure). Il partit à la retraite le 10 août 1817.</p>
+      <p>Gabriel-Étienne Lecamus (1746- ?) avait été l’homme de confiance de Roland qui l’avait
+       nommé premier commis de la quatrième division du ministère de l’Intérieur lors de son
+       deuxième ministère, le 7 octobre 1792. Lecamus avait été reçu avocat au parlement de Paris en
+       1766, puis était entré comme élève à l’école des Ponts et chaussées où il avait étudié les
+       mathématiques, l’architecture et la levée des plans pendant deux ans. Il poursuivit des
+       recherches en histoire naturelle qui lui valurent d’être admis dans diverses académies
+       françaises (Lyon, Dijon) et étrangères, et dans diverses commissions gouvernementales
+       chargées d’examiner des procédés de chimie et de mécanique. Il ajoutait ainsi à sa formation
+       juridique des compétences techniques.</p>
+      <p>Receveur des gabelles à Lyon de 1755 à 1790 par survivance de son père, il avait également
+       exercé la charge élective de secrétaire-greffier de cette municipalité en 1791-1792. Il fut
+       appelé au ministère de l’Intérieur le 7 octobre 1792 par Roland, dont il était l’ami. Il
+       était alors Chef de la Quatrième division du ministère (ministères de Roland et Garat).
+       L’homme était donc doué d’une bonne expérience de l’administration, et sa nomination par la
+       Convention à la commission Le 27 ventôse an II (1794) pouvait apparaître comme une mesure de
+       continuité dans l’administration des routes, ponts et canaux. Il resta d’ailleurs par la
+       suite attaché à ce service.</p>
+      <p>Le 3 novembre 1795, il devint directeur et administrateur de l’École polytechnique
+       (jusqu’au 28 août 1797), jusqu’au ministère de François de Neufchâteau, qui le nomma à la
+       tête de la Troisième division du ministère de l’Intérieur le 29 août 1797, place dont il
+       resta chargé jusqu’au 19 juillet 1800. Après la Révolution, il fut nommé le 7 octobre 1801
+       inspecteur des Poids et mesures, puis le 8 juin 1803 géomètre-arpenteur des communes du
+       Loiret, enfin le 9 octobre 1810 directeur des dépôts de mendicité des Apennins et le 9 mars
+       1811 directeur de la Maison centrale de Gaillon (Eure). Il partit à la retraite le 10 août
+       1817.</p>
      </note>
      <note>
       <p>Naturaliste, minéralogiste et chimiste. Membre de l’Académie de Lyon en 1775. Cette société possède onze mémoires manuscrits laissés par ce savant lyonnais. Antoine-Auguste Dériard: sa vie intime, ses travaux scientifiques et littéraires et le résumé analytique de ses biographies des Lyonnais dignes de mémoire, nés à Lyon ou qui y ont acquis droit de cité. 1890</p>
@@ -5982,7 +6348,12 @@
       <date when="1848-11-03">3 novembre 1848</date>
       <placeName>Claremont (Royaume-Uni)</placeName>
       <note type="biography">
-       <p>Fils d’un négociant à Villefranche, Vatout suivit sa famille à Paris alors qu’il était enfant. élu continuellement député de la Côte-d’Or. Il fit ses études au collège Sainte-Barbe et fut, en 1810, secrétaire de Boissy-d’Anglas, préfet de la Charente. Il perdit sa position à la suite de la destitution de Boissy-d’Anglas à la Restauration. Pendant les Cent-Jours il fut attaché à sa mission dans le Midi, puis fut nommé en avril 1825 sous-préfet de Blaye.</p>
+       <p>Fils d’un négociant à Villefranche, Vatout suivit sa famille à Paris alors qu’il était
+        enfant. Il fut élu continuellement député de la Côte-d’Or. Il fit ses études au collège
+        Sainte-Barbe et fut, en 1810, secrétaire de Boissy-d’Anglas, préfet de la Charente. Il
+        perdit sa position à la suite de la destitution de Boissy-d’Anglas à la Restauration.
+        Pendant les Cent-Jours il fut attaché à sa mission dans le Midi, puis fut nommé en avril
+        1825 sous-préfet de Blaye.</p>
        <p>De 1816 à 1818, il fut employé par le duc Decazes au ministère de l’Intérieur, puis fut nommé sous-préfet de Semur le 1<hi
          rend="superscript"
         >er</hi> février 1819. Ses relations avec le parti de l’opposition le firent entrer en 1822 comme bibliothécaire chez le duc d’Orléans sur la recommandation de Stanislas de Girardin.</p>
@@ -6419,7 +6790,7 @@
      <idno type="dataBnf">http://data.bnf.fr/11925965/charles-maurice_de_talleyrand-perigord/</idno>
     </person>
     <person xml:id="tarbeDeVauxclairs">
-     <persName full="yes" />
+     <persName full="yes">Tarbé de Vauxclairs, Jean-Bernard (1767-1842)</persName>
      <idno type="autBnf">Tarbé de Vauxclairs, Jean-Bernard (1767-1842)</idno>
     </person>
     <person xml:id="thibaudeau">
