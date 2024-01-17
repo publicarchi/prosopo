@@ -6,7 +6,7 @@
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title xml:lang="fre" type="main">Répertoire biographique des membres du Conseil des bâtiments civils</title>
+    <title xml:lang="fre" type="main"> Test Répertoire biographique des membres du Conseil des bâtiments civils</title>
     <principal>
      <persName ref="#EC">
       <forename>Emmanuel</forename>
